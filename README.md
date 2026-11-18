@@ -25,3 +25,7 @@ The two folders contain **exactly the same 201 filenames**. Match records by fil
 ## Package verification
 
 At packaging time, the 201 filenames matched exactly between the two folders; all files were parseable JSON; and every original JSON key/value was preserved in its paired post-enrichment JSON. Each post-enrichment JSON contained an `enrichment` field. The package is not a replacement for the separate analysis code and methodological documentation needed to reproduce every manuscript statistic.
+
+### Citation 
+
+The  citattion of the 
