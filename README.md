@@ -17,7 +17,7 @@ The two folders contain **exactly the same 201 filenames**. Match records by fil
 ## Important interpretation notes
 
 - These are metadata JSON exports, not copies of the underlying geospatial source datasets.
-- If interested in reproducing the enrichment,download the source datasets on the download links provided in the respective metadata and enrich the pre-enriched metadata with the DaME plugin provided here: git@github.com:Blessingk-code/DaME.git.
+- If interested in reproducing the enrichment,download the source datasets on the download links provided in the respective metadata and enrich the pre-enriched metadata with the DaME plugin provided here: git@github.com:Blessingk-code/DaME.git
 - A post-enrichment profile documents what the enrichment workflow extracted, not necessarily every field available in the underlying source dataset.
 - Some records contain spatial index information rather than thematic feature attributes; both may be useful but should be distinguished analytically.
 - The folder contains only the 201 pairs included in the study; excluded records are omitted and can be found on the original source, on Paituli.
