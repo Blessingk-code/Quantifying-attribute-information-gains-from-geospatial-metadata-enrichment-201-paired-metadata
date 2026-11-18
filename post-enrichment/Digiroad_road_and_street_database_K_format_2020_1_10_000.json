@@ -1,0 +1,1996 @@
+{
+  "@context": "https://www.w3.org/ns/dcat.jsonld",
+  "@type": "dcat:Dataset",
+  "identifier": "urn:nbn:fi:att:ff2a5cf0-97db-4217-a1d0-34c703cbcbf6",
+  "title": {
+    "en": "Digiroad road and street database, K-format 2020, 1:10 000"
+  },
+  "description": {
+    "en": "Digiroad is a national roads and streets database. It is designed to support different kind of transport systems and it is updated by municipalities (attribute data) and National Land Survey (geometry). Digiroad contains all streets and public, private and forest roads. Digiroad includes data about road names and numbers, road width and cover, number of lines, speed limits, bridges and tunnels, parking houses and areas, forbidden turns, addresses etc. Digiroad is currently available in R and K format. R format includes attribute info that is linked dynamically to the geometry and in practice therefore it is best to use ArcGIS software. K format has simpler data structure and therefore suits with MapInfo or other GIS software that does not support dynamic linking. The files are smaller in R format and there is less extra nodes.\n\nDigiroad homepage, where you can also download the latest Digiroad data: https://www.digiroad.fi\n\nCoordinate Reference System: ETRS89 / ETRS-TM35FIN (EPSG:3067)"
+  },
+  "creator": "Finnish Transport Infrastructure Agency",
+  "publisher": "CSC – IT Center for Science",
+  "issued": "2020-09-08",
+  "modified": "2026-03-16T12:04:15Z",
+  "license": "http://uri.suomi.fi/codelist/fairdata/license/code/CC-BY-4.0",
+  "accessRights": {
+    "id": "d01ac02c-fc70-4c68-9434-8383cb693ff0",
+    "url": "http://uri.suomi.fi/codelist/fairdata/access_type/code/open",
+    "in_scheme": "http://uri.suomi.fi/codelist/fairdata/access_type",
+    "pref_label": {
+      "en": "Open",
+      "fi": "Avoin"
+    }
+  },
+  "keyword": [
+    "Paituli",
+    "address directories",
+    "traffic networks",
+    "navigation",
+    "logistics",
+    "traffic"
+  ],
+  "temporal": {
+    "start": "2020-01-01",
+    "end": "2020-12-31"
+  },
+  "spatial": {
+    "west": 19.193773520802868,
+    "south": 59.475639383970844,
+    "east": 31.586736721777218,
+    "north": 70.09229556656238
+  },
+  "access": [
+    {
+      "filename": "Digiroad tie- ja katutietojärjestelmä, K-formaatti, 2020, 1:10 000",
+      "downloadURL": "https://paituli.csc.fi/download.html?data_id=digiroad_3m_2020_shape_K_euref"
+    },
+    {
+      "filename": "Lueminut (Väylä 2020)"
+    },
+    {
+      "filename": "Tietolajien_kuvaus (Väylä 2020)"
+    },
+    {
+      "filename": "Description of data objects 2020/2 (Väylä 2020)"
+    },
+    {
+      "filename": "Read me 2020/2 (Väylä 2020)"
+    },
+    {
+      "filename": "Beskrivning av dataslag 2020/2 (Väylä 2020)"
+    },
+    {
+      "filename": "Följebrev 2020/2 (Väylä 2020)"
+    },
+    {
+      "filename": "Irrotusalueet ja kunnat 2020/2 (Väylä 2020)"
+    },
+    {
+      "filename": "Files in folder view",
+      "accessURL": "https://www.nic.funet.fi/index/geodata/vayla/digiroad/2020/Digiroad_K/"
+    }
+  ],
+  "enrichment": [
+    {
+      "row_count": 130,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 130,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 88273.725,
+        "ymin": 6680484.967,
+        "xmax": 117115.187,
+        "ymax": 6702598.376
+      },
+      "source_file": "source_0000/DR_AJONEUVOKOHTAINEN_RAJOITUS_K.shp"
+    },
+    {
+      "row_count": 121,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 121,
+      "geometry_type": "['Point']",
+      "crs": null,
+      "spatial": {
+        "xmin": 87081.3592917419,
+        "ymin": 6668373.62367168,
+        "xmax": 174805.0071372,
+        "ymax": 6721234.73770745
+      },
+      "source_file": "source_0000/DR_ESTERAKENNELMA.shp"
+    },
+    {
+      "row_count": 14,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 14,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 107206.842,
+        "ymin": 6682677.5600000005,
+        "xmax": 108204.253,
+        "ymax": 6685239.509
+      },
+      "source_file": "source_0000/DR_KAANTYMISRAJOITUS_K.shp"
+    },
+    {
+      "row_count": 3955,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 3955,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 87197.5021439177,
+        "ymin": 6658249.203,
+        "xmax": 175432.778,
+        "ymax": 6724176.14448995
+      },
+      "source_file": "source_0000/DR_KAISTOJEN_LUKUMAARA_K.shp"
+    },
+    {
+      "row_count": 2,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 2,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 123903.556,
+        "ymin": 6694813.945,
+        "xmax": 124040.73300000001,
+        "ymax": 6695485.99967201
+      },
+      "source_file": "source_0000/DR_KELIRIKKO_K.shp"
+    },
+    {
+      "row_count": 16949,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 16949,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 83860.275,
+        "ymin": 6656212.0600000005,
+        "xmax": 176452.596,
+        "ymax": 6725482.738
+      },
+      "source_file": "source_0000/DR_LEVEYS_K.shp"
+    },
+    {
+      "row_count": 9,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 9,
+      "geometry_type": "['Point']",
+      "crs": null,
+      "spatial": {
+        "xmin": 107559.6339,
+        "ymin": 6682579.84594781,
+        "xmax": 112075.064517521,
+        "ymax": 6685429.11161532
+      },
+      "source_file": "source_0000/DR_LIIKENNEVALO.shp"
+    },
+    {
+      "row_count": 28849,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 28849,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 74838.404,
+        "ymin": 6656212.06,
+        "xmax": 184338.362,
+        "ymax": 6725482.738
+      },
+      "source_file": "source_0000/DR_LINKKI_K.shp"
+    },
+    {
+      "row_count": 23255,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 23255,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 83860.275,
+        "ymin": 6656212.0600000005,
+        "xmax": 176452.596,
+        "ymax": 6725482.738
+      },
+      "source_file": "source_0000/DR_NOPEUSRAJOITUS_K.shp"
+    },
+    {
+      "row_count": 4960,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 4960,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 85590.048,
+        "ymin": 6658286.312,
+        "xmax": 175763.282,
+        "ymax": 6724228.876
+      },
+      "source_file": "source_0000/DR_PAALLYSTETTY_TIE_K.shp"
+    },
+    {
+      "row_count": 111,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 111,
+      "geometry_type": "['Point']",
+      "crs": null,
+      "spatial": {
+        "xmin": 74836.7077000001,
+        "ymin": 6659133.394,
+        "xmax": 175009.9803,
+        "ymax": 6723549.9999
+      },
+      "source_file": "source_0000/DR_PALVELU.shp"
+    },
+    {
+      "row_count": 416,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 416,
+      "geometry_type": "['Point']",
+      "crs": null,
+      "spatial": {
+        "xmin": 87433.79296166051,
+        "ymin": 6672969.02295462,
+        "xmax": 174318.32165906302,
+        "ymax": 6717325.94962604
+      },
+      "source_file": "source_0000/DR_SUOJATIE.shp"
+    },
+    {
+      "row_count": 23,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 23,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 87341.328,
+        "ymin": 6658343.04,
+        "xmax": 172797.219,
+        "ymax": 6717437.4369564
+      },
+      "source_file": "source_0000/DR_SUURIN_SALLITTU_AKSELIMASSA_K.shp"
+    },
+    {
+      "row_count": 1,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 1,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 113562.71,
+        "ymin": 6698260.493,
+        "xmax": 113604.145,
+        "ymax": 6698303.935
+      },
+      "source_file": "source_0000/DR_SUURIN_SALLITTU_KORKEUS_K.shp"
+    },
+    {
+      "row_count": 25,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 25,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 87341.328,
+        "ymin": 6658343.04,
+        "xmax": 172797.219,
+        "ymax": 6717437.4369564
+      },
+      "source_file": "source_0000/DR_SUURIN_SALLITTU_MASSA_K.shp"
+    },
+    {
+      "row_count": 1072,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 1072,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 84286.154,
+        "ymin": 6656329.409,
+        "xmax": 173441.18,
+        "ymax": 6719077.519
+      },
+      "source_file": "source_0000/DR_TIEKUNNALLISET_YKSITYISTIET_K.shp"
+    },
+    {
+      "row_count": 25,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 25,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 87341.328,
+        "ymin": 6658343.04,
+        "xmax": 172797.219,
+        "ymax": 6717437.4369564
+      },
+      "source_file": "source_0000/DR_YHDISTELMAN_SUURIN_SALLITTU_MASSA_K.shp"
+    },
+    {
+      "row_count": 643,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 643,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 525228.311,
+        "ymin": 6748492.253,
+        "xmax": 633558.0902365,
+        "ymax": 6832576.742
+      },
+      "source_file": "source_0001/DR_AJONEUVOKOHTAINEN_RAJOITUS_K.shp"
+    },
+    {
+      "row_count": 635,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 635,
+      "geometry_type": "['Point']",
+      "crs": null,
+      "spatial": {
+        "xmin": 509387.91092086205,
+        "ymin": 6730341.4714,
+        "xmax": 657333.769882807,
+        "ymax": 6853614.92506053
+      },
+      "source_file": "source_0001/DR_ESTERAKENNELMA.shp"
+    },
+    {
+      "row_count": 13998,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 13998,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 511189.816,
+        "ymin": 6728445.583,
+        "xmax": 660126.572,
+        "ymax": 6857211.59
+      },
+      "source_file": "source_0001/DR_HOITOLUOKAT_K.shp"
+    },
+    {
+      "row_count": 3,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 3,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 597339.742321695,
+        "ymin": 6779307.959,
+        "xmax": 597890.504,
+        "ymax": 6780943.11210917
+      },
+      "source_file": "source_0001/DR_JOUKKOLIIKENNEKAISTA_K.shp"
+    },
+    {
+      "row_count": 153,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 153,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 527200.765,
+        "ymin": 6753831.506,
+        "xmax": 642067.935,
+        "ymax": 6843370.271
+      },
+      "source_file": "source_0001/DR_KAANTYMISRAJOITUS_K.shp"
+    },
+    {
+      "row_count": 11895,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 11895,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 511189.816,
+        "ymin": 6728475.672,
+        "xmax": 660126.572,
+        "ymax": 6857211.59
+      },
+      "source_file": "source_0001/DR_KAISTOJEN_LUKUMAARA_K.shp"
+    },
+    {
+      "row_count": 3630,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 3630,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 508980.121,
+        "ymin": 6728445.583,
+        "xmax": 660202.438845396,
+        "ymax": 6855557.447
+      },
+      "source_file": "source_0001/DR_KELIRIKKO_K.shp"
+    },
+    {
+      "row_count": 91148,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 91148,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 506811.125257226,
+        "ymin": 6726035.179,
+        "xmax": 661930.842,
+        "ymax": 6861166.996
+      },
+      "source_file": "source_0001/DR_LEVEYS_K.shp"
+    },
+    {
+      "row_count": 10628,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 10628,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 511457.965,
+        "ymin": 6728445.583,
+        "xmax": 660126.572,
+        "ymax": 6857211.59
+      },
+      "source_file": "source_0001/DR_LIIKENNEMAARA_K.shp"
+    },
+    {
+      "row_count": 8891,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 8891,
+      "geometry_type": "['Point']",
+      "crs": null,
+      "spatial": {
+        "xmin": 509722.073981243,
+        "ymin": 6726474.33128556,
+        "xmax": 660126.571380816,
+        "ymax": 6857211.58971699
+      },
+      "source_file": "source_0001/DR_LIIKENNEMERKIT.shp"
+    },
+    {
+      "row_count": 93,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 93,
+      "geometry_type": "['Point']",
+      "crs": null,
+      "spatial": {
+        "xmin": 560337.048565214,
+        "ymin": 6768379.89629887,
+        "xmax": 599094.323,
+        "ymax": 6790133.6568
+      },
+      "source_file": "source_0001/DR_LIIKENNEVALO.shp"
+    },
+    {
+      "row_count": 71,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 71,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 555679.364,
+        "ymin": 6765906.249,
+        "xmax": 591459.016,
+        "ymax": 6783245.15286069
+      },
+      "source_file": "source_0001/DR_LIITTYMANRO_K.shp"
+    },
+    {
+      "row_count": 140004,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 140004,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 506663.683,
+        "ymin": 6726035.179,
+        "xmax": 661930.842,
+        "ymax": 6861166.996
+      },
+      "source_file": "source_0001/DR_LINKKI_K.shp"
+    },
+    {
+      "row_count": 112410,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 112410,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 506783.072,
+        "ymin": 6726035.179,
+        "xmax": 661930.842,
+        "ymax": 6861166.996
+      },
+      "source_file": "source_0001/DR_NOPEUSRAJOITUS_K.shp"
+    },
+    {
+      "row_count": 317,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 317,
+      "geometry_type": "['Point']",
+      "crs": null,
+      "spatial": {
+        "xmin": 516022.611217439,
+        "ymin": 6751678.05281298,
+        "xmax": 641906.618842822,
+        "ymax": 6845725.88006816
+      },
+      "source_file": "source_0001/DR_OPASTUSTAULU.shp"
+    },
+    {
+      "row_count": 33343,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 33343,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 511189.816,
+        "ymin": 6726522.908,
+        "xmax": 660126.572,
+        "ymax": 6857211.59
+      },
+      "source_file": "source_0001/DR_PAALLYSTETTY_TIE_K.shp"
+    },
+    {
+      "row_count": 137,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 137,
+      "geometry_type": "['Point']",
+      "crs": null,
+      "spatial": {
+        "xmin": 513615.441777545,
+        "ymin": 6729816.6333,
+        "xmax": 658622.004922384,
+        "ymax": 6851832.90965869
+      },
+      "source_file": "source_0001/DR_PALVELU.shp"
+    },
+    {
+      "row_count": 49,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 49,
+      "geometry_type": "['Point']",
+      "crs": null,
+      "spatial": {
+        "xmin": 560731.781839467,
+        "ymin": 6747865.41896972,
+        "xmax": 642781.996493701,
+        "ymax": 6848881.17050774
+      },
+      "source_file": "source_0001/DR_RAUTATIEN_TASORISTEYS.shp"
+    },
+    {
+      "row_count": 1503,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 1503,
+      "geometry_type": "['Point']",
+      "crs": null,
+      "spatial": {
+        "xmin": 529773.171130615,
+        "ymin": 6740761.15144896,
+        "xmax": 642421.0618977031,
+        "ymax": 6843560.89200511
+      },
+      "source_file": "source_0001/DR_SUOJATIE.shp"
+    },
+    {
+      "row_count": 202,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 202,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 530242.838,
+        "ymin": 6740780.4,
+        "xmax": 633991.762,
+        "ymax": 6832513.338
+      },
+      "source_file": "source_0001/DR_SUURIN_SALLITTU_KORKEUS_K.shp"
+    },
+    {
+      "row_count": 9,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 9,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 562082.175332615,
+        "ymin": 6748753.427,
+        "xmax": 571868.988,
+        "ymax": 6800282.82253681
+      },
+      "source_file": "source_0001/DR_SUURIN_SALLITTU_LEVEYS_K.shp"
+    },
+    {
+      "row_count": 124,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 124,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 530182.3205229221,
+        "ymin": 6726522.908,
+        "xmax": 624048.26,
+        "ymax": 6813137.171
+      },
+      "source_file": "source_0001/DR_SUURIN_SALLITTU_MASSA_K.shp"
+    },
+    {
+      "row_count": 63,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 63,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 567704.286,
+        "ymin": 6770188.787,
+        "xmax": 571868.988,
+        "ymax": 6800282.82253681
+      },
+      "source_file": "source_0001/DR_SUURIN_SALLITTU_PITUUS_K.shp"
+    },
+    {
+      "row_count": 10,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 10,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 510420.018052825,
+        "ymin": 6738088.978,
+        "xmax": 648043.112,
+        "ymax": 6837762.029
+      },
+      "source_file": "source_0001/DR_SUURIN_SALLITTU_TELIMASSA_K.shp"
+    },
+    {
+      "row_count": 461,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 461,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 521947.803497369,
+        "ymin": 6728537.895,
+        "xmax": 641908.241,
+        "ymax": 6849004.008
+      },
+      "source_file": "source_0001/DR_TALVINOPEUSRAJOITUS_K.shp"
+    },
+    {
+      "row_count": 23423,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 23423,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 507747.31,
+        "ymin": 6726035.179,
+        "xmax": 661770.147,
+        "ymax": 6861164.128
+      },
+      "source_file": "source_0001/DR_TIEKUNNALLISET_YKSITYISTIET_K.shp"
+    },
+    {
+      "row_count": 3551,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 3551,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 513099.04557378707,
+        "ymin": 6739744.27707374,
+        "xmax": 658778.649876116,
+        "ymax": 6854574.34695185
+      },
+      "source_file": "source_0001/DR_VALAISTU_TIE_K.shp"
+    },
+    {
+      "row_count": 25,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 25,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 570622.261,
+        "ymin": 6747770.82,
+        "xmax": 648043.112,
+        "ymax": 6837762.029
+      },
+      "source_file": "source_0001/DR_YHDISTELMAN_SUURIN_SALLITTU_MASSA_K.shp"
+    },
+    {
+      "row_count": 259,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 259,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 218249.481,
+        "ymin": 6928650.262,
+        "xmax": 295032.2,
+        "ymax": 6988015.579
+      },
+      "source_file": "source_0002/DR_AJONEUVOKOHTAINEN_RAJOITUS_K.shp"
+    },
+    {
+      "row_count": 591,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 591,
+      "geometry_type": "['Point']",
+      "crs": null,
+      "spatial": {
+        "xmin": 219768.071493944,
+        "ymin": 6887112.00503336,
+        "xmax": 307939.92178502,
+        "ymax": 6999453.26401198
+      },
+      "source_file": "source_0002/DR_ESTERAKENNELMA.shp"
+    },
+    {
+      "row_count": 383,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 383,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 259266.33000000002,
+        "ymin": 6911232.609,
+        "xmax": 288011.617,
+        "ymax": 6971006.072
+      },
+      "source_file": "source_0002/DR_EUROOPPATIENRO_K.shp"
+    },
+    {
+      "row_count": 13984,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 13984,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 217213.399225572,
+        "ymin": 6887625.674,
+        "xmax": 311318.683,
+        "ymax": 7001813.01
+      },
+      "source_file": "source_0002/DR_HOITOLUOKAT_K.shp"
+    },
+    {
+      "row_count": 61,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 61,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 250870.082,
+        "ymin": 6930274.114,
+        "xmax": 299516.465,
+        "ymax": 6988393.144
+      },
+      "source_file": "source_0002/DR_KAANTYMISRAJOITUS_K.shp"
+    },
+    {
+      "row_count": 11951,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 11951,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 217213.399225572,
+        "ymin": 6887625.674,
+        "xmax": 311318.683,
+        "ymax": 7001813.01
+      },
+      "source_file": "source_0002/DR_KAISTOJEN_LUKUMAARA_K.shp"
+    },
+    {
+      "row_count": 3272,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 3272,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 217213.399225572,
+        "ymin": 6900293.931,
+        "xmax": 311318.683,
+        "ymax": 7001813.01
+      },
+      "source_file": "source_0002/DR_KELIRIKKO_K.shp"
+    },
+    {
+      "row_count": 52322,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 52322,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 217027.586,
+        "ymin": 6884848.602967,
+        "xmax": 311786.08,
+        "ymax": 7002506.23862448
+      },
+      "source_file": "source_0002/DR_LEVEYS_K.shp"
+    },
+    {
+      "row_count": 10202,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 10202,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 217213.399225572,
+        "ymin": 6887625.674,
+        "xmax": 310159.719,
+        "ymax": 7001813.01
+      },
+      "source_file": "source_0002/DR_LIIKENNEMAARA_K.shp"
+    },
+    {
+      "row_count": 7067,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 7067,
+      "geometry_type": "['Point']",
+      "crs": null,
+      "spatial": {
+        "xmin": 218259.975065066,
+        "ymin": 6888196.02071546,
+        "xmax": 310075.04190289596,
+        "ymax": 7000344.85645681
+      },
+      "source_file": "source_0002/DR_LIIKENNEMERKIT.shp"
+    },
+    {
+      "row_count": 142,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 142,
+      "geometry_type": "['Point']",
+      "crs": null,
+      "spatial": {
+        "xmin": 250964.592400799,
+        "ymin": 6930334.05561948,
+        "xmax": 289255.984838194,
+        "ymax": 6969662.21732633
+      },
+      "source_file": "source_0002/DR_LIIKENNEVALO.shp"
+    },
+    {
+      "row_count": 85869,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 85869,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 217027.586,
+        "ymin": 6882682.582,
+        "xmax": 311786.08,
+        "ymax": 7002668.031
+      },
+      "source_file": "source_0002/DR_LINKKI_K.shp"
+    },
+    {
+      "row_count": 59773,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 59773,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 217027.586,
+        "ymin": 6884848.599,
+        "xmax": 311786.08,
+        "ymax": 7002506.239
+      },
+      "source_file": "source_0002/DR_NOPEUSRAJOITUS_K.shp"
+    },
+    {
+      "row_count": 3,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 3,
+      "geometry_type": "['Point']",
+      "crs": null,
+      "spatial": {
+        "xmin": 218796.530720288,
+        "ymin": 6935484.87985175,
+        "xmax": 218797.85060485802,
+        "ymax": 6935485.77243495
+      },
+      "source_file": "source_0002/DR_OPASTUSTAULU.shp"
+    },
+    {
+      "row_count": 28536,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 28536,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 217213.399225572,
+        "ymin": 6887625.674,
+        "xmax": 311318.683,
+        "ymax": 7001813.01
+      },
+      "source_file": "source_0002/DR_PAALLYSTETTY_TIE_K.shp"
+    },
+    {
+      "row_count": 104,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 104,
+      "geometry_type": "['Point']",
+      "crs": null,
+      "spatial": {
+        "xmin": 219465.2118,
+        "ymin": 6897358.4859,
+        "xmax": 306054.5918,
+        "ymax": 6992861.755
+      },
+      "source_file": "source_0002/DR_PALVELU.shp"
+    },
+    {
+      "row_count": 121,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 121,
+      "geometry_type": "['Point']",
+      "crs": null,
+      "spatial": {
+        "xmin": 220914.41146781,
+        "ymin": 6934111.06893376,
+        "xmax": 301113.15799231303,
+        "ymax": 6987304.78349249
+      },
+      "source_file": "source_0002/DR_RAUTATIEN_TASORISTEYS.shp"
+    },
+    {
+      "row_count": 812,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 812,
+      "geometry_type": "['Point']",
+      "crs": null,
+      "spatial": {
+        "xmin": 225571.158081432,
+        "ymin": 6896591.26490958,
+        "xmax": 297731.79192665,
+        "ymax": 6988211.76171365
+      },
+      "source_file": "source_0002/DR_SUOJATIE.shp"
+    },
+    {
+      "row_count": 14,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 14,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 224433.912955588,
+        "ymin": 6923657.037,
+        "xmax": 287581.83467462,
+        "ymax": 6977007.75386078
+      },
+      "source_file": "source_0002/DR_SUURIN_SALLITTU_AKSELIMASSA_K.shp"
+    },
+    {
+      "row_count": 90,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 90,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 219854.339,
+        "ymin": 6926795.96990873,
+        "xmax": 296540.985900063,
+        "ymax": 6987646.58895334
+      },
+      "source_file": "source_0002/DR_SUURIN_SALLITTU_KORKEUS_K.shp"
+    },
+    {
+      "row_count": 5,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 5,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 274880.52829581604,
+        "ymin": 6966333.37647872,
+        "xmax": 288494.372246994,
+        "ymax": 6968816.62042345
+      },
+      "source_file": "source_0002/DR_SUURIN_SALLITTU_LEVEYS_K.shp"
+    },
+    {
+      "row_count": 83,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 83,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 220707.211,
+        "ymin": 6905707.39,
+        "xmax": 300492.96,
+        "ymax": 6970788.93799472
+      },
+      "source_file": "source_0002/DR_SUURIN_SALLITTU_MASSA_K.shp"
+    },
+    {
+      "row_count": 28,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 28,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 267048.121,
+        "ymin": 6956871.011,
+        "xmax": 267966.20889011404,
+        "ymax": 6958691.08576787
+      },
+      "source_file": "source_0002/DR_SUURIN_SALLITTU_PITUUS_K.shp"
+    },
+    {
+      "row_count": 14,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 14,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 225798.077,
+        "ymin": 6905707.39,
+        "xmax": 296442.796,
+        "ymax": 6982737.367
+      },
+      "source_file": "source_0002/DR_SUURIN_SALLITTU_TELIMASSA_K.shp"
+    },
+    {
+      "row_count": 996,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 996,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 218728.397,
+        "ymin": 6911232.609,
+        "xmax": 310098.958882747,
+        "ymax": 6992964.178
+      },
+      "source_file": "source_0002/DR_TALVINOPEUSRAJOITUS_K.shp"
+    },
+    {
+      "row_count": 16176,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 16176,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 217027.586,
+        "ymin": 6884848.599,
+        "xmax": 310846.286,
+        "ymax": 7002668.031
+      },
+      "source_file": "source_0002/DR_TIEKUNNALLISET_YKSITYISTIET_K.shp"
+    },
+    {
+      "row_count": 7709,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 7709,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 218513.971331765,
+        "ymin": 6890955.39563951,
+        "xmax": 305861.54973063397,
+        "ymax": 6999436.62841305
+      },
+      "source_file": "source_0002/DR_VALAISTU_TIE_K.shp"
+    },
+    {
+      "row_count": 5,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 5,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 249860.196,
+        "ymin": 6933003.403,
+        "xmax": 296442.796,
+        "ymax": 6982737.367
+      },
+      "source_file": "source_0002/DR_YHDISTELMAN_SUURIN_SALLITTU_MASSA_K.shp"
+    },
+    {
+      "row_count": 140,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 140,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 287739.178,
+        "ymin": 6928664.456,
+        "xmax": 359991.732899906,
+        "ymax": 7018677.988
+      },
+      "source_file": "source_0003/DR_AJONEUVOKOHTAINEN_RAJOITUS_K.shp"
+    },
+    {
+      "row_count": 810,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 810,
+      "geometry_type": "['Point']",
+      "crs": null,
+      "spatial": {
+        "xmin": 279962.558286581,
+        "ymin": 6920181.46604683,
+        "xmax": 372410.09817157104,
+        "ymax": 7044565.7029
+      },
+      "source_file": "source_0003/DR_ESTERAKENNELMA.shp"
+    },
+    {
+      "row_count": 14526,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 14526,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 278566.623,
+        "ymin": 6924040.38611344,
+        "xmax": 376006.563,
+        "ymax": 7045087.12
+      },
+      "source_file": "source_0003/DR_HOITOLUOKAT_K.shp"
+    },
+    {
+      "row_count": 51,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 51,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 289145.762,
+        "ymin": 6938525.735,
+        "xmax": 349771.723,
+        "ymax": 7019065.26
+      },
+      "source_file": "source_0003/DR_KAANTYMISRAJOITUS_K.shp"
+    },
+    {
+      "row_count": 13028,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 13028,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 278566.623,
+        "ymin": 6924040.3860634,
+        "xmax": 376006.563,
+        "ymax": 7045087.12
+      },
+      "source_file": "source_0003/DR_KAISTOJEN_LUKUMAARA_K.shp"
+    },
+    {
+      "row_count": 4415,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 4415,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 278566.623,
+        "ymin": 6924040.381,
+        "xmax": 371657.116,
+        "ymax": 7045087.12
+      },
+      "source_file": "source_0003/DR_KELIRIKKO_K.shp"
+    },
+    {
+      "row_count": 56163,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 56163,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 277941.777,
+        "ymin": 6918250.351,
+        "xmax": 376006.563,
+        "ymax": 7045745.37
+      },
+      "source_file": "source_0003/DR_LEVEYS_K.shp"
+    },
+    {
+      "row_count": 11143,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 11143,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 278566.623,
+        "ymin": 6924040.381,
+        "xmax": 376006.563,
+        "ymax": 7045087.12
+      },
+      "source_file": "source_0003/DR_LIIKENNEMAARA_K.shp"
+    },
+    {
+      "row_count": 6730,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 6730,
+      "geometry_type": "['Point']",
+      "crs": null,
+      "spatial": {
+        "xmin": 280163.235958139,
+        "ymin": 6925427.75484288,
+        "xmax": 375423.324,
+        "ymax": 7041862.66907234
+      },
+      "source_file": "source_0003/DR_LIIKENNEMERKIT.shp"
+    },
+    {
+      "row_count": 22,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 22,
+      "geometry_type": "['Point']",
+      "crs": null,
+      "spatial": {
+        "xmin": 297115.575182313,
+        "ymin": 6988235.58910542,
+        "xmax": 301039.123376622,
+        "ymax": 7002832.89953678
+      },
+      "source_file": "source_0003/DR_LIIKENNEVALO.shp"
+    },
+    {
+      "row_count": 88309,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 88309,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 277941.777,
+        "ymin": 6918250.351,
+        "xmax": 376006.563,
+        "ymax": 7045979.917
+      },
+      "source_file": "source_0003/DR_LINKKI_K.shp"
+    },
+    {
+      "row_count": 63652,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 63652,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 277941.777,
+        "ymin": 6918250.351,
+        "xmax": 376006.563,
+        "ymax": 7045745.37
+      },
+      "source_file": "source_0003/DR_NOPEUSRAJOITUS_K.shp"
+    },
+    {
+      "row_count": 200,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 200,
+      "geometry_type": "['Point']",
+      "crs": null,
+      "spatial": {
+        "xmin": 318184.28686467704,
+        "ymin": 6925873.54091356,
+        "xmax": 367140.748949944,
+        "ymax": 6976707.83662671
+      },
+      "source_file": "source_0003/DR_OPASTUSTAULU.shp"
+    },
+    {
+      "row_count": 93,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 93,
+      "geometry_type": "['Point']",
+      "crs": null,
+      "spatial": {
+        "xmin": 287902.675,
+        "ymin": 6927601.3088,
+        "xmax": 370742.6825,
+        "ymax": 7039687.2657
+      },
+      "source_file": "source_0003/DR_PALVELU.shp"
+    },
+    {
+      "row_count": 1,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 1,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 297857.931007983,
+        "ymin": 6988167.00542378,
+        "xmax": 297858.436615153,
+        "ymax": 6988200.08165824
+      },
+      "source_file": "source_0003/DR_PYSAKOINTIKIELTO_K.shp"
+    },
+    {
+      "row_count": 39,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 39,
+      "geometry_type": "['Point']",
+      "crs": null,
+      "spatial": {
+        "xmin": 306130.53364997305,
+        "ymin": 6933466.85481594,
+        "xmax": 361293.89638691803,
+        "ymax": 6954649.62805929
+      },
+      "source_file": "source_0003/DR_RAUTATIEN_TASORISTEYS.shp"
+    },
+    {
+      "row_count": 596,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 596,
+      "geometry_type": "['Point']",
+      "crs": null,
+      "spatial": {
+        "xmin": 288074.206887663,
+        "ymin": 6938539.07230089,
+        "xmax": 350238.529895302,
+        "ymax": 7032426.65018991
+      },
+      "source_file": "source_0003/DR_SUOJATIE.shp"
+    },
+    {
+      "row_count": 6,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 6,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 290402.608,
+        "ymin": 6983186.6881534,
+        "xmax": 301511.65960045304,
+        "ymax": 7023734.66485135
+      },
+      "source_file": "source_0003/DR_SUURIN_SALLITTU_AKSELIMASSA_K.shp"
+    },
+    {
+      "row_count": 55,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 55,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 289243.55700000003,
+        "ymin": 6938130.028,
+        "xmax": 349934.84354565205,
+        "ymax": 7030980.545
+      },
+      "source_file": "source_0003/DR_SUURIN_SALLITTU_KORKEUS_K.shp"
+    },
+    {
+      "row_count": 95,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 95,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 292446.992,
+        "ymin": 6931840.18,
+        "xmax": 368758.55,
+        "ymax": 7018646.65899127
+      },
+      "source_file": "source_0003/DR_SUURIN_SALLITTU_MASSA_K.shp"
+    },
+    {
+      "row_count": 12,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 12,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 290402.608,
+        "ymin": 6954325.524,
+        "xmax": 344822.504,
+        "ymax": 7024482.713
+      },
+      "source_file": "source_0003/DR_SUURIN_SALLITTU_TELIMASSA_K.shp"
+    },
+    {
+      "row_count": 1314,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 1314,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 284959.34129364905,
+        "ymin": 6924364.137,
+        "xmax": 362237.069,
+        "ymax": 7044281.494
+      },
+      "source_file": "source_0003/DR_TALVINOPEUSRAJOITUS_K.shp"
+    },
+    {
+      "row_count": 16662,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 16662,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 277941.777,
+        "ymin": 6921000.136,
+        "xmax": 373333.747,
+        "ymax": 7045745.37
+      },
+      "source_file": "source_0003/DR_TIEKUNNALLISET_YKSITYISTIET_K.shp"
+    },
+    {
+      "row_count": 7058,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 7058,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 280366.834323505,
+        "ymin": 6928077.09947404,
+        "xmax": 369751.076290988,
+        "ymax": 7040692.42733235
+      },
+      "source_file": "source_0003/DR_VALAISTU_TIE_K.shp"
+    },
+    {
+      "row_count": 9,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 9,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 290402.608,
+        "ymin": 6975376.805,
+        "xmax": 333761.958,
+        "ymax": 7023734.66485135
+      },
+      "source_file": "source_0003/DR_YHDISTELMAN_SUURIN_SALLITTU_MASSA_K.shp"
+    },
+    {
+      "row_count": 397,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 397,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 468152.492,
+        "ymin": 6804568.025,
+        "xmax": 546273.679,
+        "ymax": 6908544.069
+      },
+      "source_file": "source_0004/DR_AJONEUVOKOHTAINEN_RAJOITUS_K.shp"
+    },
+    {
+      "row_count": 2452,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 2452,
+      "geometry_type": "['Point']",
+      "crs": null,
+      "spatial": {
+        "xmin": 461322.61150663096,
+        "ymin": 6780402.98884392,
+        "xmax": 554172.1871127321,
+        "ymax": 6930222.75842393
+      },
+      "source_file": "source_0004/DR_ESTERAKENNELMA.shp"
+    },
+    {
+      "row_count": 36,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 36,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 483734.491,
+        "ymin": 6919868.429,
+        "xmax": 493313.926,
+        "ymax": 6927458.304
+      },
+      "source_file": "source_0004/DR_EUROOPPATIENRO_K.shp"
+    },
+    {
+      "row_count": 15228,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 15228,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 460276.793,
+        "ymin": 6780907.872,
+        "xmax": 554459.2738736491,
+        "ymax": 6930896.52487805
+      },
+      "source_file": "source_0004/DR_HOITOLUOKAT_K.shp"
+    },
+    {
+      "row_count": 146,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 146,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 462459.969,
+        "ymin": 6804753.355,
+        "xmax": 546141.319,
+        "ymax": 6927383.246
+      },
+      "source_file": "source_0004/DR_KAANTYMISRAJOITUS_K.shp"
+    },
+    {
+      "row_count": 13596,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 13596,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 460276.793,
+        "ymin": 6780907.872,
+        "xmax": 554459.2738736491,
+        "ymax": 6930896.52487805
+      },
+      "source_file": "source_0004/DR_KAISTOJEN_LUKUMAARA_K.shp"
+    },
+    {
+      "row_count": 9428,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 9428,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 460276.793,
+        "ymin": 6782224.692,
+        "xmax": 553806.188,
+        "ymax": 6930896.52487805
+      },
+      "source_file": "source_0004/DR_KELIRIKKO_K.shp"
+    },
+    {
+      "row_count": 100520,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 100520,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 459612.144079961,
+        "ymin": 6779639.101,
+        "xmax": 555132.8376184079,
+        "ymax": 6931576.46480097
+      },
+      "source_file": "source_0004/DR_LEVEYS_K.shp"
+    },
+    {
+      "row_count": 10027,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 10027,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 460276.793,
+        "ymin": 6780907.872,
+        "xmax": 554459.2738736491,
+        "ymax": 6927458.304
+      },
+      "source_file": "source_0004/DR_LIIKENNEMAARA_K.shp"
+    },
+    {
+      "row_count": 6644,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 6644,
+      "geometry_type": "['Point']",
+      "crs": null,
+      "spatial": {
+        "xmin": 460282.325364444,
+        "ymin": 6782392.6866154,
+        "xmax": 553805.817934036,
+        "ymax": 6928317.16281117
+      },
+      "source_file": "source_0004/DR_LIIKENNEMERKIT.shp"
+    },
+    {
+      "row_count": 90,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 90,
+      "geometry_type": "['Point']",
+      "crs": null,
+      "spatial": {
+        "xmin": 506890.27995651803,
+        "ymin": 6836972.56024075,
+        "xmax": 515884.683386899,
+        "ymax": 6908189.40178837
+      },
+      "source_file": "source_0004/DR_LIIKENNEVALO.shp"
+    },
+    {
+      "row_count": 11,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 11,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 504229.41911180905,
+        "ymin": 6834300.582,
+        "xmax": 546127.0728648851,
+        "ymax": 6899547.51266936
+      },
+      "source_file": "source_0004/DR_LIITTYMANRO_K.shp"
+    },
+    {
+      "row_count": 141568,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 141568,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 459612.144,
+        "ymin": 6779639.101,
+        "xmax": 556413.53,
+        "ymax": 6931576.465
+      },
+      "source_file": "source_0004/DR_LINKKI_K.shp"
+    },
+    {
+      "row_count": 113874,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 113874,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 459612.144,
+        "ymin": 6779639.101,
+        "xmax": 555132.838,
+        "ymax": 6931576.465
+      },
+      "source_file": "source_0004/DR_NOPEUSRAJOITUS_K.shp"
+    },
+    {
+      "row_count": 167,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 167,
+      "geometry_type": "['Point']",
+      "crs": null,
+      "spatial": {
+        "xmin": 465384.879151243,
+        "ymin": 6782396.60308774,
+        "xmax": 534623.295246984,
+        "ymax": 6927392.11348076
+      },
+      "source_file": "source_0004/DR_OPASTUSTAULU.shp"
+    },
+    {
+      "row_count": 24844,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 24844,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 460276.793,
+        "ymin": 6780907.872,
+        "xmax": 554459.2738736491,
+        "ymax": 6930896.52487805
+      },
+      "source_file": "source_0004/DR_PAALLYSTETTY_TIE_K.shp"
+    },
+    {
+      "row_count": 173,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 173,
+      "geometry_type": "['Point']",
+      "crs": null,
+      "spatial": {
+        "xmin": 462467.8512,
+        "ymin": 6787412.9959,
+        "xmax": 551952.237,
+        "ymax": 6927746.3537
+      },
+      "source_file": "source_0004/DR_PALVELU.shp"
+    },
+    {
+      "row_count": 43,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 43,
+      "geometry_type": "['Point']",
+      "crs": null,
+      "spatial": {
+        "xmin": 486877.224677879,
+        "ymin": 6813644.06831901,
+        "xmax": 550561.5225709521,
+        "ymax": 6910049.01183401
+      },
+      "source_file": "source_0004/DR_RAUTATIEN_TASORISTEYS.shp"
+    },
+    {
+      "row_count": 1576,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 1576,
+      "geometry_type": "['Point']",
+      "crs": null,
+      "spatial": {
+        "xmin": 467581.56327696197,
+        "ymin": 6808356.17013047,
+        "xmax": 543456.21807964,
+        "ymax": 6916584.24309406
+      },
+      "source_file": "source_0004/DR_SUOJATIE.shp"
+    },
+    {
+      "row_count": 8,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 8,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 495199.36,
+        "ymin": 6786215.894,
+        "xmax": 536728.905867296,
+        "ymax": 6896418.05482401
+      },
+      "source_file": "source_0004/DR_SUURIN_SALLITTU_AKSELIMASSA_K.shp"
+    },
+    {
+      "row_count": 95,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 95,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 469800.367,
+        "ymin": 6808889.012,
+        "xmax": 546145.4599529089,
+        "ymax": 6907982.43091168
+      },
+      "source_file": "source_0004/DR_SUURIN_SALLITTU_KORKEUS_K.shp"
+    },
+    {
+      "row_count": 2,
+      "observations": [],
+      "fields_summary": {},
+      "descriptive_overview": "",
+      "feature_count": 2,
+      "geometry_type": "['LineString']",
+      "crs": null,
+      "spatial": {
+        "xmin": 513219.646,
+        "ymin": 6824820.985,
+        "xmax": 545161.995,
+        "ymax": 6837869.054
+      },
+      "source_file": "source_0004/DR_SUURIN_SALLITTU_LEVEYS_K.shp"
+    }
+  ]
+}
