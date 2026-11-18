@@ -1,0 +1,578 @@
+{
+  "@context": "https://www.w3.org/ns/dcat.jsonld",
+  "@type": "dcat:Dataset",
+  "identifier": "urn:nbn:fi:csc-kata00001000000000000325",
+  "title": {
+    "en": "Administrative borders, for thematic maps, no sea regions 2010, 1:1 000 000"
+  },
+  "description": {
+    "en": "Municipality borders, attribute data includes the number and the name of the municipality, and data about the bigger administrative units the municipality belongs to. The sea areas have been deleted from this dataset by Kylli Ek (CSC), so that this dataset would fit better for thematic maps. Additionally this dataset has been saved from GML to Shape-format. \r\n\r\nCoordinate Reference System: ETRS89 / ETRS-TM35FIN (EPSG:3067)"
+  },
+  "creator": "National Land Survey of Finland",
+  "publisher": "CSC – IT Center for Science",
+  "issued": "2015-10-08",
+  "modified": "2026-03-16T12:13:26Z",
+  "license": "http://uri.suomi.fi/codelist/fairdata/license/code/CC-BY-4.0",
+  "accessRights": {
+    "id": "d01ac02c-fc70-4c68-9434-8383cb693ff0",
+    "url": "http://uri.suomi.fi/codelist/fairdata/access_type/code/open",
+    "in_scheme": "http://uri.suomi.fi/codelist/fairdata/access_type",
+    "pref_label": {
+      "en": "Open",
+      "fi": "Avoin"
+    }
+  },
+  "keyword": [
+    "Paituli",
+    "municipalities"
+  ],
+  "temporal": {
+    "start": "2010-01-01",
+    "end": "2010-12-31"
+  },
+  "spatial": {
+    "west": 19.47279526777749,
+    "south": 59.80740982637329,
+    "east": 31.602636541354627,
+    "north": 70.0946984469001
+  },
+  "access": [
+    {
+      "filename": "Hallintorajat, teemakartoille, ei merialueita 2010, 1:1 000 000",
+      "downloadURL": "https://paituli.csc.fi/download.html?data_id=mml_hallinto_milj_2010_shape_euref"
+    },
+    {
+      "filename": "Kuntajako aineiston kuvaus (MML, 2016)"
+    },
+    {
+      "filename": "Municipal devision dataset description (MML, 2016)"
+    },
+    {
+      "filename": "Files in folder view",
+      "accessURL": "https://www.nic.funet.fi/index/geodata/mml/hallintorajat_milj_tk/2010/"
+    }
+  ],
+  "enrichment": [
+    {
+      "row_count": 343,
+      "fields_summary": {
+        "OBJECTID": {
+          "type": "numeric",
+          "min": 1.0,
+          "max": 343.0,
+          "mean": 172.0,
+          "unique_values": 343
+        },
+        "Suuralue": {
+          "type": "categorical",
+          "unique_values": 5,
+          "values": [
+            "1",
+            "5",
+            "3",
+            "4",
+            "2"
+          ]
+        },
+        "AVI": {
+          "type": "categorical",
+          "unique_values": 7,
+          "values": [
+            "5",
+            "1",
+            "3",
+            "4",
+            "7",
+            "6",
+            "2"
+          ]
+        },
+        "Maakunta": {
+          "type": "categorical",
+          "unique_values": 20,
+          "values": [
+            "12",
+            "08",
+            "15",
+            "09",
+            "17",
+            "16",
+            "19",
+            "06",
+            "10",
+            "04",
+            "11",
+            "01",
+            "21",
+            "13",
+            "02",
+            "14",
+            "07",
+            "18",
+            "05",
+            "20"
+          ]
+        },
+        "Seutukunta": {
+          "type": "categorical",
+          "unique_values": 71,
+          "values": [
+            "115",
+            "131",
+            "201",
+            "138",
+            "062",
+            "182",
+            "134",
+            "173",
+            "193",
+            "024",
+            "051",
+            "191",
+            "063",
+            "132",
+            "105",
+            "194",
+            "197",
+            "091",
+            "196",
+            "181",
+            "093",
+            "069",
+            "174",
+            "171",
+            "176",
+            "161",
+            "044",
+            "162",
+            "081",
+            "192",
+            "064",
+            "011",
+            "175",
+            "061",
+            "103",
+            "122",
+            "146",
+            "053",
+            "043",
+            "111",
+            "151",
+            "142",
+            "133",
+            "177",
+            "041",
+            "213",
+            "082",
+            "112",
+            "135",
+            "114"
+          ]
+        },
+        "Kunta": {
+          "type": "categorical",
+          "unique_values": 342,
+          "values": [
+            "300",
+            "422",
+            "005",
+            "583",
+            "853",
+            "736",
+            "562",
+            "777",
+            "214",
+            "831",
+            "545",
+            "848",
+            "844",
+            "167",
+            "051",
+            "630",
+            "273",
+            "838",
+            "927",
+            "322",
+            "109",
+            "625",
+            "905",
+            "734",
+            "536",
+            "541",
+            "142",
+            "106",
+            "186",
+            "416",
+            "704",
+            "480",
+            "766",
+            "508",
+            "015",
+            "232",
+            "580",
+            "494",
+            "223",
+            "608",
+            "165",
+            "435",
+            "926",
+            "445",
+            "139",
+            "916",
+            "280",
+            "781",
+            "532",
+            "700"
+          ]
+        },
+        "Suural_ni1": {
+          "type": "categorical",
+          "unique_values": 5,
+          "values": [
+            "Ahvenanmaa",
+            "Pohjois-Suomi",
+            "Länsi-Suomi",
+            "Itä-Suomi",
+            "Etelä-Suomi"
+          ]
+        },
+        "Suural_ni2": {
+          "type": "categorical",
+          "unique_values": 5,
+          "values": [
+            "Västra Finland",
+            "Åland",
+            "Östra Finland",
+            "Södra Finland",
+            "Norra Finland"
+          ]
+        },
+        "AVI_ni1": {
+          "type": "categorical",
+          "unique_values": 7,
+          "values": [
+            "Itä-Suomen aluehallintovirasto",
+            "Pohjois-Suomen aluehallintovirasto",
+            "Lapin aluehallintovirasto",
+            "Lounais-Suomen aluehallintovirasto",
+            "Ahvenanmaan valtionvirasto",
+            "Etelä-Suomen aluehallintovirasto",
+            "Länsi- ja Sisä-Suomen aluehallintovirasto"
+          ]
+        },
+        "AVI_ni2": {
+          "type": "categorical",
+          "unique_values": 7,
+          "values": [
+            "Regionförvaltningsverket i Södra Finland",
+            "Regionförvaltningsverket i Lappland",
+            "Regionförvaltningsverket i Sydvästra Finland",
+            "Regionförvaltningsverket i Västra och Inre Finland",
+            "Regionförvaltningsverket i Östra Finland",
+            "Regionförvaltningsverket i Norra Finland",
+            "Statens ämbetsverk på Åland"
+          ]
+        },
+        "Maaku_ni1": {
+          "type": "categorical",
+          "unique_values": 20,
+          "values": [
+            "Etelä-Pohjanmaa",
+            "Pohjois-Karjala",
+            "Keski-Suomi",
+            "Uusimaa",
+            "Satakunta",
+            "Varsinais-Suomi",
+            "Kainuu",
+            "Keski-Pohjanmaa",
+            "Lappi",
+            "Kanta-Häme",
+            "Ahvenanmaan maakunta",
+            "Itä-Uusimaa",
+            "Pohjois-Savo",
+            "Päijät-Häme",
+            "Pirkanmaa",
+            "Pohjanmaa",
+            "Kymenlaakso",
+            "Etelä-Savo",
+            "Etelä-Karjala",
+            "Pohjois-Pohjanmaa"
+          ]
+        },
+        "Maaku_ni2": {
+          "type": "categorical",
+          "unique_values": 20,
+          "values": [
+            "Egentliga Finland",
+            "Norra Savolax",
+            "Satakunta",
+            "Landskapet Åland",
+            "Östra Nyland",
+            "Päijänne-Tavastland",
+            "Norra Österbotten",
+            "Lappland",
+            "Södra Karelen",
+            "Egentliga Tavastland",
+            "Österbotten",
+            "Mellersta Finland",
+            "Mellersta Österbotten",
+            "Birkaland",
+            "Södra Savolax",
+            "Kajanaland",
+            "Norra Karelen",
+            "Nyland",
+            "Kymmenedalen",
+            "Södra Österbotten"
+          ]
+        },
+        "Seutuk_ni1": {
+          "type": "categorical",
+          "unique_values": 71,
+          "values": [
+            "Etelä-Pirkanmaan seutukunta",
+            "Ylä-Savon seutukunta",
+            "Ålands skärgård",
+            "Kotkan-Haminan seutukunta",
+            "Lounais-Pirkanmaan seutukunta",
+            "Äänekosken seutukunta",
+            "Seinäjoen seutukunta",
+            "Sydösterbotten",
+            "Lahden seutukunta",
+            "Loimaan seutukunta",
+            "Oulun seutukunta",
+            "Haapaveden-Siikalatvan seutukunta",
+            "Rauman seutukunta",
+            "Kyrönmaan seutukunta",
+            "Joutsan seutukunta",
+            "Jämsän seutukunta",
+            "Kokkolan seutukunta",
+            "Vaasan seutukunta",
+            "Pohjois-Lapin seutukunta",
+            "Ålands landsbygd",
+            "Kaustisen seutukunta",
+            "Kemi-Tornion seutukunta",
+            "Pielisen Karjalan seutukunta",
+            "Suupohjan seutukunta",
+            "Mariehamns stad",
+            "Koillismaan seutukunta",
+            "Varkauden seutukunta",
+            "Kehys-Kainuu seutukunta",
+            "Koillis-Savon seutukunta",
+            "Kouvolan seutukunta",
+            "Ylivieskan seutukunta",
+            "Savonlinnan seutukunta",
+            "Porvoon seutukunta",
+            "Tampereen seutukunta",
+            "Oulunkaaren seutukunta",
+            "Keski-Karjalan seutukunta",
+            "Torniolaakson seutukunta",
+            "Luoteis-Pirkanmaan seutukunta",
+            "Itä-Lapin seutukunta",
+            "Kuopion seutukunta",
+            "Sisä-Savon seutukunta",
+            "Kuusiokuntien seutukunta",
+            "Rovaniemen seutukunta",
+            "Raahen seutukunta",
+            "Pohjois-Satakunnan seutukunta",
+            "Lappeenrannan seutukunta",
+            "Saarijärven-Viitasaaren seutukunta",
+            "Järviseudun seutukunta",
+            "Hämeenlinnan seutukunta",
+            "Riihimäen seutukunta"
+          ]
+        },
+        "Seutuk_ni2": {
+          "type": "categorical",
+          "unique_values": 7,
+          "values": [
+            "Ålands skärgård",
+            "Mariehamns stad",
+            "Sydösterbotten",
+            "Åboland regionkommun",
+            "Ålands landsbygd",
+            "Jakobstadsregionen",
+            "N_A"
+          ]
+        },
+        "Kunta_ni1": {
+          "type": "categorical",
+          "unique_values": 342,
+          "values": [
+            "Kankaanpää",
+            "Kempele",
+            "Merikarvia",
+            "Nousiainen",
+            "Pirkkala",
+            "Sund",
+            "Ii",
+            "Korsholm",
+            "Punkaharju",
+            "Joensuu",
+            "Nastola",
+            "Marttila",
+            "Pälkäne",
+            "Oulunsalo",
+            "Lapua",
+            "Salla",
+            "Raahe",
+            "Eura",
+            "Soini",
+            "Siikainen",
+            "Sotkamo",
+            "Konnevesi",
+            "Kokkola",
+            "Kemijärvi",
+            "Malax",
+            "Kirkkonummi",
+            "Puolanka",
+            "Hanko",
+            "Pomarkku",
+            "Viitasaari",
+            "Väståboland",
+            "Mäntsälä",
+            "Honkajoki",
+            "Rovaniemi",
+            "Luvia",
+            "Loppi",
+            "Laukaa",
+            "Harjavalta",
+            "Lapinlahti",
+            "Rauma",
+            "Padasjoki",
+            "Nilsiä",
+            "Kannus",
+            "Hämeenkyrö",
+            "Heinävesi",
+            "Simo",
+            "Hartola",
+            "Saltvik",
+            "Pornainen",
+            "Ylöjärvi"
+          ]
+        },
+        "Kunta_ni2": {
+          "type": "categorical",
+          "unique_values": 95,
+          "values": [
+            "S:t Michel",
+            "Tammerfors",
+            "Sastmola",
+            "Jockis",
+            "Närpiö",
+            "Grankulla",
+            "Ikalis",
+            "Länsi-Turunmaa",
+            "Mustasaari",
+            "Högfors",
+            "Lappo",
+            "Raasepori",
+            "Åbo",
+            "Nådendal",
+            "Tövsala",
+            "N_A",
+            "Maarianhamina",
+            "Björneborg",
+            "Karleby",
+            "Pietarsaari",
+            "Euroåminne",
+            "Fredrikshamn",
+            "Träskända",
+            "Helsingfors",
+            "Kajana",
+            "Esbo",
+            "Villmanstrand",
+            "Idensalmi",
+            "Nystad",
+            "Pemar",
+            "Maalahti",
+            "Lundo",
+            "Vanda",
+            "Vetil",
+            "Kyrkslätt",
+            "Ulvsby",
+            "Kemiönsaari",
+            "Artsjö",
+            "Lahtis",
+            "Nyslott",
+            "Borgnäs",
+            "Kaskö",
+            "Storkyro",
+            "Uusikaarlepyy",
+            "S:t Karins",
+            "Hangö",
+            "Bötom",
+            "Oravainen",
+            "Tavastehus",
+            "Kjulo"
+          ]
+        },
+        "Kieli_ni1": {
+          "type": "categorical",
+          "unique_values": 2,
+          "values": [
+            "Suomi",
+            "Ruotsi"
+          ]
+        },
+        "Kieli_ni2": {
+          "type": "categorical",
+          "unique_values": 3,
+          "values": [
+            "Suomi",
+            "Ruotsi",
+            "N_A"
+          ]
+        },
+        "Kaupunki": {
+          "type": "numeric",
+          "min": 1.0,
+          "max": 3.0,
+          "mean": 1.3352769679300291,
+          "unique_values": 3
+        },
+        "SHAPE_Leng": {
+          "type": "numeric",
+          "min": 8331.67824622,
+          "max": 1071857.25539,
+          "mean": 166933.52248575873,
+          "unique_values": 343
+        },
+        "Shape_Area": {
+          "type": "numeric",
+          "min": 1372928.22813,
+          "max": 17284004834.8,
+          "mean": 980429285.1792092,
+          "unique_values": 343
+        }
+      },
+      "descriptive_overview": "OBJECTID (numeric), Suuralue (categorical), AVI (categorical), Maakunta (categorical), Seutukunta (categorical), Kunta (categorical), Suural_ni1 (categorical), Suural_ni2 (categorical), AVI_ni1 (categorical), AVI_ni2 (categorical), Maaku_ni1 (categorical), Maaku_ni2 (categorical), Seutuk_ni1 (categorical), Seutuk_ni2 (categorical), Kunta_ni1 (categorical), Kunta_ni2 (categorical), Kieli_ni1 (categorical), Kieli_ni2 (categorical), Kaupunki (numeric), SHAPE_Leng (numeric), Shape_Area (numeric)",
+      "feature_count": 343,
+      "geometry_type": "['Polygon' 'MultiPolygon']",
+      "crs": "EPSG:3047",
+      "spatial": {
+        "xmin": 74792.12739999965,
+        "ymin": 6632470.241699999,
+        "xmax": 732620.9994000001,
+        "ymax": 7776424.2258
+      },
+      "raw_dataset_text": "1 | 4 | 6 | 19 | 197 | 890 | Pohjois-Suomi | Norra Finland | Lapin aluehallintovirasto | Regionförvaltningsverket i Lappland | Lappi | Lappland | Pohjois-Lapin seutukunta | N_A | Utsjoki | N_A | Suomi | N_A | 1 | 346059.024098 | 5351520412.5\n2 | 4 | 6 | 19 | 193 | 854 | Pohjois-Suomi | Norra Finland | Lapin aluehallintovirasto | Regionförvaltningsverket i Lappland | Lappi | Lappland | Torniolaakson seutukunta | N_A | Pello | N_A | Suomi | N_A | 1 | 235871.522312 | 1820379924.99\n3 | 4 | 6 | 19 | 193 | 976 | Pohjois-Suomi | Norra Finland | Lapin aluehallintovirasto | Regionförvaltningsverket i Lappland | Lappi | Lappland | Torniolaakson seutukunta | N_A | Ylitornio | Övertorneå | Suomi | Ruotsi | 1 | 250776.255584 | 2193187393.93\n4 | 4 | 6 | 19 | 192 | 845 | Pohjois-Suomi | Norra Finland | Lapin aluehallintovirasto | Regionförvaltningsverket i Lappland | Lappi | Lappland | Kemi-Tornion seutukunta | N_A | Tervola | N_A | Suomi | N_A | 1 | 194744.694235 | 1594289487.42\n5 | 3 | 5 | 18 | 181 | 620 | Itä-Suomi | Östra Finland | Pohjois-Suomen aluehallintovirasto | Regionförvaltningsverket i Norra Finland | Kainuu | Kajanaland | Kehys-Kainuu seutukunta | N_A | Puolanka | N_A | Suomi | N_A | 1 | 262035.74995 | 2593636308.43\n6 | 3 | 5 | 18 | 181 | 105 | Itä-Suomi | Östra Finland | Pohjois-Suomen aluehallintovirasto | Regionförvaltningsverket i Norra Finland | Kainuu | Kajanaland | Kehys-Kainuu seutukunta | N_A | Hyrynsalmi | N_A | Suomi | N_A | 1 | 192053.116404 | 1522545047.03\n7 | 3 | 5 | 18 | 181 | 290 | Itä-Suomi | Östra Finland | Pohjois-Suomen aluehallintovirasto | Regionförvaltningsverket i Norra Finland | Kainuu | Kajanaland | Kehys-Kainuu seutukunta | N_A | Kuhmo | N_A | Suomi | N_A | 2 | 331562.169516 | 5443921846.11\n8 | 4 | 5 | 17 | 175 | 630 | Pohjois-Suomi | Norra Finland | Pohjois-Suomen aluehallintovirasto | Regionförvaltningsverket i Norra Finland | Pohjois-Pohjanmaa | Norra Österbotten | Haapaveden-Siikalatvan seutukunta | N_A | Pyhäntä | N_A | Suomi | N_A | 1 | 144010.483414 | 845345127.64\n9 | 4 | 5 | 17 | 177 | 977 | Pohjois-Suomi | Norra Finland | Pohjois-Suomen aluehallintovirasto | Regionförvaltningsverket i Norra Finland | Pohjois-Pohjanmaa | Norra Österbotten | Ylivieskan seutukunta | N_A | Ylivieska | N_A | Suomi | N_A | 2 | 105564.275197 | 577047714.115\n10 | 4 | 5 | 17 | 176 | 317 | Pohjois-Suomi | Norra Finland | Pohjois-Suomen aluehallintovirasto | Regionförvaltningsverket i Norra Finland | Pohjois-Pohjanmaa | Norra Österbotten | Nivala-Haapajärven seutukunta | N_A | Kärsämäki | N_A | Suomi | N_A | 1 | 129066.806843 | 704548841.008\n11 | 4 | 5 | 17 | 176 | 535 | Pohjois-Suomi | Norra Finland | Pohjois-Suomen aluehallintovirasto | Regionförvaltningsverket i Norra Finland | Pohjois-Pohjanmaa | Norra Österbotten | Nivala-Haapajärven seutukunta | N_A | Nivala | N_A | Suomi | N_A | 2 | 136292.325339 | 534113379.831\n12 | 3 | 3 | 11 | 111 | 263 | Itä-Suomi | Östra Finland | Itä-Suomen aluehallintovirasto | Regionförvaltningsverket i Östra Finland | Pohjois-Savo | Norra Savolax | Ylä-Savon seutukunta | N_A | Kiuruvesi | N_A | Suomi | N_A | 2 | 190991.908815 | 1419915421.82\n13 | 4 | 5 | 17 | 176 | 069 | Pohjois-Suomi | Norra Finland | Pohjois-Suomen aluehallintovirasto | Regionförvaltningsverket i Norra Finland | Pohjois-Pohjanmaa | Norra Österbotten | Nivala-Haapajärven seutukunta | N_A | Haapajärvi | N_A | Suomi | N_A | 2 | 145634.641473 | 789988824.155\n14 | 4 | 5 | 17 | 176 | 626 | Pohjois-Suomi | Norra Finland | Pohjois-Suomen aluehallintovirasto | Regionförvaltningsverket i Norra Finland | Pohjois-Pohjanmaa | Norra Österbotten | Nivala-Haapajärven seutukunta | N_A | Pyhäjärvi | N_A | Suomi | N_A | 2 | 168840.146025 | 1456966302.93\n15 | 3 | 3 | 12 | 125 | 541 | Itä-Suomi | Östra Finland | Itä-Suomen aluehallintovirasto | Regionförvaltningsverket i Östra Finland | Pohjois-Karjala | Norra Karelen | Pielisen Karjalan seutukunta | N_A | Nurmes | N_A | Suomi | N_A | 2 | 236734.430056 | 1854944163.12\n16 | 3 | 3 | 12 | 125 | 911 | Itä-Suomi | Östra Finland | Itä-Suomen aluehallintovirasto | Regionförvaltningsverket i Östra Finland | Pohjois-Karjala | Norra Karelen | Pielisen Karjalan seutukunta | N_A | Valtimo | N_A | Suomi | N_A | 1 | 143197.903701 | 838368957.312\n17 | 3 | 3 | 12 | 125 | 422 | Itä-Suomi | Östra Finland | Itä-Suomen aluehallintovirasto | Regionförvaltningsverket i Östra Finland | Pohjois-Karjala | Norra Karelen | Pielisen Karjalan seutukunta | N_A | Lieksa | N_A | Suomi | N_A | 2 | 293384.054447 | 4064175079.87\n18 | 4 | 5 | 17 | 176 | 691 | Pohjois-Suomi | Norra Finland | Pohjois-Suomen aluehallintovirasto | Regionförvaltningsverket i Norra Finland | Pohjois-Pohjanmaa | Norra Österbotten | Nivala-Haapajärven seutukunta | N_A | Reisjärvi | N_A | Suomi | N_A | 1 | 109423.865778 | 493636018.981\n19 | 3 | 3 | 11 | 113 | 687 | Itä-Suomi | Östra Finland | Itä-Suomen aluehallintovirasto | Regionförvaltningsverket i Östra Finland | Pohjois-Savo | Norra Savolax | Koillis-Savon seutukunta | N_A | Rautavaara | N_A | Suomi | N_A | 1 | 199354.290544 | 1236098282.53\n20 | 3 | 3 | 11 | 111 | 140 | Itä-Suomi | Östra Finland | Itä-Suomen aluehallintovirasto | Regionförvaltningsverket i Östra Finland | Pohjois-Savo | Norra Savolax | Ylä-Savon seutukunta | N_A | Iisalmi | Idensalmi | Suomi | Ruotsi | 2 | 190564.875157 | 870676970.388\n21 | 2 | 4 | 13 | 138 | 601 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Keski-Suomi | Mellersta Finland | Saarijärven-Viitasaaren seutukunta | N_A | Pihtipudas | N_A | Suomi | N_A | 1 | 167754.472148 | 1247381827.1\n22 | 3 | 3 | 11 | 111 | 916 | Itä-Suomi | Östra Finland | Itä-Suomen aluehallintovirasto | Regionförvaltningsverket i Östra Finland | Pohjois-Savo | Norra Savolax | Ylä-Savon seutukunta | N_A | Varpaisjärvi | N_A | Suomi | N_A | 1 | 126483.454066 | 531310911.173\n23 | 3 | 3 | 11 | 111 | 402 | Itä-Suomi | Östra Finland | Itä-Suomen aluehallintovirasto | Regionförvaltningsverket i Östra Finland | Pohjois-Savo | Norra Savolax | Ylä-Savon seutukunta | N_A | Lapinlahti | N_A | Suomi | N_A | 1 | 161953.171269 | 711023826.325\n24 | 3 | 3 | 11 | 111 | 595 | Itä-Suomi | Östra Finland | Itä-Suomen aluehallintovirasto | Regionförvaltningsverket i Östra Finland | Pohjois-Savo | Norra Savolax | Ylä-Savon seutukunta | N_A | Pielavesi | N_A | Suomi | N_A | 1 | 227918.820105 | 1405631252.95\n25 | 2 | 4 | 13 | 138 | 256 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Keski-Suomi | Mellersta Finland | Saarijärven-Viitasaaren seutukunta | N_A | Kinnula | N_A | Suomi | N_A | 1 | 85002.3818994 | 494474800.028\n26 | 3 | 3 | 12 | 122 | 176 | Itä-Suomi | Östra Finland | Itä-Suomen aluehallintovirasto | Regionförvaltningsverket i Östra Finland | Pohjois-Karjala | Norra Karelen | Joensuun seutukunta | N_A | Juuka | N_A | Suomi | N_A | 1 | 212150.68785 | 1845129363.24\n27 | 3 | 3 | 11 | 111 | 239 | Itä-Suomi | Östra Finland | Itä-Suomen aluehallintovirasto | Regionförvaltningsverket i Östra Finland | Pohjois-Savo | Norra Savolax | Ylä-Savon seutukunta | N_A | Keitele | N_A | Suomi | N_A | 1 | 125436.492759 | 578438544.854\n28 | 3 | 3 | 11 | 113 | 534 | Itä-Suomi | Östra Finland | Itä-Suomen aluehallintovirasto | Regionförvaltningsverket i Östra Finland | Pohjois-Savo | Norra Savolax | Koillis-Savon seutukunta | N_A | Nilsiä | N_A | Suomi | N_A | 2 | 177899.74153 | 843989286.189\n29 | 2 | 4 | 14 | 146 | 403 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Etelä-Pohjanmaa | Södra Österbotten | Järviseudun seutukunta | N_A | Lappajärvi | N_A | Suomi | N_A | 1 | 134719.032255 | 529756406.667\n30 | 3 | 3 | 11 | 112 | 476 | Itä-Suomi | Östra Finland | Itä-Suomen aluehallintovirasto | Regionförvaltningsverket i Östra Finland | Pohjois-Savo | Norra Savolax | Kuopion seutukunta | N_A | Maaninka | N_A | Suomi | N_A | 1 | 143284.364161 | 577521041.972\n31 | 2 | 4 | 13 | 138 | 931 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Keski-Suomi | Mellersta Finland | Saarijärven-Viitasaaren seutukunta | N_A | Viitasaari | N_A | Suomi | N_A | 2 | 203787.07743 | 1587185488.85\n32 | 2 | 4 | 13 | 138 | 265 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Keski-Suomi | Mellersta Finland | Saarijärven-Viitasaaren seutukunta | N_A | Kivijärvi | N_A | Suomi | N_A | 1 | 123327.783308 | 599304834.215\n33 | 2 | 4 | 14 | 142 | 233 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Etelä-Pohjanmaa | Södra Österbotten | Seinäjoen seutukunta | N_A | Kauhava | N_A | Suomi | N_A | 2 | 194629.555147 | 1325598742.13\n34 | 3 | 3 | 11 | 112 | 749 | Itä-Suomi | Östra Finland | Itä-Suomen aluehallintovirasto | Regionförvaltningsverket i Östra Finland | Pohjois-Savo | Norra Savolax | Kuopion seutukunta | N_A | Siilinjärvi | N_A | Suomi | N_A | 1 | 140526.67369 | 510487333.849\n35 | 2 | 4 | 15 | 151 | 399 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Pohjanmaa | Österbotten | Kyrönmaan seutukunta | N_A | Laihia | Laihela | Suomi | Ruotsi | 1 | 92266.0484317 | 504551889.016\n36 | 3 | 3 | 11 | 115 | 844 | Itä-Suomi | Östra Finland | Itä-Suomen aluehallintovirasto | Regionförvaltningsverket i Östra Finland | Pohjois-Savo | Norra Savolax | Sisä-Savon seutukunta | N_A | Tervo | N_A | Suomi | N_A | 1 | 130792.90304 | 491693912.734\n37 | 3 | 3 | 12 | 122 | 607 | Itä-Suomi | Östra Finland | Itä-Suomen aluehallintovirasto | Regionförvaltningsverket i Östra Finland | Pohjois-Karjala | Norra Karelen | Joensuun seutukunta | N_A | Polvijärvi | N_A | Suomi | N_A | 1 | 150579.695313 | 958155662.128\n38 | 2 | 4 | 13 | 138 | 216 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Keski-Suomi | Mellersta Finland | Saarijärven-Viitasaaren seutukunta | N_A | Kannonkoski | N_A | Suomi | N_A | 1 | 119182.359659 | 551044492.914\n39 | 2 | 4 | 13 | 138 | 226 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Keski-Suomi | Mellersta Finland | Saarijärven-Viitasaaren seutukunta | N_A | Karstula | N_A | Suomi | N_A | 1 | 197470.459254 | 963740916.157\n40 | 2 | 4 | 14 | 146 | 759 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Etelä-Pohjanmaa | Södra Österbotten | Järviseudun seutukunta | N_A | Soini | N_A | Suomi | N_A | 1 | 159102.918002 | 574563953.047\n41 | 2 | 4 | 14 | 144 | 300 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Etelä-Pohjanmaa | Södra Österbotten | Kuusiokuntien seutukunta | N_A | Kuortane | N_A | Suomi | N_A | 1 | 100585.956797 | 497938995.619\n42 | 3 | 3 | 12 | 122 | 309 | Itä-Suomi | Östra Finland | Itä-Suomen aluehallintovirasto | Regionförvaltningsverket i Östra Finland | Pohjois-Karjala | Norra Karelen | Joensuun seutukunta | N_A | Outokumpu | N_A | Suomi | N_A | 2 | 122753.231017 | 583614431.758\n43 | 2 | 4 | 14 | 142 | 301 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Etelä-Pohjanmaa | Södra Österbotten | Seinäjoen seutukunta | N_A | Kurikka | N_A | Suomi | N_A | 2 | 202180.09515 | 916124323.089\n44 | 2 | 4 | 14 | 144 | 863 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Etelä-Pohjanmaa | Södra Österbotten | Kuusiokuntien seutukunta | N_A | Töysä | N_A | Suomi | N_A | 1 | 75755.1344124 | 302337942.39\n45 | 2 | 4 | 14 | 144 | 989 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Etelä-Pohjanmaa | Södra Österbotten | Kuusiokuntien seutukunta | N_A | Ähtäri | Etseri | Suomi | Ruotsi | 2 | 200943.875483 | 906871682.068\n46 | 2 | 4 | 14 | 141 | 846 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Etelä-Pohjanmaa | Södra Österbotten | Suupohjan seutukunta | N_A | Teuva | Östermark | Suomi | Ruotsi | 1 | 122002.394719 | 556902452.238\n47 | 2 | 4 | 13 | 133 | 495 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Keski-Suomi | Mellersta Finland | Keuruun seutukunta | N_A | Multia | N_A | Suomi | N_A | 1 | 169609.718493 | 761345024.154\n48 | 2 | 4 | 14 | 141 | 232 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Etelä-Pohjanmaa | Södra Österbotten | Suupohjan seutukunta | N_A | Kauhajoki | N_A | Suomi | N_A | 2 | 148545.389573 | 1315046330.53\n49 | 2 | 4 | 14 | 141 | 218 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Etelä-Pohjanmaa | Södra Österbotten | Suupohjan seutukunta | N_A | Karijoki | Bötom | Suomi | Ruotsi | 1 | 83813.8219599 | 184963792.475\n50 | 2 | 4 | 06 | 069 | 936 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Pirkanmaa | Birkaland | Ylä-Pirkanmaan seutukunta | N_A | Virrat | Virdois | Suomi | Ruotsi | 2 | 194882.862653 | 1300465170.49\n51 | 2 | 4 | 15 | 153 | 231 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Pohjanmaa | Österbotten | Sydösterbotten | Sydösterbotten | Kaskinen | Kaskö | Suomi | Ruotsi | 2 | 23183.3965971 | 8854857.86093\n52 | 2 | 4 | 13 | 131 | 592 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Keski-Suomi | Mellersta Finland | Jyväskylän seutukunta | N_A | Petäjävesi | N_A | Suomi | N_A | 1 | 103170.846775 | 495146501.742\n53 | 2 | 4 | 06 | 061 | 250 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Pirkanmaa | Birkaland | Luoteis-Pirkanmaan seutukunta | N_A | Kihniö | N_A | Suomi | N_A | 1 | 83116.5240447 | 389564773.01\n54 | 2 | 2 | 04 | 044 | 230 | Länsi-Suomi | Västra Finland | Lounais-Suomen aluehallintovirasto | Regionförvaltningsverket i Sydvästra Finland | Satakunta | Satakunta | Pohjois-Satakunnan seutukunta | N_A | Karvia | N_A | Suomi | N_A | 1 | 111828.85003 | 517464408.419\n55 | 2 | 4 | 06 | 061 | 581 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Pirkanmaa | Birkaland | Luoteis-Pirkanmaan seutukunta | N_A | Parkano | N_A | Suomi | N_A | 2 | 173021.67454 | 913332284.335\n56 | 3 | 3 | 10 | 103 | 046 | Itä-Suomi | Östra Finland | Itä-Suomen aluehallintovirasto | Regionförvaltningsverket i Östra Finland | Etelä-Savo | Södra Savolax | Savonlinnan seutukunta | N_A | Enonkoski | N_A | Suomi | N_A | 1 | 130724.91236 | 410014059.405\n57 | 2 | 4 | 13 | 131 | 179 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Keski-Suomi | Mellersta Finland | Jyväskylän seutukunta | N_A | Jyväskylä | N_A | Suomi | N_A | 2 | 329794.069018 | 1467626049.12\n58 | 2 | 4 | 13 | 131 | 500 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Keski-Suomi | Mellersta Finland | Jyväskylän seutukunta | N_A | Muurame | N_A | Suomi | N_A | 1 | 81147.4581943 | 193250799.239\n59 | 2 | 2 | 04 | 044 | 099 | Länsi-Suomi | Västra Finland | Lounais-Suomen aluehallintovirasto | Regionförvaltningsverket i Sydvästra Finland | Satakunta | Satakunta | Pohjois-Satakunnan seutukunta | N_A | Honkajoki | N_A | Suomi | N_A | 1 | 97195.0060033 | 335962320.809\n60 | 2 | 4 | 06 | 069 | 508 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Pirkanmaa | Birkaland | Ylä-Pirkanmaan seutukunta | N_A | Mänttä-Vilppula | N_A | Suomi | N_A | 2 | 148550.24302 | 658058672.337\n61 | 2 | 2 | 04 | 044 | 214 | Länsi-Suomi | Västra Finland | Lounais-Suomen aluehallintovirasto | Regionförvaltningsverket i Sydvästra Finland | Satakunta | Satakunta | Pohjois-Satakunnan seutukunta | N_A | Kankaanpää | N_A | Suomi | N_A | 2 | 148956.338731 | 707346355.759\n62 | 2 | 2 | 04 | 044 | 181 | Länsi-Suomi | Västra Finland | Lounais-Suomen aluehallintovirasto | Regionförvaltningsverket i Sydvästra Finland | Satakunta | Satakunta | Pohjois-Satakunnan seutukunta | N_A | Jämijärvi | N_A | Suomi | N_A | 1 | 73644.859813 | 224285070.914\n63 | 3 | 3 | 10 | 103 | 768 | Itä-Suomi | Östra Finland | Itä-Suomen aluehallintovirasto | Regionförvaltningsverket i Östra Finland | Etelä-Savo | Södra Savolax | Savonlinnan seutukunta | N_A | Sulkava | N_A | Suomi | N_A | 1 | 189226.366828 | 771434103.719\n64 | 3 | 3 | 10 | 101 | 588 | Itä-Suomi | Östra Finland | Itä-Suomen aluehallintovirasto | Regionförvaltningsverket i Östra Finland | Etelä-Savo | Södra Savolax | Mikkelin seutukunta | N_A | Pertunmaa | N_A | Suomi | N_A | 1 | 117791.84707 | 455661215.509\n65 | 2 | 4 | 06 | 064 | 604 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Pirkanmaa | Birkaland | Tampereen seutukunta | N_A | Pirkkala | Birkala | Suomi | Ruotsi | 1 | 44779.9069917 | 104206169.459\n66 | 1 | 1 | 07 | 071 | 111 | Etelä-Suomi | Södra Finland | Etelä-Suomen aluehallintovirasto | Regionförvaltningsverket i Södra Finland | Päijät-Häme | Päijänne-Tavastland | Lahden seutukunta | N_A | Heinola | N_A | Suomi | N_A | 2 | 146190.870774 | 831307971.64\n67 | 1 | 1 | 09 | 091 | 775 | Etelä-Suomi | Södra Finland | Etelä-Suomen aluehallintovirasto | Regionförvaltningsverket i Södra Finland | Etelä-Karjala | Södra Karelen | Lappeenrannan seutukunta | N_A | Suomenniemi | N_A | Suomi | N_A | 1 | 140983.015114 | 361632546.859\n68 | 1 | 1 | 09 | 091 | 831 | Etelä-Suomi | Södra Finland | Etelä-Suomen aluehallintovirasto | Regionförvaltningsverket i Södra Finland | Etelä-Karjala | Södra Karelen | Lappeenrannan seutukunta | N_A | Taipalsaari | N_A | Suomi | N_A | 1 | 144292.122175 | 759420141.788\n69 | 1 | 1 | 07 | 071 | 016 | Etelä-Suomi | Södra Finland | Etelä-Suomen aluehallintovirasto | Regionförvaltningsverket i Södra Finland | Päijät-Häme | Päijänne-Tavastland | Lahden seutukunta | N_A | Asikkala | N_A | Suomi | N_A | 1 | 133169.84468 | 755290224.51\n70 | 1 | 1 | 09 | 091 | 739 | Etelä-Suomi | Södra Finland | Etelä-Suomen aluehallintovirasto | Regionförvaltningsverket i Södra Finland | Etelä-Karjala | Södra Karelen | Lappeenrannan seutukunta | N_A | Savitaipale | N_A | Suomi | N_A | 1 | 171941.700703 | 690330490.768\n71 | 1 | 1 | 09 | 093 | 153 | Etelä-Suomi | Södra Finland | Etelä-Suomen aluehallintovirasto | Regionförvaltningsverket i Södra Finland | Etelä-Karjala | Södra Karelen | Imatran seutukunta | N_A | Imatra | N_A | Suomi | N_A | 2 | 69784.7607852 | 189227786.899\n72 | 2 | 2 | 04 | 041 | 050 | Länsi-Suomi | Västra Finland | Lounais-Suomen aluehallintovirasto | Regionförvaltningsverket i Sydvästra Finland | Satakunta | Satakunta | Rauman seutukunta | N_A | Eura | N_A | Suomi | N_A | 1 | 152823.688994 | 631364425.185\n73 | 2 | 2 | 04 | 041 | 783 | Länsi-Suomi | Västra Finland | Lounais-Suomen aluehallintovirasto | Regionförvaltningsverket i Sydvästra Finland | Satakunta | Satakunta | Rauman seutukunta | N_A | Säkylä | N_A | Suomi | N_A | 1 | 86467.2276457 | 270182383.261\n74 | 1 | 1 | 09 | 091 | 416 | Etelä-Suomi | Södra Finland | Etelä-Suomen aluehallintovirasto | Regionförvaltningsverket i Södra Finland | Etelä-Karjala | Södra Karelen | Lappeenrannan seutukunta | N_A | Lemi | N_A | Suomi | N_A | 1 | 82492.4396566 | 265882150.16\n75 | 1 | 1 | 07 | 071 | 098 | Etelä-Suomi | Södra Finland | Etelä-Suomen aluehallintovirasto | Regionförvaltningsverket i Södra Finland | Päijät-Häme | Päijänne-Tavastland | Lahden seutukunta | N_A | Hollola | N_A | Suomi | N_A | 1 | 136568.687067 | 535084435.472\n76 | 1 | 1 | 08 | 081 | 142 | Etelä-Suomi | Södra Finland | Etelä-Suomen aluehallintovirasto | Regionförvaltningsverket i Södra Finland | Kymenlaakso | Kymmenedalen | Kouvolan seutukunta | N_A | Iitti | N_A | Suomi | N_A | 1 | 157164.11159 | 682663866.165\n77 | 1 | 1 | 09 | 091 | 405 | Etelä-Suomi | Södra Finland | Etelä-Suomen aluehallintovirasto | Regionförvaltningsverket i Södra Finland | Etelä-Karjala | Södra Karelen | Lappeenrannan seutukunta | N_A | Lappeenranta | Villmanstrand | Suomi | Ruotsi | 2 | 257277.782261 | 1717061328.2\n78 | 1 | 1 | 07 | 071 | 283 | Etelä-Suomi | Södra Finland | Etelä-Suomen aluehallintovirasto | Regionförvaltningsverket i Södra Finland | Päijät-Häme | Päijänne-Tavastland | Lahden seutukunta | N_A | Hämeenkoski | N_A | Suomi | N_A | 1 | 80289.3376258 | 196237832.094\n79 | 1 | 1 | 07 | 071 | 532 | Etelä-Suomi | Södra Finland | Etelä-Suomen aluehallintovirasto | Regionförvaltningsverket i Södra Finland | Päijät-Häme | Päijänne-Tavastland | Lahden seutukunta | N_A | Nastola | N_A | Suomi | N_A | 1 | 121978.851346 | 364484768.389\n80 | 1 | 1 | 09 | 091 | 441 | Etelä-Suomi | Södra Finland | Etelä-Suomen aluehallintovirasto | Regionförvaltningsverket i Södra Finland | Etelä-Karjala | Södra Karelen | Lappeenrannan seutukunta | N_A | Luumäki | N_A | Suomi | N_A | 1 | 164169.967624 | 858199043.718\n81 | 1 | 1 | 05 | 051 | 109 | Etelä-Suomi | Södra Finland | Etelä-Suomen aluehallintovirasto | Regionförvaltningsverket i Södra Finland | Kanta-Häme | Egentliga Tavastland | Hämeenlinnan seutukunta | N_A | Hämeenlinna | Tavastehus | Suomi | Ruotsi | 3 | 414881.769684 | 2028337917.72\n82 | 1 | 1 | 05 | 051 | 165 | Etelä-Suomi | Södra Finland | Etelä-Suomen aluehallintovirasto | Regionförvaltningsverket i Södra Finland | Kanta-Häme | Egentliga Tavastland | Hämeenlinnan seutukunta | N_A | Janakkala | N_A | Suomi | N_A | 1 | 132803.682397 | 589852290.208\n83 | 1 | 1 | 05 | 053 | 061 | Etelä-Suomi | Södra Finland | Etelä-Suomen aluehallintovirasto | Regionförvaltningsverket i Södra Finland | Kanta-Häme | Egentliga Tavastland | Forssan seutukunta | N_A | Forssa | N_A | Suomi | N_A | 2 | 89969.9085378 | 253962283.288\n84 | 1 | 1 | 07 | 071 | 398 | Etelä-Suomi | Södra Finland | Etelä-Suomen aluehallintovirasto | Regionförvaltningsverket i Södra Finland | Päijät-Häme | Päijänne-Tavastland | Lahden seutukunta | N_A | Lahti | Lahtis | Suomi | Ruotsi | 2 | 55746.960308 | 151551149.142\n85 | 1 | 1 | 05 | 053 | 834 | Etelä-Suomi | Södra Finland | Etelä-Suomen aluehallintovirasto | Regionförvaltningsverket i Södra Finland | Kanta-Häme | Egentliga Tavastland | Forssan seutukunta | N_A | Tammela | N_A | Suomi | N_A | 1 | 129683.24032 | 713363792.987\n86 | 1 | 2 | 02 | 025 | 561 | Etelä-Suomi | Södra Finland | Lounais-Suomen aluehallintovirasto | Regionförvaltningsverket i Sydvästra Finland | Varsinais-Suomi | Egentliga Finland | Loimaan seutukunta | N_A | Oripää | N_A | Suomi | N_A | 1 | 51932.8328298 | 107594339.053\n87 | 1 | 1 | 07 | 071 | 316 | Etelä-Suomi | Södra Finland | Etelä-Suomen aluehallintovirasto | Regionförvaltningsverket i Södra Finland | Päijät-Häme | Päijänne-Tavastland | Lahden seutukunta | N_A | Kärkölä | N_A | Suomi | N_A | 1 | 79025.5890121 | 257823542.227\n88 | 1 | 1 | 07 | 071 | 560 | Etelä-Suomi | Södra Finland | Etelä-Suomen aluehallintovirasto | Regionförvaltningsverket i Södra Finland | Päijät-Häme | Päijänne-Tavastland | Lahden seutukunta | N_A | Orimattila | N_A | Suomi | N_A | 2 | 140028.644877 | 617480327.032\n89 | 1 | 1 | 05 | 052 | 086 | Etelä-Suomi | Södra Finland | Etelä-Suomen aluehallintovirasto | Regionförvaltningsverket i Södra Finland | Kanta-Häme | Egentliga Tavastland | Riihimäen seutukunta | N_A | Hausjärvi | N_A | Suomi | N_A | 1 | 127269.044664 | 398359000.469\n90 | 1 | 1 | 08 | 081 | 286 | Etelä-Suomi | Södra Finland | Etelä-Suomen aluehallintovirasto | Regionförvaltningsverket i Södra Finland | Kymenlaakso | Kymmenedalen | Kouvolan seutukunta | N_A | Kouvola | N_A | Suomi | N_A | 2 | 349185.417525 | 2882922116.68\n91 | 1 | 1 | 01 | 011 | 505 | Etelä-Suomi | Södra Finland | Etelä-Suomen aluehallintovirasto | Regionförvaltningsverket i Södra Finland | Uusimaa | Nyland | Helsingin seutukunta | N_A | Mäntsälä | N_A | Suomi | N_A | 1 | 145147.905121 | 595536517.006\n92 | 1 | 1 | 05 | 052 | 433 | Etelä-Suomi | Södra Finland | Etelä-Suomen aluehallintovirasto | Regionförvaltningsverket i Södra Finland | Kanta-Häme | Egentliga Tavastland | Riihimäen seutukunta | N_A | Loppi | N_A | Suomi | N_A | 1 | 133411.501506 | 652487187.246\n93 | 1 | 1 | 08 | 082 | 489 | Etelä-Suomi | Södra Finland | Etelä-Suomen aluehallintovirasto | Regionförvaltningsverket i Södra Finland | Kymenlaakso | Kymmenedalen | Kotkan-Haminan seutukunta | N_A | Miehikkälä | N_A | Suomi | N_A | 1 | 118504.557961 | 439579449.346\n94 | 1 | 1 | 07 | 071 | 015 | Etelä-Suomi | Södra Finland | Etelä-Suomen aluehallintovirasto | Regionförvaltningsverket i Södra Finland | Päijät-Häme | Päijänne-Tavastland | Lahden seutukunta | N_A | Artjärvi | Artsjö | Suomi | Ruotsi | 1 | 58312.0212999 | 197797584.626\n95 | 1 | 1 | 05 | 052 | 694 | Etelä-Suomi | Södra Finland | Etelä-Suomen aluehallintovirasto | Regionförvaltningsverket i Södra Finland | Kanta-Häme | Egentliga Tavastland | Riihimäen seutukunta | N_A | Riihimäki | N_A | Suomi | N_A | 2 | 54558.2083628 | 123457488.453\n96 | 1 | 1 | 20 | 202 | 407 | Etelä-Suomi | Södra Finland | Etelä-Suomen aluehallintovirasto | Regionförvaltningsverket i Södra Finland | Itä-Uusimaa | Östra Nyland | Loviisan seutukunta | N_A | Lapinjärvi | Lappträsk | Suomi | Ruotsi | 1 | 109367.980914 | 339447886.269\n97 | 1 | 1 | 20 | 201 | 504 | Etelä-Suomi | Södra Finland | Etelä-Suomen aluehallintovirasto | Regionförvaltningsverket i Södra Finland | Itä-Uusimaa | Östra Nyland | Porvoon seutukunta | N_A | Myrskylä | Mörskom | Suomi | Ruotsi | 1 | 71568.5879655 | 205889213.562\n98 | 1 | 1 | 20 | 201 | 616 | Etelä-Suomi | Södra Finland | Etelä-Suomen aluehallintovirasto | Regionförvaltningsverket i Södra Finland | Itä-Uusimaa | Östra Nyland | Porvoon seutukunta | N_A | Pukkila | N_A | Suomi | N_A | 1 | 60347.7424291 | 145425592.345\n99 | 1 | 1 | 01 | 011 | 106 | Etelä-Suomi | Södra Finland | Etelä-Suomen aluehallintovirasto | Regionförvaltningsverket i Södra Finland | Uusimaa | Nyland | Helsingin seutukunta | N_A | Hyvinkää | Hyvinge | Suomi | Ruotsi | 2 | 101184.675475 | 338134617.771\n100 | 1 | 1 | 01 | 011 | 540 | Etelä-Suomi | Södra Finland | Etelä-Suomen aluehallintovirasto | Regionförvaltningsverket i Södra Finland | Uusimaa | Nyland | Helsingin seutukunta | N_A | Nummi-Pusula | N_A | Suomi | N_A | 1 | 118750.431573 | 506654638.847\n101 | 1 | 1 | 01 | 011 | 224 | Etelä-Suomi | Södra Finland | Etelä-Suomen aluehallintovirasto | Regionförvaltningsverket i Södra Finland | Uusimaa | Nyland | Helsingin seutukunta | N_A | Karkkila | Högfors | Suomi | Ruotsi | 2 | 89322.9889861 | 256442022.463\n102 | 1 | 1 | 08 | 082 | 935 | Etelä-Suomi | Södra Finland | Etelä-Suomen aluehallintovirasto | Regionförvaltningsverket i Södra Finland | Kymenlaakso | Kymmenedalen | Kotkan-Haminan seutukunta | N_A | Virolahti | N_A | Suomi | N_A | 1 | 149719.613023 | 371729701.516\n103 | 1 | 1 | 20 | 201 | 018 | Etelä-Suomi | Södra Finland | Etelä-Suomen aluehallintovirasto | Regionförvaltningsverket i Södra Finland | Itä-Uusimaa | Östra Nyland | Porvoon seutukunta | N_A | Askola | N_A | Suomi | N_A | 1 | 71150.2622018 | 219293371.506\n104 | 1 | 2 | 02 | 023 | 577 | Etelä-Suomi | Södra Finland | Lounais-Suomen aluehallintovirasto | Regionförvaltningsverket i Sydvästra Finland | Varsinais-Suomi | Egentliga Finland | Turun seutukunta | N_A | Paimio | Pemar | Suomi | Ruotsi | 2 | 72284.4367149 | 239781714.358\n105 | 1 | 1 | 08 | 082 | 624 | Etelä-Suomi | Södra Finland | Etelä-Suomen aluehallintovirasto | Regionförvaltningsverket i Södra Finland | Kymenlaakso | Kymmenedalen | Kotkan-Haminan seutukunta | N_A | Pyhtää | Pyttis | Suomi | Ruotsi | 1 | 167883.869005 | 323729933.564\n106 | 1 | 1 | 01 | 011 | 543 | Etelä-Suomi | Södra Finland | Etelä-Suomen aluehallintovirasto | Regionförvaltningsverket i Södra Finland | Uusimaa | Nyland | Helsingin seutukunta | N_A | Nurmijärvi | N_A | Suomi | N_A | 1 | 93785.9737186 | 365952749.437\n107 | 1 | 1 | 01 | 011 | 858 | Etelä-Suomi | Södra Finland | Etelä-Suomen aluehallintovirasto | Regionförvaltningsverket i Södra Finland | Uusimaa | Nyland | Helsingin seutukunta | N_A | Tuusula | Tusby | Suomi | Ruotsi | 1 | 97084.5284184 | 226372644.912\n108 | 1 | 2 | 02 | 023 | 202 | Etelä-Suomi | Södra Finland | Lounais-Suomen aluehallintovirasto | Regionförvaltningsverket i Sydvästra Finland | Varsinais-Suomi | Egentliga Finland | Turun seutukunta | N_A | Kaarina | S:t Karins | Suomi | Ruotsi | 2 | 113375.519106 | 149617583.462\n109 | 1 | 1 | 01 | 011 | 611 | Etelä-Suomi | Södra Finland | Etelä-Suomen aluehallintovirasto | Regionförvaltningsverket i Södra Finland | Uusimaa | Nyland | Helsingin seutukunta | N_A | Pornainen | Borgnäs | Suomi | Ruotsi | 1 | 52052.31047 | 149906877.047\n110 | 1 | 2 | 02 | 022 | 734 | Etelä-Suomi | Södra Finland | Lounais-Suomen aluehallintovirasto | Regionförvaltningsverket i Sydvästra Finland | Varsinais-Suomi | Egentliga Finland | Salon seutukunta | N_A | Salo | N_A | Suomi | N_A | 2 | 363494.806947 | 2057344010.91\n111 | 1 | 1 | 20 | 201 | 638 | Etelä-Suomi | Södra Finland | Etelä-Suomen aluehallintovirasto | Regionförvaltningsverket i Södra Finland | Itä-Uusimaa | Östra Nyland | Porvoon seutukunta | N_A | Porvoo | Borgå | Suomi | Ruotsi | 2 | 323831.96125 | 660574687.718\n112 | 1 | 1 | 01 | 011 | 186 | Etelä-Suomi | Södra Finland | Etelä-Suomen aluehallintovirasto | Regionförvaltningsverket i Södra Finland | Uusimaa | Nyland | Helsingin seutukunta | N_A | Järvenpää | Träskända | Suomi | Ruotsi | 2 | 30401.2439196 | 39883036.9413\n113 | 1 | 1 | 20 | 201 | 753 | Etelä-Suomi | Södra Finland | Etelä-Suomen aluehallintovirasto | Regionförvaltningsverket i Södra Finland | Itä-Uusimaa | Östra Nyland | Porvoon seutukunta | N_A | Sipoo | Sibbo | Suomi | Ruotsi | 1 | 139496.817063 | 329357553.942\n114 | 1 | 1 | 20 | 202 | 434 | Etelä-Suomi | Södra Finland | Etelä-Suomen aluehallintovirasto | Regionförvaltningsverket i Södra Finland | Itä-Uusimaa | Östra Nyland | Loviisan seutukunta | N_A | Loviisa | Lovisa | Suomi | Ruotsi | 2 | 403708.398525 | 840443803.899\n115 | 1 | 2 | 02 | 023 | 738 | Etelä-Suomi | Södra Finland | Lounais-Suomen aluehallintovirasto | Regionförvaltningsverket i Sydvästra Finland | Varsinais-Suomi | Egentliga Finland | Turun seutukunta | N_A | Sauvo | Sagu | Suomi | Ruotsi | 1 | 86029.1802874 | 254543767.859\n116 | 1 | 1 | 01 | 011 | 245 | Etelä-Suomi | Södra Finland | Etelä-Suomen aluehallintovirasto | Regionförvaltningsverket i Södra Finland | Uusimaa | Nyland | Helsingin seutukunta | N_A | Kerava | Kervo | Suomi | Ruotsi | 2 | 24166.2876157 | 30904543.6134\n117 | 1 | 2 | 02 | 021 | 445 | Etelä-Suomi | Södra Finland | Lounais-Suomen aluehallintovirasto | Regionförvaltningsverket i Sydvästra Finland | Varsinais-Suomi | Egentliga Finland | Åboland regionkommun - Turunmaan seutukunta | Åboland regionkommun | Väståboland | Länsi-Turunmaa | Ruotsi | Suomi | 2 | 1071857.25539 | 640878034.802\n118 | 1 | 1 | 01 | 011 | 444 | Etelä-Suomi | Södra Finland | Etelä-Suomen aluehallintovirasto | Regionförvaltningsverket i Södra Finland | Uusimaa | Nyland | Helsingin seutukunta | N_A | Lohja | Lojo | Suomi | Ruotsi | 2 | 133794.501027 | 437908150.819\n119 | 1 | 1 | 01 | 011 | 223 | Etelä-Suomi | Södra Finland | Etelä-Suomen aluehallintovirasto | Regionförvaltningsverket i Södra Finland | Uusimaa | Nyland | Helsingin seutukunta | N_A | Karjalohja | Karislojo | Suomi | Ruotsi | 1 | 66372.5113763 | 162815071.425\n120 | 1 | 2 | 02 | 021 | 322 | Etelä-Suomi | Södra Finland | Lounais-Suomen aluehallintovirasto | Regionförvaltningsverket i Sydvästra Finland | Varsinais-Suomi | Egentliga Finland | Åboland regionkommun - Turunmaan seutukunta | Åboland regionkommun | Kimitoön | Kemiönsaari | Ruotsi | Suomi | 1 | 479410.786302 | 620270146.605\n121 | 1 | 1 | 01 | 011 | 755 | Etelä-Suomi | Södra Finland | Etelä-Suomen aluehallintovirasto | Regionförvaltningsverket i Södra Finland | Uusimaa | Nyland | Helsingin seutukunta | N_A | Siuntio | Sjundeå | Suomi | Ruotsi | 1 | 86021.1619234 | 251629129.125\n122 | 1 | 1 | 01 | 013 | 710 | Etelä-Suomi | Södra Finland | Etelä-Suomen aluehallintovirasto | Regionförvaltningsverket i Södra Finland | Uusimaa | Nyland | Raaseporin seutukunta | N_A | Raseborg | Raasepori | Ruotsi | Suomi | 2 | 514664.766138 | 1209936761.59\n123 | 1 | 1 | 01 | 013 | 149 | Etelä-Suomi | Södra Finland | Etelä-Suomen aluehallintovirasto | Regionförvaltningsverket i Södra Finland | Uusimaa | Nyland | Raaseporin seutukunta | N_A | Ingå | Inkoo | Ruotsi | Suomi | 1 | 180111.197158 | 331911568.526\n124 | 1 | 1 | 01 | 013 | 078 | Etelä-Suomi | Södra Finland | Etelä-Suomen aluehallintovirasto | Regionförvaltningsverket i Södra Finland | Uusimaa | Nyland | Raaseporin seutukunta | N_A | Hanko | Hangö | Suomi | Ruotsi | 2 | 93600.7014838 | 112572879.337\n125 | 5 | 7 | 21 | 212 | 065 | Ahvenanmaa | Åland | Ahvenanmaan valtionvirasto | Statens ämbetsverk på Åland | Ahvenanmaan maakunta | Landskapet Åland | Ålands landsbygd | Ålands landsbygd | Geta | N_A | Ruotsi | N_A | 1 | 93135.207096 | 69845849.0737\n126 | 5 | 7 | 21 | 212 | 076 | Ahvenanmaa | Åland | Ahvenanmaan valtionvirasto | Statens ämbetsverk på Åland | Ahvenanmaan maakunta | Landskapet Åland | Ålands landsbygd | Ålands landsbygd | Hammarland | N_A | Ruotsi | N_A | 1 | 8331.67824622 | 1372928.22813\n127 | 5 | 7 | 21 | 212 | 060 | Ahvenanmaa | Åland | Ahvenanmaan valtionvirasto | Statens ämbetsverk på Åland | Ahvenanmaan maakunta | Landskapet Åland | Ålands landsbygd | Ålands landsbygd | Finström | N_A | Ruotsi | N_A | 1 | 152373.296646 | 115931026.808\n128 | 5 | 7 | 21 | 213 | 318 | Ahvenanmaa | Åland | Ahvenanmaan valtionvirasto | Statens ämbetsverk på Åland | Ahvenanmaan maakunta | Landskapet Åland | Ålands skärgård | Ålands skärgård | Kökar | N_A | Ruotsi | N_A | 1 | 50647.9619168 | 25511555.1748\n129 | 4 | 4 | 16 | 161 | 584 | Pohjois-Suomi | Norra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Keski-Pohjanmaa | Mellersta Österbotten | Kaustisen seutukunta | N_A | Perho | N_A | Suomi | N_A | 1 | 128673.333956 | 775991625.639\n130 | 2 | 4 | 14 | 146 | 934 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Etelä-Pohjanmaa | Södra Österbotten | Järviseudun seutukunta | N_A | Vimpeli | N_A | Suomi | N_A | 1 | 85047.7775136 | 326906231.871\n131 | 2 | 4 | 14 | 146 | 005 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Etelä-Pohjanmaa | Södra Österbotten | Järviseudun seutukunta | N_A | Alajärvi | N_A | Suomi | N_A | 2 | 191701.939286 | 1060192193.0\n132 | 2 | 4 | 13 | 138 | 312 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Keski-Suomi | Mellersta Finland | Saarijärven-Viitasaaren seutukunta | N_A | Kyyjärvi | N_A | Suomi | N_A | 1 | 98794.5410722 | 466690207.501\n133 | 2 | 4 | 13 | 133 | 249 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Keski-Suomi | Mellersta Finland | Keuruun seutukunta | N_A | Keuruu | N_A | Suomi | N_A | 2 | 229735.101154 | 1432606911.52\n134 | 3 | 3 | 10 | 101 | 623 | Itä-Suomi | Östra Finland | Itä-Suomen aluehallintovirasto | Regionförvaltningsverket i Östra Finland | Etelä-Savo | Södra Savolax | Mikkelin seutukunta | N_A | Puumala | N_A | Suomi | N_A | 1 | 211143.207118 | 1233283987.93\n135 | 3 | 3 | 10 | 101 | 507 | Itä-Suomi | Östra Finland | Itä-Suomen aluehallintovirasto | Regionförvaltningsverket i Östra Finland | Etelä-Savo | Södra Savolax | Mikkelin seutukunta | N_A | Mäntyharju | N_A | Suomi | N_A | 1 | 261316.177063 | 1212013654.06\n136 | 3 | 3 | 10 | 101 | 696 | Itä-Suomi | Östra Finland | Itä-Suomen aluehallintovirasto | Regionförvaltningsverket i Östra Finland | Etelä-Savo | Södra Savolax | Mikkelin seutukunta | N_A | Ristiina | N_A | Suomi | N_A | 1 | 147195.768684 | 741722563.696\n137 | 2 | 2 | 04 | 041 | 319 | Länsi-Suomi | Västra Finland | Lounais-Suomen aluehallintovirasto | Regionförvaltningsverket i Sydvästra Finland | Satakunta | Satakunta | Rauman seutukunta | N_A | Köyliö | Kjulo | Suomi | Ruotsi | 1 | 81981.4182465 | 259127873.786\n138 | 1 | 2 | 02 | 023 | 680 | Etelä-Suomi | Södra Finland | Lounais-Suomen aluehallintovirasto | Regionförvaltningsverket i Sydvästra Finland | Varsinais-Suomi | Egentliga Finland | Turun seutukunta | N_A | Raisio | Reso | Suomi | Ruotsi | 2 | 34372.6735312 | 49811953.9932\n139 | 1 | 2 | 02 | 023 | 529 | Etelä-Suomi | Södra Finland | Lounais-Suomen aluehallintovirasto | Regionförvaltningsverket i Sydvästra Finland | Varsinais-Suomi | Egentliga Finland | Turun seutukunta | N_A | Naantali | Nådendal | Suomi | Ruotsi | 2 | 384581.357975 | 253085535.088\n140 | 4 | 5 | 17 | 177 | 563 | Pohjois-Suomi | Norra Finland | Pohjois-Suomen aluehallintovirasto | Regionförvaltningsverket i Norra Finland | Pohjois-Pohjanmaa | Norra Österbotten | Ylivieskan seutukunta | N_A | Oulainen | N_A | Suomi | N_A | 2 | 123954.815471 | 596233159.443\n141 | 4 | 5 | 17 | 175 | 071 | Pohjois-Suomi | Norra Finland | Pohjois-Suomen aluehallintovirasto | Regionförvaltningsverket i Norra Finland | Pohjois-Pohjanmaa | Norra Österbotten | Haapaveden-Siikalatvan seutukunta | N_A | Haapavesi | N_A | Suomi | N_A | 2 | 184754.478472 | 1085865917.13\n142 | 1 | 1 | 08 | 082 | 075 | Etelä-Suomi | Södra Finland | Etelä-Suomen aluehallintovirasto | Regionförvaltningsverket i Södra Finland | Kymenlaakso | Kymmenedalen | Kotkan-Haminan seutukunta | N_A | Hamina | Fredrikshamn | Suomi | Ruotsi | 2 | 211874.08857 | 619468116.104\n143 | 1 | 1 | 08 | 082 | 285 | Etelä-Suomi | Södra Finland | Etelä-Suomen aluehallintovirasto | Regionförvaltningsverket i Södra Finland | Kymenlaakso | Kymmenedalen | Kotkan-Haminan seutukunta | N_A | Kotka | N_A | Suomi | N_A | 2 | 172560.842311 | 261619498.335\n144 | 1 | 1 | 01 | 011 | 927 | Etelä-Suomi | Södra Finland | Etelä-Suomen aluehallintovirasto | Regionförvaltningsverket i Södra Finland | Uusimaa | Nyland | Helsingin seutukunta | N_A | Vihti | Vichtis | Suomi | Ruotsi | 1 | 132229.843695 | 568211945.884\n145 | 1 | 1 | 01 | 011 | 092 | Etelä-Suomi | Södra Finland | Etelä-Suomen aluehallintovirasto | Regionförvaltningsverket i Södra Finland | Uusimaa | Nyland | Helsingin seutukunta | N_A | Vantaa | Vanda | Suomi | Ruotsi | 2 | 97722.5411441 | 241101077.649\n146 | 1 | 1 | 01 | 011 | 049 | Etelä-Suomi | Södra Finland | Etelä-Suomen aluehallintovirasto | Regionförvaltningsverket i Södra Finland | Uusimaa | Nyland | Helsingin seutukunta | N_A | Espoo | Esbo | Suomi | Ruotsi | 2 | 116814.878745 | 330696400.62\n147 | 1 | 1 | 01 | 011 | 257 | Etelä-Suomi | Södra Finland | Etelä-Suomen aluehallintovirasto | Regionförvaltningsverket i Södra Finland | Uusimaa | Nyland | Helsingin seutukunta | N_A | Kirkkonummi | Kyrkslätt | Suomi | Ruotsi | 1 | 153000.106588 | 388091101.447\n148 | 1 | 1 | 01 | 011 | 091 | Etelä-Suomi | Södra Finland | Etelä-Suomen aluehallintovirasto | Regionförvaltningsverket i Södra Finland | Uusimaa | Nyland | Helsingin seutukunta | N_A | Helsinki | Helsingfors | Suomi | Ruotsi | 2 | 171981.288418 | 201723273.789\n149 | 1 | 1 | 01 | 011 | 235 | Etelä-Suomi | Södra Finland | Etelä-Suomen aluehallintovirasto | Regionförvaltningsverket i Södra Finland | Uusimaa | Nyland | Helsingin seutukunta | N_A | Kauniainen | Grankulla | Suomi | Ruotsi | 2 | 10721.6574128 | 6657074.30409\n150 | 4 | 6 | 19 | 197 | 148 | Pohjois-Suomi | Norra Finland | Lapin aluehallintovirasto | Regionförvaltningsverket i Lappland | Lappi | Lappland | Pohjois-Lapin seutukunta | N_A | Inari | Enare | Suomi | Ruotsi | 1 | 599811.814692 | 17284004834.8\n151 | 4 | 6 | 19 | 196 | 047 | Pohjois-Suomi | Norra Finland | Lapin aluehallintovirasto | Regionförvaltningsverket i Lappland | Lappi | Lappland | Tunturi-Lapin seutukunta | N_A | Enontekiö | Enontekis | Suomi | Ruotsi | 1 | 584329.300781 | 8348439777.33\n152 | 4 | 6 | 19 | 196 | 498 | Pohjois-Suomi | Norra Finland | Lapin aluehallintovirasto | Regionförvaltningsverket i Lappland | Lappi | Lappland | Tunturi-Lapin seutukunta | N_A | Muonio | N_A | Suomi | N_A | 1 | 247562.106013 | 2004868063.07\n153 | 4 | 5 | 17 | 173 | 889 | Pohjois-Suomi | Norra Finland | Pohjois-Suomen aluehallintovirasto | Regionförvaltningsverket i Norra Finland | Pohjois-Pohjanmaa | Norra Österbotten | Oulunkaaren seutukunta | N_A | Utajärvi | N_A | Suomi | N_A | 1 | 291624.965667 | 1720034792.01\n154 | 4 | 5 | 17 | 171 | 494 | Pohjois-Suomi | Norra Finland | Pohjois-Suomen aluehallintovirasto | Regionförvaltningsverket i Norra Finland | Pohjois-Pohjanmaa | Norra Österbotten | Oulun seutukunta | N_A | Muhos | N_A | Suomi | N_A | 1 | 217035.723721 | 802011184.402\n155 | 4 | 5 | 17 | 171 | 859 | Pohjois-Suomi | Norra Finland | Pohjois-Suomen aluehallintovirasto | Regionförvaltningsverket i Norra Finland | Pohjois-Pohjanmaa | Norra Österbotten | Oulun seutukunta | N_A | Tyrnävä | N_A | Suomi | N_A | 1 | 148036.914998 | 497553886.231\n156 | 4 | 5 | 17 | 175 | 791 | Pohjois-Suomi | Norra Finland | Pohjois-Suomen aluehallintovirasto | Regionförvaltningsverket i Norra Finland | Pohjois-Pohjanmaa | Norra Österbotten | Haapaveden-Siikalatvan seutukunta | N_A | Siikalatva | N_A | Suomi | N_A | 1 | 264959.560361 | 2231358905.69\n157 | 3 | 3 | 11 | 115 | 686 | Itä-Suomi | Östra Finland | Itä-Suomen aluehallintovirasto | Regionförvaltningsverket i Östra Finland | Pohjois-Savo | Norra Savolax | Sisä-Savon seutukunta | N_A | Rautalampi | N_A | Suomi | N_A | 1 | 152257.101271 | 758685989.38\n158 | 3 | 3 | 11 | 113 | 174 | Itä-Suomi | Östra Finland | Itä-Suomen aluehallintovirasto | Regionförvaltningsverket i Östra Finland | Pohjois-Savo | Norra Savolax | Koillis-Savon seutukunta | N_A | Juankoski | N_A | Suomi | N_A | 2 | 142813.193925 | 590006039.814\n159 | 3 | 3 | 12 | 122 | 146 | Itä-Suomi | Östra Finland | Itä-Suomen aluehallintovirasto | Regionförvaltningsverket i Östra Finland | Pohjois-Karjala | Norra Karelen | Joensuun seutukunta | N_A | Ilomantsi | Ilomants | Suomi | Ruotsi | 1 | 253116.638484 | 3163634830.97\n160 | 3 | 3 | 11 | 113 | 204 | Itä-Suomi | Östra Finland | Itä-Suomen aluehallintovirasto | Regionförvaltningsverket i Östra Finland | Pohjois-Savo | Norra Savolax | Koillis-Savon seutukunta | N_A | Kaavi | N_A | Suomi | N_A | 1 | 141877.730362 | 786208309.775\n161 | 3 | 3 | 12 | 122 | 276 | Itä-Suomi | Östra Finland | Itä-Suomen aluehallintovirasto | Regionförvaltningsverket i Östra Finland | Pohjois-Karjala | Norra Karelen | Joensuun seutukunta | N_A | Kontiolahti | N_A | Suomi | N_A | 1 | 167863.059097 | 1029071461.91\n162 | 3 | 3 | 11 | 112 | 297 | Itä-Suomi | Östra Finland | Itä-Suomen aluehallintovirasto | Regionförvaltningsverket i Östra Finland | Pohjois-Savo | Norra Savolax | Kuopion seutukunta | N_A | Kuopio | N_A | Suomi | N_A | 2 | 277352.428265 | 1726277865.03\n163 | 3 | 3 | 11 | 112 | 227 | Itä-Suomi | Östra Finland | Itä-Suomen aluehallintovirasto | Regionförvaltningsverket i Östra Finland | Pohjois-Savo | Norra Savolax | Kuopion seutukunta | N_A | Karttula | N_A | Suomi | N_A | 1 | 116518.171113 | 586940001.593\n164 | 3 | 3 | 11 | 113 | 857 | Itä-Suomi | Östra Finland | Itä-Suomen aluehallintovirasto | Regionförvaltningsverket i Östra Finland | Pohjois-Savo | Norra Savolax | Koillis-Savon seutukunta | N_A | Tuusniemi | N_A | Suomi | N_A | 1 | 160060.42722 | 699681294.066\n165 | 3 | 3 | 11 | 115 | 778 | Itä-Suomi | Östra Finland | Itä-Suomen aluehallintovirasto | Regionförvaltningsverket i Östra Finland | Pohjois-Savo | Norra Savolax | Sisä-Savon seutukunta | N_A | Suonenjoki | N_A | Suomi | N_A | 2 | 190909.851087 | 860402569.608\n166 | 3 | 3 | 12 | 122 | 426 | Itä-Suomi | Östra Finland | Itä-Suomen aluehallintovirasto | Regionförvaltningsverket i Östra Finland | Pohjois-Karjala | Norra Karelen | Joensuun seutukunta | N_A | Liperi | N_A | Suomi | N_A | 1 | 168654.114855 | 1159991453.02\n167 | 3 | 3 | 12 | 122 | 167 | Itä-Suomi | Östra Finland | Itä-Suomen aluehallintovirasto | Regionförvaltningsverket i Östra Finland | Pohjois-Karjala | Norra Karelen | Joensuun seutukunta | N_A | Joensuu | N_A | Suomi | N_A | 2 | 355876.1955 | 2743319910.56\n168 | 3 | 3 | 11 | 114 | 420 | Itä-Suomi | Östra Finland | Itä-Suomen aluehallintovirasto | Regionförvaltningsverket i Östra Finland | Pohjois-Savo | Norra Savolax | Varkauden seutukunta | N_A | Leppävirta | N_A | Suomi | N_A | 1 | 228044.771251 | 1517199172.92\n169 | 3 | 3 | 10 | 103 | 090 | Itä-Suomi | Östra Finland | Itä-Suomen aluehallintovirasto | Regionförvaltningsverket i Östra Finland | Etelä-Savo | Södra Savolax | Savonlinnan seutukunta | N_A | Heinävesi | N_A | Suomi | N_A | 1 | 211142.213682 | 1318521557.03\n170 | 3 | 3 | 12 | 124 | 848 | Itä-Suomi | Östra Finland | Itä-Suomen aluehallintovirasto | Regionförvaltningsverket i Östra Finland | Pohjois-Karjala | Norra Karelen | Keski-Karjalan seutukunta | N_A | Tohmajärvi | N_A | Suomi | N_A | 1 | 159437.061935 | 892948164.809\n171 | 3 | 3 | 12 | 124 | 707 | Itä-Suomi | Östra Finland | Itä-Suomen aluehallintovirasto | Regionförvaltningsverket i Östra Finland | Pohjois-Karjala | Norra Karelen | Keski-Karjalan seutukunta | N_A | Rääkkylä | N_A | Suomi | N_A | 1 | 131729.023681 | 702830592.158\n172 | 3 | 3 | 11 | 114 | 915 | Itä-Suomi | Östra Finland | Itä-Suomen aluehallintovirasto | Regionförvaltningsverket i Östra Finland | Pohjois-Savo | Norra Savolax | Varkauden seutukunta | N_A | Varkaus | N_A | Suomi | N_A | 2 | 151373.380481 | 522709661.184\n173 | 3 | 3 | 10 | 105 | 171 | Itä-Suomi | Östra Finland | Itä-Suomen aluehallintovirasto | Regionförvaltningsverket i Östra Finland | Etelä-Savo | Södra Savolax | Pieksämäen seutukunta | N_A | Joroinen | Jorois | Suomi | Ruotsi | 1 | 157564.616159 | 710563172.618\n174 | 3 | 3 | 12 | 124 | 260 | Itä-Suomi | Östra Finland | Itä-Suomen aluehallintovirasto | Regionförvaltningsverket i Östra Finland | Pohjois-Karjala | Norra Karelen | Keski-Karjalan seutukunta | N_A | Kitee | N_A | Suomi | N_A | 2 | 198815.783225 | 1140189639.34\n175 | 3 | 3 | 10 | 105 | 681 | Itä-Suomi | Östra Finland | Itä-Suomen aluehallintovirasto | Regionförvaltningsverket i Östra Finland | Etelä-Savo | Södra Savolax | Pieksämäen seutukunta | N_A | Rantasalmi | N_A | Suomi | N_A | 1 | 179275.209622 | 927594537.954\n176 | 3 | 3 | 10 | 103 | 740 | Itä-Suomi | Östra Finland | Itä-Suomen aluehallintovirasto | Regionförvaltningsverket i Östra Finland | Etelä-Savo | Södra Savolax | Savonlinnan seutukunta | N_A | Savonlinna | Nyslott | Suomi | Ruotsi | 2 | 483898.872702 | 1980395198.73\n177 | 3 | 3 | 10 | 103 | 246 | Itä-Suomi | Östra Finland | Itä-Suomen aluehallintovirasto | Regionförvaltningsverket i Östra Finland | Etelä-Savo | Södra Savolax | Savonlinnan seutukunta | N_A | Kerimäki | N_A | Suomi | N_A | 1 | 181466.589829 | 875665621.978\n178 | 3 | 3 | 12 | 124 | 248 | Itä-Suomi | Östra Finland | Itä-Suomen aluehallintovirasto | Regionförvaltningsverket i Östra Finland | Pohjois-Karjala | Norra Karelen | Keski-Karjalan seutukunta | N_A | Kesälahti | N_A | Suomi | N_A | 1 | 147645.028242 | 581228490.952\n179 | 3 | 3 | 10 | 103 | 618 | Itä-Suomi | Östra Finland | Itä-Suomen aluehallintovirasto | Regionförvaltningsverket i Östra Finland | Etelä-Savo | Södra Savolax | Savonlinnan seutukunta | N_A | Punkaharju | N_A | Suomi | N_A | 1 | 188894.284029 | 751000349.631\n180 | 1 | 1 | 09 | 093 | 580 | Etelä-Suomi | Södra Finland | Etelä-Suomen aluehallintovirasto | Regionförvaltningsverket i Södra Finland | Etelä-Karjala | Södra Karelen | Imatran seutukunta | N_A | Parikkala | N_A | Suomi | N_A | 1 | 146292.489913 | 760182664.597\n181 | 2 | 2 | 04 | 043 | 886 | Länsi-Suomi | Västra Finland | Lounais-Suomen aluehallintovirasto | Regionförvaltningsverket i Sydvästra Finland | Satakunta | Satakunta | Porin seutukunta | N_A | Ulvila | Ulvsby | Suomi | Ruotsi | 2 | 96226.0582669 | 423928887.165\n182 | 1 | 1 | 09 | 093 | 700 | Etelä-Suomi | Södra Finland | Etelä-Suomen aluehallintovirasto | Regionförvaltningsverket i Södra Finland | Etelä-Karjala | Södra Karelen | Imatran seutukunta | N_A | Ruokolahti | N_A | Suomi | N_A | 1 | 206697.23045 | 1215675321.45\n183 | 1 | 1 | 09 | 093 | 689 | Etelä-Suomi | Södra Finland | Etelä-Suomen aluehallintovirasto | Regionförvaltningsverket i Södra Finland | Etelä-Karjala | Södra Karelen | Imatran seutukunta | N_A | Rautjärvi | N_A | Suomi | N_A | 1 | 101709.756609 | 400043823.904\n184 | 2 | 2 | 04 | 043 | 079 | Länsi-Suomi | Västra Finland | Lounais-Suomen aluehallintovirasto | Regionförvaltningsverket i Sydvästra Finland | Satakunta | Satakunta | Porin seutukunta | N_A | Harjavalta | N_A | Suomi | N_A | 2 | 63230.7409995 | 126872528.121\n185 | 2 | 2 | 04 | 043 | 531 | Länsi-Suomi | Västra Finland | Lounais-Suomen aluehallintovirasto | Regionförvaltningsverket i Sydvästra Finland | Satakunta | Satakunta | Porin seutukunta | N_A | Nakkila | N_A | Suomi | N_A | 1 | 73318.6944152 | 184855123.961\n186 | 2 | 2 | 04 | 043 | 102 | Länsi-Suomi | Västra Finland | Lounais-Suomen aluehallintovirasto | Regionförvaltningsverket i Sydvästra Finland | Satakunta | Satakunta | Porin seutukunta | N_A | Huittinen | N_A | Suomi | N_A | 2 | 134659.876019 | 540246367.637\n187 | 2 | 4 | 06 | 068 | 619 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Pirkanmaa | Birkaland | Lounais-Pirkanmaan seutukunta | N_A | Punkalaidun | N_A | Suomi | N_A | 1 | 112320.423313 | 366876557.057\n188 | 1 | 2 | 02 | 025 | 430 | Etelä-Suomi | Södra Finland | Lounais-Suomen aluehallintovirasto | Regionförvaltningsverket i Sydvästra Finland | Varsinais-Suomi | Egentliga Finland | Loimaan seutukunta | N_A | Loimaa | N_A | Suomi | N_A | 2 | 169189.332454 | 863107292.298\n189 | 1 | 1 | 05 | 053 | 103 | Etelä-Suomi | Södra Finland | Etelä-Suomen aluehallintovirasto | Regionförvaltningsverket i Södra Finland | Kanta-Häme | Egentliga Tavastland | Forssan seutukunta | N_A | Humppila | N_A | Suomi | N_A | 1 | 59606.1377157 | 147293570.133\n190 | 1 | 1 | 05 | 053 | 169 | Etelä-Suomi | Södra Finland | Etelä-Suomen aluehallintovirasto | Regionförvaltningsverket i Södra Finland | Kanta-Häme | Egentliga Tavastland | Forssan seutukunta | N_A | Jokioinen | Jockis | Suomi | Ruotsi | 1 | 68091.4132906 | 182109158.564\n191 | 1 | 1 | 05 | 053 | 981 | Etelä-Suomi | Södra Finland | Etelä-Suomen aluehallintovirasto | Regionförvaltningsverket i Södra Finland | Kanta-Häme | Egentliga Tavastland | Forssan seutukunta | N_A | Ypäjä | N_A | Suomi | N_A | 1 | 63333.204184 | 182791125.812\n192 | 1 | 2 | 02 | 025 | 284 | Etelä-Suomi | Södra Finland | Lounais-Suomen aluehallintovirasto | Regionförvaltningsverket i Sydvästra Finland | Varsinais-Suomi | Egentliga Finland | Loimaan seutukunta | N_A | Koski Tl | N_A | Suomi | N_A | 1 | 64800.278196 | 190335755.978\n193 | 1 | 2 | 02 | 022 | 761 | Etelä-Suomi | Södra Finland | Lounais-Suomen aluehallintovirasto | Regionförvaltningsverket i Sydvästra Finland | Varsinais-Suomi | Egentliga Finland | Salon seutukunta | N_A | Somero | N_A | Suomi | N_A | 2 | 153368.414576 | 698432056.896\n194 | 1 | 2 | 02 | 025 | 480 | Etelä-Suomi | Södra Finland | Lounais-Suomen aluehallintovirasto | Regionförvaltningsverket i Sydvästra Finland | Varsinais-Suomi | Egentliga Finland | Loimaan seutukunta | N_A | Marttila | N_A | Suomi | N_A | 1 | 63394.2838075 | 196501748.312\n195 | 1 | 2 | 02 | 025 | 838 | Etelä-Suomi | Södra Finland | Lounais-Suomen aluehallintovirasto | Regionförvaltningsverket i Sydvästra Finland | Varsinais-Suomi | Egentliga Finland | Loimaan seutukunta | N_A | Tarvasjoki | N_A | Suomi | N_A | 1 | 47183.5574791 | 102678793.307\n196 | 4 | 5 | 17 | 171 | 255 | Pohjois-Suomi | Norra Finland | Pohjois-Suomen aluehallintovirasto | Regionförvaltningsverket i Norra Finland | Pohjois-Pohjanmaa | Norra Österbotten | Oulun seutukunta | N_A | Kiiminki | N_A | Suomi | N_A | 1 | 81406.804089 | 336289957.651\n197 | 4 | 5 | 17 | 177 | 208 | Pohjois-Suomi | Norra Finland | Pohjois-Suomen aluehallintovirasto | Regionförvaltningsverket i Norra Finland | Pohjois-Pohjanmaa | Norra Österbotten | Ylivieskan seutukunta | N_A | Kalajoki | N_A | Suomi | N_A | 2 | 213326.525801 | 919498694.6\n198 | 4 | 5 | 17 | 177 | 483 | Pohjois-Suomi | Norra Finland | Pohjois-Suomen aluehallintovirasto | Regionförvaltningsverket i Norra Finland | Pohjois-Pohjanmaa | Norra Österbotten | Ylivieskan seutukunta | N_A | Merijärvi | N_A | Suomi | N_A | 1 | 113891.234352 | 231689198.61\n199 | 4 | 5 | 17 | 177 | 009 | Pohjois-Suomi | Norra Finland | Pohjois-Suomen aluehallintovirasto | Regionförvaltningsverket i Norra Finland | Pohjois-Pohjanmaa | Norra Österbotten | Ylivieskan seutukunta | N_A | Alavieska | N_A | Suomi | N_A | 1 | 87318.7479663 | 254460565.016\n200 | 4 | 4 | 16 | 162 | 272 | Pohjois-Suomi | Norra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Keski-Pohjanmaa | Mellersta Österbotten | Kokkolan seutukunta | N_A | Kokkola | Karleby | Suomi | Ruotsi | 2 | 379976.225618 | 1453051979.24\n201 | 2 | 4 | 15 | 154 | 440 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Pohjanmaa | Österbotten | Jakobstadsregionen | Jakobstadsregionen | Larsmo | Luoto | Ruotsi | Suomi | 1 | 176126.239686 | 103090495.748\n202 | 2 | 4 | 15 | 154 | 288 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Pohjanmaa | Österbotten | Jakobstadsregionen | Jakobstadsregionen | Kronoby | Kruunupyy | Ruotsi | Suomi | 1 | 204378.340999 | 737325095.491\n203 | 4 | 4 | 16 | 161 | 924 | Pohjois-Suomi | Norra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Keski-Pohjanmaa | Mellersta Österbotten | Kaustisen seutukunta | N_A | Veteli | Vetil | Suomi | Ruotsi | 1 | 103815.055804 | 520142333.315\n204 | 2 | 4 | 14 | 146 | 052 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Etelä-Pohjanmaa | Södra Österbotten | Järviseudun seutukunta | N_A | Evijärvi | N_A | Suomi | N_A | 1 | 91941.5327614 | 390161114.574\n205 | 2 | 4 | 15 | 151 | 152 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Pohjanmaa | Österbotten | Kyrönmaan seutukunta | N_A | Isokyrö | Storkyro | Suomi | Ruotsi | 1 | 102543.77179 | 357567300.04\n206 | 2 | 4 | 14 | 142 | 408 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Etelä-Pohjanmaa | Södra Österbotten | Seinäjoen seutukunta | N_A | Lapua | Lappo | Suomi | Ruotsi | 2 | 137596.990242 | 752740444.292\n207 | 2 | 4 | 15 | 152 | 280 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Pohjanmaa | Österbotten | Vaasan seutukunta | N_A | Korsnäs | N_A | Ruotsi | N_A | 1 | 139275.99118 | 213649615.165\n208 | 2 | 4 | 14 | 142 | 145 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Etelä-Pohjanmaa | Södra Österbotten | Seinäjoen seutukunta | N_A | Ilmajoki | N_A | Suomi | N_A | 1 | 122511.752102 | 579473693.016\n209 | 2 | 4 | 14 | 142 | 743 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Etelä-Pohjanmaa | Södra Österbotten | Seinäjoen seutukunta | N_A | Seinäjoki | N_A | Suomi | N_A | 2 | 285380.702225 | 1468096965.23\n210 | 2 | 4 | 15 | 153 | 545 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Pohjanmaa | Österbotten | Sydösterbotten | Sydösterbotten | Närpes | Närpiö | Ruotsi | Suomi | 2 | 280409.557161 | 966479803.63\n211 | 2 | 4 | 14 | 144 | 010 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Etelä-Pohjanmaa | Södra Österbotten | Kuusiokuntien seutukunta | N_A | Alavus | N_A | Suomi | N_A | 2 | 166113.997745 | 835601369.127\n212 | 2 | 4 | 14 | 142 | 164 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Etelä-Pohjanmaa | Södra Österbotten | Seinäjoen seutukunta | N_A | Jalasjärvi | N_A | Suomi | N_A | 1 | 131206.742468 | 830110664.205\n213 | 2 | 4 | 15 | 153 | 287 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Pohjanmaa | Österbotten | Sydösterbotten | Sydösterbotten | Kristinestad | Kristiinankaupunki | Ruotsi | Suomi | 2 | 206864.763976 | 676662718.047\n214 | 2 | 4 | 14 | 141 | 151 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Etelä-Pohjanmaa | Södra Österbotten | Suupohjan seutukunta | N_A | Isojoki | Storå | Suomi | Ruotsi | 1 | 108743.831116 | 647346196.197\n215 | 2 | 2 | 04 | 043 | 484 | Länsi-Suomi | Västra Finland | Lounais-Suomen aluehallintovirasto | Regionförvaltningsverket i Sydvästra Finland | Satakunta | Satakunta | Porin seutukunta | N_A | Merikarvia | Sastmola | Suomi | Ruotsi | 1 | 138365.655701 | 431346497.289\n216 | 2 | 2 | 04 | 044 | 747 | Länsi-Suomi | Västra Finland | Lounais-Suomen aluehallintovirasto | Regionförvaltningsverket i Sydvästra Finland | Satakunta | Satakunta | Pohjois-Satakunnan seutukunta | N_A | Siikainen | N_A | Suomi | N_A | 1 | 98804.2528939 | 489237645.794\n217 | 2 | 2 | 04 | 043 | 608 | Länsi-Suomi | Västra Finland | Lounais-Suomen aluehallintovirasto | Regionförvaltningsverket i Sydvästra Finland | Satakunta | Satakunta | Porin seutukunta | N_A | Pomarkku | Påmark | Suomi | Ruotsi | 1 | 100697.117585 | 332966074.556\n218 | 2 | 2 | 04 | 043 | 609 | Länsi-Suomi | Västra Finland | Lounais-Suomen aluehallintovirasto | Regionförvaltningsverket i Sydvästra Finland | Satakunta | Satakunta | Porin seutukunta | N_A | Pori | Björneborg | Suomi | Ruotsi | 2 | 297539.539441 | 822655346.532\n219 | 2 | 2 | 04 | 043 | 442 | Länsi-Suomi | Västra Finland | Lounais-Suomen aluehallintovirasto | Regionförvaltningsverket i Sydvästra Finland | Satakunta | Satakunta | Porin seutukunta | N_A | Luvia | N_A | Suomi | N_A | 1 | 92556.9267629 | 156749800.166\n220 | 4 | 6 | 19 | 194 | 742 | Pohjois-Suomi | Norra Finland | Lapin aluehallintovirasto | Regionförvaltningsverket i Lappland | Lappi | Lappland | Itä-Lapin seutukunta | N_A | Savukoski | N_A | Suomi | N_A | 1 | 342086.026348 | 6492744818.25\n221 | 4 | 6 | 19 | 194 | 583 | Pohjois-Suomi | Norra Finland | Lapin aluehallintovirasto | Regionförvaltningsverket i Lappland | Lappi | Lappland | Itä-Lapin seutukunta | N_A | Pelkosenniemi | N_A | Suomi | N_A | 1 | 253226.028182 | 1877782579.88\n222 | 4 | 4 | 16 | 162 | 217 | Pohjois-Suomi | Norra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Keski-Pohjanmaa | Mellersta Österbotten | Kokkolan seutukunta | N_A | Kannus | N_A | Suomi | N_A | 2 | 142882.13795 | 467643987.207\n223 | 4 | 5 | 17 | 177 | 746 | Pohjois-Suomi | Norra Finland | Pohjois-Suomen aluehallintovirasto | Regionförvaltningsverket i Norra Finland | Pohjois-Pohjanmaa | Norra Österbotten | Ylivieskan seutukunta | N_A | Sievi | N_A | Suomi | N_A | 1 | 140096.224402 | 804413202.159\n224 | 4 | 4 | 16 | 161 | 849 | Pohjois-Suomi | Norra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Keski-Pohjanmaa | Mellersta Österbotten | Kaustisen seutukunta | N_A | Toholampi | N_A | Suomi | N_A | 1 | 108136.633571 | 617399731.629\n225 | 4 | 4 | 16 | 161 | 236 | Pohjois-Suomi | Norra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Keski-Pohjanmaa | Mellersta Österbotten | Kaustisen seutukunta | N_A | Kaustinen | Kaustby | Suomi | Ruotsi | 1 | 106061.977345 | 363868674.474\n226 | 4 | 4 | 16 | 161 | 421 | Pohjois-Suomi | Norra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Keski-Pohjanmaa | Mellersta Österbotten | Kaustisen seutukunta | N_A | Lestijärvi | N_A | Suomi | N_A | 1 | 113692.419342 | 559382431.331\n227 | 4 | 4 | 16 | 161 | 074 | Pohjois-Suomi | Norra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Keski-Pohjanmaa | Mellersta Österbotten | Kaustisen seutukunta | N_A | Halsua | N_A | Suomi | N_A | 1 | 107950.487274 | 424119707.043\n228 | 4 | 6 | 19 | 192 | 851 | Pohjois-Suomi | Norra Finland | Lapin aluehallintovirasto | Regionförvaltningsverket i Lappland | Lappi | Lappland | Kemi-Tornion seutukunta | N_A | Tornio | Torneå | Suomi | Ruotsi | 2 | 212218.153832 | 1205997406.87\n229 | 4 | 6 | 19 | 191 | 683 | Pohjois-Suomi | Norra Finland | Lapin aluehallintovirasto | Regionförvaltningsverket i Lappland | Lappi | Lappland | Rovaniemen seutukunta | N_A | Ranua | N_A | Suomi | N_A | 1 | 267423.039645 | 3692056679.26\n230 | 4 | 6 | 19 | 192 | 751 | Pohjois-Suomi | Norra Finland | Lapin aluehallintovirasto | Regionförvaltningsverket i Lappland | Lappi | Lappland | Kemi-Tornion seutukunta | N_A | Simo | N_A | Suomi | N_A | 1 | 233456.110184 | 1453705161.94\n231 | 4 | 6 | 19 | 192 | 241 | Pohjois-Suomi | Norra Finland | Lapin aluehallintovirasto | Regionförvaltningsverket i Lappland | Lappi | Lappland | Kemi-Tornion seutukunta | N_A | Keminmaa | N_A | Suomi | N_A | 1 | 133399.280722 | 642303638.356\n232 | 4 | 5 | 17 | 173 | 139 | Pohjois-Suomi | Norra Finland | Pohjois-Suomen aluehallintovirasto | Regionförvaltningsverket i Norra Finland | Pohjois-Pohjanmaa | Norra Österbotten | Oulunkaaren seutukunta | N_A | Ii | N_A | Suomi | N_A | 1 | 260020.578058 | 1541175469.22\n233 | 4 | 6 | 19 | 192 | 240 | Pohjois-Suomi | Norra Finland | Lapin aluehallintovirasto | Regionförvaltningsverket i Lappland | Lappi | Lappland | Kemi-Tornion seutukunta | N_A | Kemi | N_A | Suomi | N_A | 2 | 89545.921109 | 85525638.7576\n234 | 4 | 5 | 17 | 173 | 972 | Pohjois-Suomi | Norra Finland | Pohjois-Suomen aluehallintovirasto | Regionförvaltningsverket i Norra Finland | Pohjois-Pohjanmaa | Norra Österbotten | Oulunkaaren seutukunta | N_A | Yli-Ii | N_A | Suomi | N_A | 1 | 151829.51155 | 839232296.823\n235 | 4 | 5 | 17 | 171 | 425 | Pohjois-Suomi | Norra Finland | Pohjois-Suomen aluehallintovirasto | Regionförvaltningsverket i Norra Finland | Pohjois-Pohjanmaa | Norra Österbotten | Oulun seutukunta | N_A | Liminka | Limingo | Suomi | Ruotsi | 1 | 241973.329954 | 639055119.478\n236 | 4 | 5 | 17 | 174 | 678 | Pohjois-Suomi | Norra Finland | Pohjois-Suomen aluehallintovirasto | Regionförvaltningsverket i Norra Finland | Pohjois-Pohjanmaa | Norra Österbotten | Raahen seutukunta | N_A | Raahe | Brahestad | Suomi | Ruotsi | 2 | 145259.920148 | 542225310.535\n237 | 3 | 5 | 18 | 182 | 785 | Itä-Suomi | Östra Finland | Pohjois-Suomen aluehallintovirasto | Regionförvaltningsverket i Norra Finland | Kainuu | Kajanaland | Kajaanin seutukunta | N_A | Vaala | N_A | Suomi | N_A | 1 | 217802.516956 | 1764635024.84\n238 | 4 | 5 | 17 | 174 | 625 | Pohjois-Suomi | Norra Finland | Pohjois-Suomen aluehallintovirasto | Regionförvaltningsverket i Norra Finland | Pohjois-Pohjanmaa | Norra Österbotten | Raahen seutukunta | N_A | Pyhäjoki | N_A | Suomi | N_A | 1 | 158344.43817 | 552981763.813\n239 | 3 | 5 | 18 | 182 | 697 | Itä-Suomi | Östra Finland | Pohjois-Suomen aluehallintovirasto | Regionförvaltningsverket i Norra Finland | Kainuu | Kajanaland | Kajaanin seutukunta | N_A | Ristijärvi | N_A | Suomi | N_A | 1 | 147505.465823 | 895935374.82\n240 | 3 | 5 | 18 | 182 | 578 | Itä-Suomi | Östra Finland | Pohjois-Suomen aluehallintovirasto | Regionförvaltningsverket i Norra Finland | Kainuu | Kajanaland | Kajaanin seutukunta | N_A | Paltamo | N_A | Suomi | N_A | 1 | 184613.278866 | 1141199118.69\n241 | 4 | 5 | 17 | 174 | 926 | Pohjois-Suomi | Norra Finland | Pohjois-Suomen aluehallintovirasto | Regionförvaltningsverket i Norra Finland | Pohjois-Pohjanmaa | Norra Österbotten | Raahen seutukunta | N_A | Vihanti | N_A | Suomi | N_A | 1 | 99568.9223217 | 468289887.897\n242 | 3 | 5 | 18 | 182 | 765 | Itä-Suomi | Östra Finland | Pohjois-Suomen aluehallintovirasto | Regionförvaltningsverket i Norra Finland | Kainuu | Kajanaland | Kajaanin seutukunta | N_A | Sotkamo | N_A | Suomi | N_A | 1 | 262944.089094 | 2946442189.66\n243 | 3 | 5 | 18 | 182 | 205 | Itä-Suomi | Östra Finland | Pohjois-Suomen aluehallintovirasto | Regionförvaltningsverket i Norra Finland | Kainuu | Kajanaland | Kajaanin seutukunta | N_A | Kajaani | Kajana | Suomi | Ruotsi | 2 | 249566.192035 | 2260158040.88\n244 | 3 | 3 | 11 | 111 | 925 | Itä-Suomi | Östra Finland | Itä-Suomen aluehallintovirasto | Regionförvaltningsverket i Östra Finland | Pohjois-Savo | Norra Savolax | Ylä-Savon seutukunta | N_A | Vieremä | N_A | Suomi | N_A | 1 | 176033.049617 | 972989050.249\n245 | 3 | 3 | 11 | 111 | 762 | Itä-Suomi | Östra Finland | Itä-Suomen aluehallintovirasto | Regionförvaltningsverket i Östra Finland | Pohjois-Savo | Norra Savolax | Ylä-Savon seutukunta | N_A | Sonkajärvi | N_A | Suomi | N_A | 1 | 197729.071432 | 1575230212.4\n246 | 2 | 4 | 15 | 154 | 598 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Pohjanmaa | Österbotten | Jakobstadsregionen | Jakobstadsregionen | Jakobstad | Pietarsaari | Ruotsi | Suomi | 2 | 68515.7706222 | 79909305.4172\n247 | 2 | 4 | 15 | 154 | 893 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Pohjanmaa | Österbotten | Jakobstadsregionen | Jakobstadsregionen | Nykarleby | Uusikaarlepyy | Ruotsi | Suomi | 2 | 249422.070397 | 717068207.93\n248 | 2 | 4 | 15 | 154 | 599 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Pohjanmaa | Österbotten | Jakobstadsregionen | Jakobstadsregionen | Pedersöre | N_A | Ruotsi | N_A | 1 | 166622.016553 | 819907760.872\n249 | 2 | 4 | 15 | 152 | 945 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Pohjanmaa | Österbotten | Vaasan seutukunta | N_A | Vörå-Maxmo | Vöyri-Maksamaa | Ruotsi | Suomi | 1 | 319287.944914 | 535992376.633\n250 | 2 | 4 | 15 | 152 | 499 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Pohjanmaa | Österbotten | Vaasan seutukunta | N_A | Korsholm | Mustasaari | Ruotsi | Suomi | 1 | 522702.761116 | 786659644.937\n251 | 2 | 4 | 15 | 152 | 559 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Pohjanmaa | Österbotten | Vaasan seutukunta | N_A | Oravais | Oravainen | Ruotsi | Suomi | 1 | 130267.13957 | 199817330.767\n252 | 2 | 4 | 15 | 152 | 475 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Pohjanmaa | Österbotten | Vaasan seutukunta | N_A | Malax | Maalahti | Ruotsi | Suomi | 1 | 189187.893305 | 468417862.248\n253 | 2 | 4 | 15 | 152 | 905 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Pohjanmaa | Österbotten | Vaasan seutukunta | N_A | Vaasa | Vasa | Suomi | Ruotsi | 3 | 159789.494344 | 164885446.859\n254 | 2 | 4 | 15 | 151 | 942 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Pohjanmaa | Österbotten | Kyrönmaan seutukunta | N_A | Vähäkyrö | Lillkyro | Suomi | Ruotsi | 1 | 57409.0784242 | 177991257.714\n255 | 3 | 3 | 11 | 115 | 921 | Itä-Suomi | Östra Finland | Itä-Suomen aluehallintovirasto | Regionförvaltningsverket i Östra Finland | Pohjois-Savo | Norra Savolax | Sisä-Savon seutukunta | N_A | Vesanto | N_A | Suomi | N_A | 1 | 127827.725493 | 569170928.319\n256 | 2 | 4 | 13 | 135 | 992 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Keski-Suomi | Mellersta Finland | Äänekosken seutukunta | N_A | Äänekoski | N_A | Suomi | N_A | 2 | 183629.129348 | 1137123999.08\n257 | 2 | 4 | 13 | 138 | 729 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Keski-Suomi | Mellersta Finland | Saarijärven-Viitasaaren seutukunta | N_A | Saarijärvi | N_A | Suomi | N_A | 2 | 217890.793269 | 1421634392.31\n258 | 2 | 4 | 13 | 135 | 275 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Keski-Suomi | Mellersta Finland | Äänekosken seutukunta | N_A | Konnevesi | N_A | Suomi | N_A | 1 | 151693.334964 | 681921608.722\n259 | 2 | 4 | 13 | 131 | 410 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Keski-Suomi | Mellersta Finland | Jyväskylän seutukunta | N_A | Laukaa | N_A | Suomi | N_A | 1 | 173539.048326 | 828055131.032\n260 | 2 | 4 | 13 | 131 | 077 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Keski-Suomi | Mellersta Finland | Jyväskylän seutukunta | N_A | Hankasalmi | N_A | Suomi | N_A | 1 | 161325.935505 | 685532295.264\n261 | 2 | 4 | 13 | 131 | 892 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Keski-Suomi | Mellersta Finland | Jyväskylän seutukunta | N_A | Uurainen | N_A | Suomi | N_A | 1 | 95535.4246465 | 373196796.098\n262 | 3 | 3 | 10 | 105 | 593 | Itä-Suomi | Östra Finland | Itä-Suomen aluehallintovirasto | Regionförvaltningsverket i Östra Finland | Etelä-Savo | Södra Savolax | Pieksämäen seutukunta | N_A | Pieksämäki | N_A | Suomi | N_A | 2 | 290550.215998 | 1836474130.04\n263 | 2 | 4 | 06 | 069 | 702 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Pirkanmaa | Birkaland | Ylä-Pirkanmaan seutukunta | N_A | Ruovesi | N_A | Suomi | N_A | 1 | 158288.167433 | 950816947.135\n264 | 3 | 3 | 10 | 101 | 491 | Itä-Suomi | Östra Finland | Itä-Suomen aluehallintovirasto | Regionförvaltningsverket i Östra Finland | Etelä-Savo | Södra Savolax | Mikkelin seutukunta | N_A | Mikkeli | S:t Michel | Suomi | Ruotsi | 3 | 314908.143418 | 2125837643.68\n265 | 2 | 4 | 13 | 134 | 182 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Keski-Suomi | Mellersta Finland | Jämsän seutukunta | N_A | Jämsä | N_A | Suomi | N_A | 2 | 254381.016684 | 1825982995.5\n266 | 3 | 3 | 10 | 105 | 178 | Itä-Suomi | Östra Finland | Itä-Suomen aluehallintovirasto | Regionförvaltningsverket i Östra Finland | Etelä-Savo | Södra Savolax | Pieksämäen seutukunta | N_A | Juva | N_A | Suomi | N_A | 1 | 223253.939504 | 1347625608.51\n267 | 2 | 4 | 06 | 061 | 143 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Pirkanmaa | Birkaland | Luoteis-Pirkanmaan seutukunta | N_A | Ikaalinen | Ikalis | Suomi | Ruotsi | 2 | 178319.676707 | 838777321.566\n268 | 2 | 4 | 06 | 069 | 177 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Pirkanmaa | Birkaland | Ylä-Pirkanmaan seutukunta | N_A | Juupajoki | N_A | Suomi | N_A | 1 | 78418.5981525 | 274687536.059\n269 | 2 | 4 | 06 | 064 | 562 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Pirkanmaa | Birkaland | Tampereen seutukunta | N_A | Orivesi | N_A | Suomi | N_A | 2 | 195990.835028 | 958849250.538\n270 | 2 | 4 | 06 | 064 | 837 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Pirkanmaa | Birkaland | Tampereen seutukunta | N_A | Tampere | Tammerfors | Suomi | Ruotsi | 2 | 140850.225191 | 683254905.741\n271 | 2 | 4 | 06 | 064 | 980 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Pirkanmaa | Birkaland | Tampereen seutukunta | N_A | Ylöjärvi | N_A | Suomi | N_A | 2 | 242512.595392 | 1327028527.55\n272 | 2 | 4 | 13 | 134 | 291 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Keski-Suomi | Mellersta Finland | Jämsän seutukunta | N_A | Kuhmoinen | N_A | Suomi | N_A | 1 | 172690.215848 | 935888265.729\n273 | 2 | 2 | 04 | 044 | 413 | Länsi-Suomi | Västra Finland | Lounais-Suomen aluehallintovirasto | Regionförvaltningsverket i Sydvästra Finland | Satakunta | Satakunta | Pohjois-Satakunnan seutukunta | N_A | Lavia | N_A | Suomi | N_A | 1 | 94177.4498076 | 355650401.903\n274 | 2 | 4 | 06 | 068 | 790 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Pirkanmaa | Birkaland | Lounais-Pirkanmaan seutukunta | N_A | Sastamala | N_A | Suomi | N_A | 2 | 214567.827762 | 1387748292.49\n275 | 2 | 4 | 06 | 064 | 108 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Pirkanmaa | Birkaland | Tampereen seutukunta | N_A | Hämeenkyrö | Tavastkyro | Suomi | Ruotsi | 1 | 125544.837893 | 506156896.517\n276 | 1 | 1 | 07 | 071 | 781 | Etelä-Suomi | Södra Finland | Etelä-Suomen aluehallintovirasto | Regionförvaltningsverket i Södra Finland | Päijät-Häme | Päijänne-Tavastland | Lahden seutukunta | N_A | Sysmä | N_A | Suomi | N_A | 1 | 175976.4978 | 935577126.323\n277 | 2 | 4 | 06 | 064 | 211 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Pirkanmaa | Birkaland | Tampereen seutukunta | N_A | Kangasala | N_A | Suomi | N_A | 1 | 132873.197616 | 655436129.011\n278 | 2 | 2 | 04 | 044 | 254 | Länsi-Suomi | Västra Finland | Lounais-Suomen aluehallintovirasto | Regionförvaltningsverket i Sydvästra Finland | Satakunta | Satakunta | Pohjois-Satakunnan seutukunta | N_A | Kiikoinen | N_A | Suomi | N_A | 1 | 55471.1867953 | 144615662.279\n279 | 2 | 4 | 06 | 064 | 536 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Pirkanmaa | Birkaland | Tampereen seutukunta | N_A | Nokia | N_A | Suomi | N_A | 2 | 102496.200434 | 346875330.292\n280 | 2 | 4 | 06 | 062 | 289 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Pirkanmaa | Birkaland | Kaakkois-Pirkanmaan seutukunta | N_A | Kuhmalahti | N_A | Suomi | N_A | 1 | 97384.651129 | 220753253.775\n281 | 2 | 2 | 04 | 043 | 271 | Länsi-Suomi | Västra Finland | Lounais-Suomen aluehallintovirasto | Regionförvaltningsverket i Sydvästra Finland | Satakunta | Satakunta | Porin seutukunta | N_A | Kokemäki | Kumo | Suomi | Ruotsi | 2 | 113420.446503 | 531586085.07\n282 | 2 | 4 | 06 | 062 | 635 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Pirkanmaa | Birkaland | Kaakkois-Pirkanmaan seutukunta | N_A | Pälkäne | N_A | Suomi | N_A | 1 | 145112.044381 | 737840952.692\n283 | 1 | 1 | 07 | 071 | 576 | Etelä-Suomi | Södra Finland | Etelä-Suomen aluehallintovirasto | Regionförvaltningsverket i Södra Finland | Päijät-Häme | Päijänne-Tavastland | Lahden seutukunta | N_A | Padasjoki | N_A | Suomi | N_A | 1 | 123954.070932 | 729379483.583\n284 | 2 | 2 | 04 | 041 | 051 | Länsi-Suomi | Västra Finland | Lounais-Suomen aluehallintovirasto | Regionförvaltningsverket i Sydvästra Finland | Satakunta | Satakunta | Rauman seutukunta | N_A | Eurajoki | Euroåminne | Suomi | Ruotsi | 1 | 130298.506148 | 339589162.183\n285 | 2 | 4 | 06 | 064 | 418 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Pirkanmaa | Birkaland | Tampereen seutukunta | N_A | Lempäälä | N_A | Suomi | N_A | 1 | 73792.5724791 | 309390094.882\n286 | 2 | 4 | 06 | 064 | 922 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Pirkanmaa | Birkaland | Tampereen seutukunta | N_A | Vesilahti | N_A | Suomi | N_A | 1 | 94752.6549712 | 355510627.061\n287 | 2 | 2 | 04 | 041 | 684 | Länsi-Suomi | Västra Finland | Lounais-Suomen aluehallintovirasto | Regionförvaltningsverket i Sydvästra Finland | Satakunta | Satakunta | Rauman seutukunta | N_A | Rauma | Raumo | Suomi | Ruotsi | 2 | 177607.454849 | 492603820.403\n288 | 2 | 4 | 06 | 063 | 908 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Pirkanmaa | Birkaland | Etelä-Pirkanmaan seutukunta | N_A | Valkeakoski | N_A | Suomi | N_A | 2 | 94402.2320835 | 371342736.434\n289 | 2 | 4 | 06 | 063 | 020 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Pirkanmaa | Birkaland | Etelä-Pirkanmaan seutukunta | N_A | Akaa | N_A | Suomi | N_A | 2 | 69566.8832736 | 115643203.975\n290 | 2 | 4 | 06 | 063 | 887 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Pirkanmaa | Birkaland | Etelä-Pirkanmaan seutukunta | N_A | Urjala | N_A | Suomi | N_A | 1 | 159385.848916 | 504974596.386\n291 | 1 | 1 | 05 | 051 | 082 | Etelä-Suomi | Södra Finland | Etelä-Suomen aluehallintovirasto | Regionförvaltningsverket i Södra Finland | Kanta-Häme | Egentliga Tavastland | Hämeenlinnan seutukunta | N_A | Hattula | N_A | Suomi | N_A | 1 | 122973.064402 | 425953208.23\n292 | 2 | 4 | 06 | 063 | 310 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Pirkanmaa | Birkaland | Etelä-Pirkanmaan seutukunta | N_A | Kylmäkoski | N_A | Suomi | N_A | 1 | 67376.7265934 | 197948202.0\n293 | 1 | 2 | 02 | 024 | 400 | Etelä-Suomi | Södra Finland | Lounais-Suomen aluehallintovirasto | Regionförvaltningsverket i Sydvästra Finland | Varsinais-Suomi | Egentliga Finland | Vakka-Suomen seutukunta | N_A | Laitila | N_A | Suomi | N_A | 2 | 126592.611841 | 545428260.806\n294 | 1 | 2 | 02 | 023 | 503 | Etelä-Suomi | Södra Finland | Lounais-Suomen aluehallintovirasto | Regionförvaltningsverket i Sydvästra Finland | Varsinais-Suomi | Egentliga Finland | Turun seutukunta | N_A | Mynämäki | N_A | Suomi | N_A | 1 | 125828.5858 | 521870799.034\n295 | 1 | 2 | 02 | 025 | 636 | Etelä-Suomi | Södra Finland | Lounais-Suomen aluehallintovirasto | Regionförvaltningsverket i Sydvästra Finland | Varsinais-Suomi | Egentliga Finland | Loimaan seutukunta | N_A | Pöytyä | N_A | Suomi | N_A | 1 | 130209.793547 | 774104672.875\n296 | 1 | 2 | 02 | 024 | 918 | Etelä-Suomi | Södra Finland | Lounais-Suomen aluehallintovirasto | Regionförvaltningsverket i Sydvästra Finland | Varsinais-Suomi | Egentliga Finland | Vakka-Suomen seutukunta | N_A | Vehmaa | N_A | Suomi | N_A | 1 | 70770.0449088 | 194619319.752\n297 | 1 | 2 | 02 | 023 | 538 | Etelä-Suomi | Södra Finland | Lounais-Suomen aluehallintovirasto | Regionförvaltningsverket i Sydvästra Finland | Varsinais-Suomi | Egentliga Finland | Turun seutukunta | N_A | Nousiainen | Nousis | Suomi | Ruotsi | 1 | 78162.0046126 | 207343576.459\n298 | 1 | 2 | 02 | 023 | 853 | Etelä-Suomi | Södra Finland | Lounais-Suomen aluehallintovirasto | Regionförvaltningsverket i Sydvästra Finland | Varsinais-Suomi | Egentliga Finland | Turun seutukunta | N_A | Turku | Åbo | Suomi | Ruotsi | 3 | 185130.911932 | 235500601.029\n299 | 1 | 2 | 02 | 025 | 019 | Etelä-Suomi | Södra Finland | Lounais-Suomen aluehallintovirasto | Regionförvaltningsverket i Sydvästra Finland | Varsinais-Suomi | Egentliga Finland | Loimaan seutukunta | N_A | Aura | N_A | Suomi | N_A | 1 | 63745.9194048 | 96181280.7207\n300 | 1 | 2 | 02 | 024 | 833 | Etelä-Suomi | Södra Finland | Lounais-Suomen aluehallintovirasto | Regionförvaltningsverket i Sydvästra Finland | Varsinais-Suomi | Egentliga Finland | Vakka-Suomen seutukunta | N_A | Taivassalo | Tövsala | Suomi | Ruotsi | 1 | 141390.194727 | 128525833.981\n301 | 1 | 2 | 02 | 023 | 423 | Etelä-Suomi | Södra Finland | Lounais-Suomen aluehallintovirasto | Regionförvaltningsverket i Sydvästra Finland | Varsinais-Suomi | Egentliga Finland | Turun seutukunta | N_A | Lieto | Lundo | Suomi | Ruotsi | 1 | 81641.0913817 | 199022448.017\n302 | 1 | 2 | 02 | 023 | 481 | Etelä-Suomi | Södra Finland | Lounais-Suomen aluehallintovirasto | Regionförvaltningsverket i Sydvästra Finland | Varsinais-Suomi | Egentliga Finland | Turun seutukunta | N_A | Masku | N_A | Suomi | N_A | 1 | 130054.548103 | 182846755.477\n303 | 1 | 2 | 02 | 023 | 704 | Etelä-Suomi | Södra Finland | Lounais-Suomen aluehallintovirasto | Regionförvaltningsverket i Sydvästra Finland | Varsinais-Suomi | Egentliga Finland | Turun seutukunta | N_A | Rusko | N_A | Suomi | N_A | 1 | 68575.8503416 | 127749041.87\n304 | 4 | 6 | 19 | 197 | 758 | Pohjois-Suomi | Norra Finland | Lapin aluehallintovirasto | Regionförvaltningsverket i Lappland | Lappi | Lappland | Pohjois-Lapin seutukunta | N_A | Sodankylä | N_A | Suomi | N_A | 1 | 526868.310831 | 12405989113.3\n305 | 4 | 6 | 19 | 196 | 261 | Pohjois-Suomi | Norra Finland | Lapin aluehallintovirasto | Regionförvaltningsverket i Lappland | Lappi | Lappland | Tunturi-Lapin seutukunta | N_A | Kittilä | N_A | Suomi | N_A | 1 | 379056.196078 | 8257505195.55\n306 | 4 | 6 | 19 | 194 | 732 | Pohjois-Suomi | Norra Finland | Lapin aluehallintovirasto | Regionförvaltningsverket i Lappland | Lappi | Lappland | Itä-Lapin seutukunta | N_A | Salla | N_A | Suomi | N_A | 1 | 450878.080111 | 5861192460.49\n307 | 4 | 6 | 19 | 196 | 273 | Pohjois-Suomi | Norra Finland | Lapin aluehallintovirasto | Regionförvaltningsverket i Lappland | Lappi | Lappland | Tunturi-Lapin seutukunta | N_A | Kolari | N_A | Suomi | N_A | 1 | 242068.983212 | 2551987018.12\n308 | 4 | 6 | 19 | 191 | 698 | Pohjois-Suomi | Norra Finland | Lapin aluehallintovirasto | Regionförvaltningsverket i Lappland | Lappi | Lappland | Rovaniemen seutukunta | N_A | Rovaniemi | N_A | Suomi | N_A | 3 | 431596.955004 | 8009035368.6\n309 | 4 | 6 | 19 | 194 | 320 | Pohjois-Suomi | Norra Finland | Lapin aluehallintovirasto | Regionförvaltningsverket i Lappland | Lappi | Lappland | Itä-Lapin seutukunta | N_A | Kemijärvi | N_A | Suomi | N_A | 2 | 260707.663283 | 3927315937.12\n310 | 4 | 6 | 19 | 194 | 614 | Pohjois-Suomi | Norra Finland | Lapin aluehallintovirasto | Regionförvaltningsverket i Lappland | Lappi | Lappland | Itä-Lapin seutukunta | N_A | Posio | N_A | Suomi | N_A | 1 | 319554.841583 | 3543878414.82\n311 | 4 | 5 | 17 | 178 | 305 | Pohjois-Suomi | Norra Finland | Pohjois-Suomen aluehallintovirasto | Regionförvaltningsverket i Norra Finland | Pohjois-Pohjanmaa | Norra Österbotten | Koillismaan seutukunta | N_A | Kuusamo | N_A | Suomi | N_A | 2 | 385537.857051 | 5794887889.96\n312 | 4 | 5 | 17 | 173 | 615 | Pohjois-Suomi | Norra Finland | Pohjois-Suomen aluehallintovirasto | Regionförvaltningsverket i Norra Finland | Pohjois-Pohjanmaa | Norra Österbotten | Oulunkaaren seutukunta | N_A | Pudasjärvi | N_A | Suomi | N_A | 2 | 356899.835109 | 5867346261.41\n313 | 4 | 5 | 17 | 178 | 832 | Pohjois-Suomi | Norra Finland | Pohjois-Suomen aluehallintovirasto | Regionförvaltningsverket i Norra Finland | Pohjois-Pohjanmaa | Norra Österbotten | Koillismaan seutukunta | N_A | Taivalkoski | N_A | Suomi | N_A | 1 | 240745.762042 | 2647285873.26\n314 | 3 | 5 | 18 | 181 | 777 | Itä-Suomi | Östra Finland | Pohjois-Suomen aluehallintovirasto | Regionförvaltningsverket i Norra Finland | Kainuu | Kajanaland | Kehys-Kainuu seutukunta | N_A | Suomussalmi | N_A | Suomi | N_A | 1 | 398935.295146 | 5847471140.27\n315 | 3 | 3 | 10 | 101 | 213 | Itä-Suomi | Östra Finland | Itä-Suomen aluehallintovirasto | Regionförvaltningsverket i Östra Finland | Etelä-Savo | Södra Savolax | Mikkelin seutukunta | N_A | Kangasniemi | N_A | Suomi | N_A | 1 | 223797.987871 | 1328551724.53\n316 | 2 | 4 | 13 | 131 | 850 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Keski-Suomi | Mellersta Finland | Jyväskylän seutukunta | N_A | Toivakka | N_A | Suomi | N_A | 1 | 118785.435669 | 411171961.913\n317 | 2 | 4 | 13 | 132 | 172 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Keski-Suomi | Mellersta Finland | Joutsan seutukunta | N_A | Joutsa | N_A | Suomi | N_A | 1 | 185872.239853 | 1060971224.41\n318 | 2 | 4 | 13 | 132 | 435 | Länsi-Suomi | Västra Finland | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland | Keski-Suomi | Mellersta Finland | Joutsan seutukunta | N_A | Luhanka | N_A | Suomi | N_A | 1 | 83153.9311495 | 313862894.655\n319 | 3 | 3 | 10 | 101 | 097 | Itä-Suomi | Östra Finland | Itä-Suomen aluehallintovirasto | Regionförvaltningsverket i Östra Finland | Etelä-Savo | Södra Savolax | Mikkelin seutukunta | N_A | Hirvensalmi | N_A | Suomi | N_A | 1 | 175201.757935 | 745333086.941\n320 | 1 | 1 | 07 | 071 | 081 | Etelä-Suomi | Södra Finland | Etelä-Suomen aluehallintovirasto | Regionförvaltningsverket i Södra Finland | Päijät-Häme | Päijänne-Tavastland | Lahden seutukunta | N_A | Hartola | N_A | Suomi | N_A | 1 | 175202.378704 | 672966889.639\n321 | 1 | 2 | 02 | 024 | 631 | Etelä-Suomi | Södra Finland | Lounais-Suomen aluehallintovirasto | Regionförvaltningsverket i Sydvästra Finland | Varsinais-Suomi | Egentliga Finland | Vakka-Suomen seutukunta | N_A | Pyhäranta | N_A | Suomi | N_A | 1 | 104008.51042 | 140316824.237\n322 | 1 | 2 | 02 | 024 | 895 | Etelä-Suomi | Södra Finland | Lounais-Suomen aluehallintovirasto | Regionförvaltningsverket i Sydvästra Finland | Varsinais-Suomi | Egentliga Finland | Vakka-Suomen seutukunta | N_A | Uusikaupunki | Nystad | Suomi | Ruotsi | 2 | 349082.431525 | 461135484.834\n323 | 1 | 2 | 02 | 024 | 304 | Etelä-Suomi | Södra Finland | Lounais-Suomen aluehallintovirasto | Regionförvaltningsverket i Sydvästra Finland | Varsinais-Suomi | Egentliga Finland | Vakka-Suomen seutukunta | N_A | Kustavi | Gustavs | Suomi | Ruotsi | 1 | 199403.191424 | 131555840.004\n324 | 5 | 7 | 21 | 213 | 035 | Ahvenanmaa | Åland | Ahvenanmaan valtionvirasto | Statens ämbetsverk på Åland | Ahvenanmaan maakunta | Landskapet Åland | Ålands skärgård | Ålands skärgård | Brändö | N_A | Ruotsi | N_A | 1 | 147265.775978 | 44478083.6932\n325 | 5 | 7 | 21 | 213 | 295 | Ahvenanmaa | Åland | Ahvenanmaan valtionvirasto | Statens ämbetsverk på Åland | Ahvenanmaan maakunta | Landskapet Åland | Ålands skärgård | Ålands skärgård | Kumlinge | N_A | Ruotsi | N_A | 1 | 153280.13148 | 70395080.0988\n326 | 5 | 7 | 21 | 212 | 736 | Ahvenanmaa | Åland | Ahvenanmaan valtionvirasto | Statens ämbetsverk på Åland | Ahvenanmaan maakunta | Landskapet Åland | Ålands landsbygd | Ålands landsbygd | Saltvik | N_A | Ruotsi | N_A | 1 | 166475.412137 | 139652640.865\n327 | 5 | 7 | 21 | 212 | 076 | Ahvenanmaa | Åland | Ahvenanmaan valtionvirasto | Statens ämbetsverk på Åland | Ahvenanmaan maakunta | Landskapet Åland | Ålands landsbygd | Ålands landsbygd | Hammarland | N_A | Ruotsi | N_A | 1 | 145757.350047 | 116524801.804\n328 | 5 | 7 | 21 | 212 | 043 | Ahvenanmaa | Åland | Ahvenanmaan valtionvirasto | Statens ämbetsverk på Åland | Ahvenanmaan maakunta | Landskapet Åland | Ålands landsbygd | Ålands landsbygd | Eckerö | N_A | Ruotsi | N_A | 1 | 114555.269097 | 97584163.6711\n329 | 5 | 7 | 21 | 213 | 941 | Ahvenanmaa | Åland | Ahvenanmaan valtionvirasto | Statens ämbetsverk på Åland | Ahvenanmaan maakunta | Landskapet Åland | Ålands skärgård | Ålands skärgård | Vårdö | N_A | Ruotsi | N_A | 1 | 183177.301722 | 70869887.2963\n330 | 5 | 7 | 21 | 212 | 771 | Ahvenanmaa | Åland | Ahvenanmaan valtionvirasto | Statens ämbetsverk på Åland | Ahvenanmaan maakunta | Landskapet Åland | Ålands landsbygd | Ålands landsbygd | Sund | N_A | Ruotsi | N_A | 1 | 88820.2239689 | 116133265.705\n331 | 5 | 7 | 21 | 212 | 170 | Ahvenanmaa | Åland | Ahvenanmaan valtionvirasto | Statens ämbetsverk på Åland | Ahvenanmaan maakunta | Landskapet Åland | Ålands landsbygd | Ålands landsbygd | Jomala | N_A | Ruotsi | N_A | 1 | 93062.4360845 | 141148802.205\n332 | 5 | 7 | 21 | 213 | 766 | Ahvenanmaa | Åland | Ahvenanmaan valtionvirasto | Statens ämbetsverk på Åland | Ahvenanmaan maakunta | Landskapet Åland | Ålands skärgård | Ålands skärgård | Sottunga | N_A | Ruotsi | N_A | 1 | 26164.2762468 | 12098696.599\n333 | 5 | 7 | 21 | 212 | 438 | Ahvenanmaa | Åland | Ahvenanmaan valtionvirasto | Statens ämbetsverk på Åland | Ahvenanmaan maakunta | Landskapet Åland | Ålands landsbygd | Ålands landsbygd | Lumparland | N_A | Ruotsi | N_A | 1 | 47415.6470058 | 31543214.9374\n334 | 5 | 7 | 21 | 212 | 417 | Ahvenanmaa | Åland | Ahvenanmaan valtionvirasto | Statens ämbetsverk på Åland | Ahvenanmaan maakunta | Landskapet Åland | Ålands landsbygd | Ålands landsbygd | Lemland | N_A | Ruotsi | N_A | 1 | 99955.9310141 | 97381954.1702\n335 | 5 | 7 | 21 | 211 | 478 | Ahvenanmaa | Åland | Ahvenanmaan valtionvirasto | Statens ämbetsverk på Åland | Ahvenanmaan maakunta | Landskapet Åland | Mariehamns stad | Mariehamns stad | Mariehamn | Maarianhamina | Ruotsi | Suomi | 3 | 25336.0658547 | 11093911.6076\n336 | 5 | 7 | 21 | 213 | 062 | Ahvenanmaa | Åland | Ahvenanmaan valtionvirasto | Statens ämbetsverk på Åland | Ahvenanmaan maakunta | Landskapet Åland | Ålands skärgård | Ålands skärgård | Föglö | N_A | Ruotsi | N_A | 1 | 165449.87282 | 83881740.0074\n337 | 4 | 5 | 17 | 171 | 084 | Pohjois-Suomi | Norra Finland | Pohjois-Suomen aluehallintovirasto | Regionförvaltningsverket i Norra Finland | Pohjois-Pohjanmaa | Norra Österbotten | Oulun seutukunta | N_A | Haukipudas | N_A | Suomi | N_A | 1 | 176341.432902 | 443681131.493\n338 | 4 | 5 | 17 | 171 | 072 | Pohjois-Suomi | Norra Finland | Pohjois-Suomen aluehallintovirasto | Regionförvaltningsverket i Norra Finland | Pohjois-Pohjanmaa | Norra Österbotten | Oulun seutukunta | N_A | Hailuoto | Karlö | Suomi | Ruotsi | 1 | 88249.3807708 | 194599522.189\n339 | 4 | 5 | 17 | 171 | 564 | Pohjois-Suomi | Norra Finland | Pohjois-Suomen aluehallintovirasto | Regionförvaltningsverket i Norra Finland | Pohjois-Pohjanmaa | Norra Österbotten | Oulun seutukunta | N_A | Oulu | Uleåborg | Suomi | Ruotsi | 3 | 259696.796212 | 1443633455.19\n340 | 4 | 5 | 17 | 171 | 567 | Pohjois-Suomi | Norra Finland | Pohjois-Suomen aluehallintovirasto | Regionförvaltningsverket i Norra Finland | Pohjois-Pohjanmaa | Norra Österbotten | Oulun seutukunta | N_A | Oulunsalo | N_A | Suomi | N_A | 1 | 62305.1059738 | 79820324.2097\n341 | 4 | 5 | 17 | 174 | 748 | Pohjois-Suomi | Norra Finland | Pohjois-Suomen aluehallintovirasto | Regionförvaltningsverket i Norra Finland | Pohjois-Pohjanmaa | Norra Österbotten | Raahen seutukunta | N_A | Siikajoki | N_A | Suomi | N_A | 1 | 192757.147464 | 1055735611.71\n342 | 4 | 5 | 17 | 171 | 436 | Pohjois-Suomi | Norra Finland | Pohjois-Suomen aluehallintovirasto | Regionförvaltningsverket i Norra Finland | Pohjois-Pohjanmaa | Norra Österbotten | Oulun seutukunta | N_A | Lumijoki | N_A | Suomi | N_A | 1 | 63737.6575513 | 211681003.422\n343 | 4 | 5 | 17 | 171 | 244 | Pohjois-Suomi | Norra Finland | Pohjois-Suomen aluehallintovirasto | Regionförvaltningsverket i Norra Finland | Pohjois-Pohjanmaa | Norra Österbotten | Oulun seutukunta | N_A | Kempele | N_A | Suomi | N_A | 1 | 42289.5457665 | 111421889.093"
+    },
+    {
+      "row_count": 4,
+      "fields_summary": {
+        "Hallintorajat": {
+          "type": "categorical",
+          "unique_values": 4,
+          "values": [
+            "Mittakaava / scale: 1:1 000 000",
+            "Koordinaattijärjestelmä / coordinate system: ETRS-TM35FIN",
+            "Aineiston kuvaus / Dataset description: http://urn.fi/urn:nbn:fi:csc-kata00001000000000000325",
+            "Maanmittauslaitos / National Land Survey of Finland"
+          ]
+        }
+      },
+      "descriptive_overview": "Hallintorajat (categorical)",
+      "raw_dataset_text": "Maanmittauslaitos / National Land Survey of Finland | nan | nan | nan | nan\nMittakaava / scale: 1:1 000 000 | nan | nan | nan | nan\nKoordinaattijärjestelmä / coordinate system: ETRS-TM35FIN | nan | nan | nan | nan\nAineiston kuvaus / Dataset description: http://urn.fi/urn:nbn:fi:csc-kata00001000000000000325 | nan | nan | nan | nan"
+    }
+  ]
+}

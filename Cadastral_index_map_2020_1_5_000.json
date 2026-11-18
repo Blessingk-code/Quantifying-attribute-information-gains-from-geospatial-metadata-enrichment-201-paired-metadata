@@ -1,0 +1,453 @@
+{
+  "@context": "https://www.w3.org/ns/dcat.jsonld",
+  "@type": "dcat:Dataset",
+  "identifier": "urn:nbn:fi:att:96791c65-6653-43c6-9f65-4a8af29dc79f",
+  "title": {
+    "en": "Cadastral index map, 2020, 1:5 000"
+  },
+  "description": {
+    "en": "The cadastral registry which is kept by the National Land Survey and a little over 70 municipalities (local detailed plan areas only) is one of the basic registries of our society. In the cadastral registry, which covers the entire area of the country, independent units of land ownership, i.e. properties and other registry units and transfers of unseparated parcels and interests in joint property units, have been individualised.\r\n\r\nThe cadastral registry location data is presented on the cadastral index map, which shows property and other register unit boundaries, boundary markers and property identifiers. \r\n\r\nProperty boundaries are marked with boundary markers in the terrain when forming a property. Boundary markers indicate the boundary lines of a property. A boundary can also be a natural terrain formation, such as a shore, drainage ditch or road. In sparsely populated areas, boundary markers have been defined with an accuracy of approx. 20 cm by GPS measurement since 2005. Coordinates of earlier boundary markers have been defined either by image measurement from aerial photographs or by digitalisation from maps. The accuracy of these boundary markers varies in general between 50 cm and 4 m, over 4 m in some cases. The accuracy of a boundary marker is indicated by its RSK value.\r\n\r\nIn population centres, the Cadastral index map is mainly based on the municipality's large scale base map material in the plans, the property data of which has been updated.\r\n\r\nThere can be inaccuracies in the location data of the Cadastral index map, because there are no exact coordinates for all boundary markers. The area of a register unit is shown in more detail in the cadastral survey documents (available in the archives of the keeper of the cadastral registry) and the terrain than on the Cadastral index map.\r\n\r\nCoordinate Reference System: ETRS89 / ETRS-TM35FIN (EPSG:3067)"
+  },
+  "creator": "National Land Survey of Finland",
+  "publisher": "CSC – IT Center for Science",
+  "issued": "2023-08-14",
+  "modified": "2026-03-16T11:58:09Z",
+  "license": "http://uri.suomi.fi/codelist/fairdata/license/code/CC-BY-4.0",
+  "accessRights": {
+    "id": "d01ac02c-fc70-4c68-9434-8383cb693ff0",
+    "url": "http://uri.suomi.fi/codelist/fairdata/access_type/code/open",
+    "in_scheme": "http://uri.suomi.fi/codelist/fairdata/access_type",
+    "pref_label": {
+      "en": "Open",
+      "fi": "Avoin"
+    }
+  },
+  "keyword": [
+    "Paituli",
+    "real property"
+  ],
+  "temporal": {
+    "start": "2020-01-01",
+    "end": "2020-12-31"
+  },
+  "spatial": {
+    "west": 18.975376137127352,
+    "south": 59.416477043138734,
+    "east": 31.625441104344663,
+    "north": 70.1428624741335
+  },
+  "access": [
+    {
+      "filename": "Kiinteistörekisterikartta, 2020, 1:5 000",
+      "downloadURL": "https://paituli.csc.fi/download.html?data_id=mml_kiinteisto_5k_2020_shp_euref"
+    },
+    {
+      "filename": "Kiinteistörekisterikartta kuvaus (MML, 2020)"
+    },
+    {
+      "filename": "Cadastral index map, description (NLS, 2020)"
+    },
+    {
+      "filename": "Fastighetsregisterkarta beskrivning (NLS, 2020)"
+    },
+    {
+      "filename": "Kiinteistörekisterikartta, shape (MML, 2017)"
+    },
+    {
+      "filename": "Kiinteistörekisterikartan rajamerkkien sijaintitarkkuus (MML, 2012)"
+    },
+    {
+      "filename": "Files in folder view",
+      "accessURL": "https://www.nic.funet.fi/index/geodata/mml/kiinteisto/2020/"
+    }
+  ],
+  "enrichment": [
+    {
+      "row_count": 11245,
+      "observations": [
+        {
+          "label": "X5213D",
+          "data_id": "mml_kiinteisto_5k_2020_shp_euref",
+          "path": "mml/kiinteisto/2020/X52/X5213D.zip"
+        },
+        {
+          "label": "X5213F",
+          "data_id": "mml_kiinteisto_5k_2020_shp_euref",
+          "path": "mml/kiinteisto/2020/X52/X5213F.zip"
+        },
+        {
+          "label": "X5211G",
+          "data_id": "mml_kiinteisto_5k_2020_shp_euref",
+          "path": "mml/kiinteisto/2020/X52/X5211G.zip"
+        },
+        {
+          "label": "X5213A",
+          "data_id": "mml_kiinteisto_5k_2020_shp_euref",
+          "path": "mml/kiinteisto/2020/X52/X5213A.zip"
+        },
+        {
+          "label": "X5213C",
+          "data_id": "mml_kiinteisto_5k_2020_shp_euref",
+          "path": "mml/kiinteisto/2020/X52/X5213C.zip"
+        },
+        {
+          "label": "X5213E",
+          "data_id": "mml_kiinteisto_5k_2020_shp_euref",
+          "path": "mml/kiinteisto/2020/X52/X5213E.zip"
+        },
+        {
+          "label": "X5122D",
+          "data_id": "mml_kiinteisto_5k_2020_shp_euref",
+          "path": "mml/kiinteisto/2020/X51/X5122D.zip"
+        },
+        {
+          "label": "X5122F",
+          "data_id": "mml_kiinteisto_5k_2020_shp_euref",
+          "path": "mml/kiinteisto/2020/X51/X5122F.zip"
+        },
+        {
+          "label": "X5122H",
+          "data_id": "mml_kiinteisto_5k_2020_shp_euref",
+          "path": "mml/kiinteisto/2020/X51/X5122H.zip"
+        },
+        {
+          "label": "X5124B",
+          "data_id": "mml_kiinteisto_5k_2020_shp_euref",
+          "path": "mml/kiinteisto/2020/X51/X5124B.zip"
+        },
+        {
+          "label": "X5124D",
+          "data_id": "mml_kiinteisto_5k_2020_shp_euref",
+          "path": "mml/kiinteisto/2020/X51/X5124D.zip"
+        },
+        {
+          "label": "X5124F",
+          "data_id": "mml_kiinteisto_5k_2020_shp_euref",
+          "path": "mml/kiinteisto/2020/X51/X5124F.zip"
+        },
+        {
+          "label": "X4344A",
+          "data_id": "mml_kiinteisto_5k_2020_shp_euref",
+          "path": "mml/kiinteisto/2020/X43/X4344A.zip"
+        },
+        {
+          "label": "X4344C",
+          "data_id": "mml_kiinteisto_5k_2020_shp_euref",
+          "path": "mml/kiinteisto/2020/X43/X4344C.zip"
+        },
+        {
+          "label": "X4344E",
+          "data_id": "mml_kiinteisto_5k_2020_shp_euref",
+          "path": "mml/kiinteisto/2020/X43/X4344E.zip"
+        },
+        {
+          "label": "X4344G",
+          "data_id": "mml_kiinteisto_5k_2020_shp_euref",
+          "path": "mml/kiinteisto/2020/X43/X4344G.zip"
+        },
+        {
+          "label": "X5122A",
+          "data_id": "mml_kiinteisto_5k_2020_shp_euref",
+          "path": "mml/kiinteisto/2020/X51/X5122A.zip"
+        },
+        {
+          "label": "X5122C",
+          "data_id": "mml_kiinteisto_5k_2020_shp_euref",
+          "path": "mml/kiinteisto/2020/X51/X5122C.zip"
+        },
+        {
+          "label": "X5122E",
+          "data_id": "mml_kiinteisto_5k_2020_shp_euref",
+          "path": "mml/kiinteisto/2020/X51/X5122E.zip"
+        },
+        {
+          "label": "X5122G",
+          "data_id": "mml_kiinteisto_5k_2020_shp_euref",
+          "path": "mml/kiinteisto/2020/X51/X5122G.zip"
+        },
+        {
+          "label": "X5124A",
+          "data_id": "mml_kiinteisto_5k_2020_shp_euref",
+          "path": "mml/kiinteisto/2020/X51/X5124A.zip"
+        },
+        {
+          "label": "X5124C",
+          "data_id": "mml_kiinteisto_5k_2020_shp_euref",
+          "path": "mml/kiinteisto/2020/X51/X5124C.zip"
+        },
+        {
+          "label": "X5124E",
+          "data_id": "mml_kiinteisto_5k_2020_shp_euref",
+          "path": "mml/kiinteisto/2020/X51/X5124E.zip"
+        },
+        {
+          "label": "X5124G",
+          "data_id": "mml_kiinteisto_5k_2020_shp_euref",
+          "path": "mml/kiinteisto/2020/X51/X5124G.zip"
+        },
+        {
+          "label": "X4343B",
+          "data_id": "mml_kiinteisto_5k_2020_shp_euref",
+          "path": "mml/kiinteisto/2020/X43/X4343B.zip"
+        },
+        {
+          "label": "X4343D",
+          "data_id": "mml_kiinteisto_5k_2020_shp_euref",
+          "path": "mml/kiinteisto/2020/X43/X4343D.zip"
+        },
+        {
+          "label": "X4343F",
+          "data_id": "mml_kiinteisto_5k_2020_shp_euref",
+          "path": "mml/kiinteisto/2020/X43/X4343F.zip"
+        },
+        {
+          "label": "X4343H",
+          "data_id": "mml_kiinteisto_5k_2020_shp_euref",
+          "path": "mml/kiinteisto/2020/X43/X4343H.zip"
+        },
+        {
+          "label": "X5121B",
+          "data_id": "mml_kiinteisto_5k_2020_shp_euref",
+          "path": "mml/kiinteisto/2020/X51/X5121B.zip"
+        },
+        {
+          "label": "X5121D",
+          "data_id": "mml_kiinteisto_5k_2020_shp_euref",
+          "path": "mml/kiinteisto/2020/X51/X5121D.zip"
+        },
+        {
+          "label": "X5121F",
+          "data_id": "mml_kiinteisto_5k_2020_shp_euref",
+          "path": "mml/kiinteisto/2020/X51/X5121F.zip"
+        },
+        {
+          "label": "X5121H",
+          "data_id": "mml_kiinteisto_5k_2020_shp_euref",
+          "path": "mml/kiinteisto/2020/X51/X5121H.zip"
+        },
+        {
+          "label": "X5123B",
+          "data_id": "mml_kiinteisto_5k_2020_shp_euref",
+          "path": "mml/kiinteisto/2020/X51/X5123B.zip"
+        },
+        {
+          "label": "X5123D",
+          "data_id": "mml_kiinteisto_5k_2020_shp_euref",
+          "path": "mml/kiinteisto/2020/X51/X5123D.zip"
+        },
+        {
+          "label": "X5123F",
+          "data_id": "mml_kiinteisto_5k_2020_shp_euref",
+          "path": "mml/kiinteisto/2020/X51/X5123F.zip"
+        },
+        {
+          "label": "X5123H",
+          "data_id": "mml_kiinteisto_5k_2020_shp_euref",
+          "path": "mml/kiinteisto/2020/X51/X5123H.zip"
+        },
+        {
+          "label": "X5141B",
+          "data_id": "mml_kiinteisto_5k_2020_shp_euref",
+          "path": "mml/kiinteisto/2020/X51/X5141B.zip"
+        },
+        {
+          "label": "X4341G",
+          "data_id": "mml_kiinteisto_5k_2020_shp_euref",
+          "path": "mml/kiinteisto/2020/X43/X4341G.zip"
+        },
+        {
+          "label": "X4343A",
+          "data_id": "mml_kiinteisto_5k_2020_shp_euref",
+          "path": "mml/kiinteisto/2020/X43/X4343A.zip"
+        },
+        {
+          "label": "X4343C",
+          "data_id": "mml_kiinteisto_5k_2020_shp_euref",
+          "path": "mml/kiinteisto/2020/X43/X4343C.zip"
+        },
+        {
+          "label": "X4343E",
+          "data_id": "mml_kiinteisto_5k_2020_shp_euref",
+          "path": "mml/kiinteisto/2020/X43/X4343E.zip"
+        },
+        {
+          "label": "X4343G",
+          "data_id": "mml_kiinteisto_5k_2020_shp_euref",
+          "path": "mml/kiinteisto/2020/X43/X4343G.zip"
+        },
+        {
+          "label": "X5121A",
+          "data_id": "mml_kiinteisto_5k_2020_shp_euref",
+          "path": "mml/kiinteisto/2020/X51/X5121A.zip"
+        },
+        {
+          "label": "X5121C",
+          "data_id": "mml_kiinteisto_5k_2020_shp_euref",
+          "path": "mml/kiinteisto/2020/X51/X5121C.zip"
+        },
+        {
+          "label": "X5121E",
+          "data_id": "mml_kiinteisto_5k_2020_shp_euref",
+          "path": "mml/kiinteisto/2020/X51/X5121E.zip"
+        },
+        {
+          "label": "X5121G",
+          "data_id": "mml_kiinteisto_5k_2020_shp_euref",
+          "path": "mml/kiinteisto/2020/X51/X5121G.zip"
+        },
+        {
+          "label": "X5123A",
+          "data_id": "mml_kiinteisto_5k_2020_shp_euref",
+          "path": "mml/kiinteisto/2020/X51/X5123A.zip"
+        },
+        {
+          "label": "X5123C",
+          "data_id": "mml_kiinteisto_5k_2020_shp_euref",
+          "path": "mml/kiinteisto/2020/X51/X5123C.zip"
+        },
+        {
+          "label": "X5123E",
+          "data_id": "mml_kiinteisto_5k_2020_shp_euref",
+          "path": "mml/kiinteisto/2020/X51/X5123E.zip"
+        },
+        {
+          "label": "X5123G",
+          "data_id": "mml_kiinteisto_5k_2020_shp_euref",
+          "path": "mml/kiinteisto/2020/X51/X5123G.zip"
+        }
+      ],
+      "fields_summary": {
+        "label": {
+          "type": "categorical",
+          "unique_values": 11245,
+          "values": [
+            "X5213D",
+            "X5213F",
+            "X5211G",
+            "X5213A",
+            "X5213C",
+            "X5213E",
+            "X5122D",
+            "X5122F",
+            "X5122H",
+            "X5124B",
+            "X5124D",
+            "X5124F",
+            "X4344A",
+            "X4344C",
+            "X4344E",
+            "X4344G",
+            "X5122A",
+            "X5122C",
+            "X5122E",
+            "X5122G",
+            "X5124A",
+            "X5124C",
+            "X5124E",
+            "X5124G",
+            "X4343B",
+            "X4343D",
+            "X4343F",
+            "X4343H",
+            "X5121B",
+            "X5121D",
+            "X5121F",
+            "X5121H",
+            "X5123B",
+            "X5123D",
+            "X5123F",
+            "X5123H",
+            "X5141B",
+            "X4341G",
+            "X4343A",
+            "X4343C",
+            "X4343E",
+            "X4343G",
+            "X5121A",
+            "X5121C",
+            "X5121E",
+            "X5121G",
+            "X5123A",
+            "X5123C",
+            "X5123E",
+            "X5123G"
+          ]
+        },
+        "data_id": {
+          "type": "categorical",
+          "unique_values": 1,
+          "values": [
+            "mml_kiinteisto_5k_2020_shp_euref"
+          ]
+        },
+        "path": {
+          "type": "categorical",
+          "unique_values": 11245,
+          "values": [
+            "mml/kiinteisto/2020/X52/X5213D.zip",
+            "mml/kiinteisto/2020/X52/X5213F.zip",
+            "mml/kiinteisto/2020/X52/X5211G.zip",
+            "mml/kiinteisto/2020/X52/X5213A.zip",
+            "mml/kiinteisto/2020/X52/X5213C.zip",
+            "mml/kiinteisto/2020/X52/X5213E.zip",
+            "mml/kiinteisto/2020/X51/X5122D.zip",
+            "mml/kiinteisto/2020/X51/X5122F.zip",
+            "mml/kiinteisto/2020/X51/X5122H.zip",
+            "mml/kiinteisto/2020/X51/X5124B.zip",
+            "mml/kiinteisto/2020/X51/X5124D.zip",
+            "mml/kiinteisto/2020/X51/X5124F.zip",
+            "mml/kiinteisto/2020/X43/X4344A.zip",
+            "mml/kiinteisto/2020/X43/X4344C.zip",
+            "mml/kiinteisto/2020/X43/X4344E.zip",
+            "mml/kiinteisto/2020/X43/X4344G.zip",
+            "mml/kiinteisto/2020/X51/X5122A.zip",
+            "mml/kiinteisto/2020/X51/X5122C.zip",
+            "mml/kiinteisto/2020/X51/X5122E.zip",
+            "mml/kiinteisto/2020/X51/X5122G.zip",
+            "mml/kiinteisto/2020/X51/X5124A.zip",
+            "mml/kiinteisto/2020/X51/X5124C.zip",
+            "mml/kiinteisto/2020/X51/X5124E.zip",
+            "mml/kiinteisto/2020/X51/X5124G.zip",
+            "mml/kiinteisto/2020/X43/X4343B.zip",
+            "mml/kiinteisto/2020/X43/X4343D.zip",
+            "mml/kiinteisto/2020/X43/X4343F.zip",
+            "mml/kiinteisto/2020/X43/X4343H.zip",
+            "mml/kiinteisto/2020/X51/X5121B.zip",
+            "mml/kiinteisto/2020/X51/X5121D.zip",
+            "mml/kiinteisto/2020/X51/X5121F.zip",
+            "mml/kiinteisto/2020/X51/X5121H.zip",
+            "mml/kiinteisto/2020/X51/X5123B.zip",
+            "mml/kiinteisto/2020/X51/X5123D.zip",
+            "mml/kiinteisto/2020/X51/X5123F.zip",
+            "mml/kiinteisto/2020/X51/X5123H.zip",
+            "mml/kiinteisto/2020/X51/X5141B.zip",
+            "mml/kiinteisto/2020/X43/X4341G.zip",
+            "mml/kiinteisto/2020/X43/X4343A.zip",
+            "mml/kiinteisto/2020/X43/X4343C.zip",
+            "mml/kiinteisto/2020/X43/X4343E.zip",
+            "mml/kiinteisto/2020/X43/X4343G.zip",
+            "mml/kiinteisto/2020/X51/X5121A.zip",
+            "mml/kiinteisto/2020/X51/X5121C.zip",
+            "mml/kiinteisto/2020/X51/X5121E.zip",
+            "mml/kiinteisto/2020/X51/X5121G.zip",
+            "mml/kiinteisto/2020/X51/X5123A.zip",
+            "mml/kiinteisto/2020/X51/X5123C.zip",
+            "mml/kiinteisto/2020/X51/X5123E.zip",
+            "mml/kiinteisto/2020/X51/X5123G.zip"
+          ]
+        }
+      },
+      "descriptive_overview": "label (categorical), data_id (categorical), path (categorical)",
+      "feature_count": 11245,
+      "geometry_type": "['Polygon']",
+      "crs": "PROJCS[\"ETRS89_TM35FIN_E_N\",GEOGCS[\"ETRS89\",DATUM[\"European_Terrestrial_Reference_System_1989\",SPHEROID[\"GRS 1980\",6378137,298.257222101,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"6258\"]],PRIMEM[\"Greenwich\",0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",27],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "spatial": {
+        "xmin": 56000.0,
+        "ymin": 6600000.0,
+        "xmax": 734000.0,
+        "ymax": 7782000.0
+      },
+      "source_file": "source_0000/cadastral_index_2020.shp"
+    }
+  ]
+}
