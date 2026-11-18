@@ -1,0 +1,153 @@
+{
+  "@context": "https://www.w3.org/ns/dcat.jsonld",
+  "@type": "dcat:Dataset",
+  "identifier": "urn:nbn:fi:csc-kata00001000000000000214",
+  "title": {
+    "en": "Administrative borders, 2009, 1:10 000"
+  },
+  "description": {
+    "en": "Municipality borders, attribute data includes the number and the name of the municipality (fields kunta and NIMI). \r\n\r\nCoordinate Reference System: ETRS89 / ETRS-TM35FIN (EPSG:3067)"
+  },
+  "creator": "National Land Survey of Finland",
+  "publisher": "CSC – IT Center for Science",
+  "issued": "2015-10-08",
+  "modified": "2026-03-16T12:07:34Z",
+  "license": "http://uri.suomi.fi/codelist/fairdata/license/code/CC-BY-4.0",
+  "accessRights": {
+    "id": "d01ac02c-fc70-4c68-9434-8383cb693ff0",
+    "url": "http://uri.suomi.fi/codelist/fairdata/access_type/code/open",
+    "in_scheme": "http://uri.suomi.fi/codelist/fairdata/access_type",
+    "pref_label": {
+      "en": "Open",
+      "fi": "Avoin"
+    }
+  },
+  "keyword": [
+    "Paituli",
+    "municipalities"
+  ],
+  "temporal": {
+    "start": "2009-01-01",
+    "end": "2009-12-31"
+  },
+  "spatial": {
+    "west": 19.083254985245766,
+    "south": 59.45414898973184,
+    "east": 31.586637234595017,
+    "north": 70.09228505156123
+  },
+  "access": [
+    {
+      "filename": "Hallintorajat, 2009, 1:10 000",
+      "downloadURL": "https://paituli.csc.fi/download.html?data_id=mml_hallinto_10k_2009_shape_euref"
+    },
+    {
+      "filename": "Kuntajako aineiston kuvaus (MML, 2016)"
+    },
+    {
+      "filename": "Municipal devision dataset description (MML, 2016)"
+    },
+    {
+      "filename": "Files in folder view",
+      "accessURL": "https://www.nic.funet.fi/index/geodata/mml/hallintorajat_10k/2009/"
+    }
+  ],
+  "enrichment": [
+    {
+      "row_count": 348,
+      "fields_summary": {
+        "kunta": {
+          "type": "numeric",
+          "min": 5.0,
+          "max": 992.0,
+          "mean": 471.5431034482759,
+          "unique_values": 348
+        },
+        "NIMI": {
+          "type": "categorical",
+          "unique_values": 348,
+          "values": [
+            "Kankaanpää",
+            "Kempele",
+            "Merikarvia",
+            "Nousiainen",
+            "Pirkkala",
+            "Sund",
+            "Ii",
+            "Punkaharju",
+            "Närpiö",
+            "Joensuu",
+            "Nastola",
+            "Marttila",
+            "Pälkäne",
+            "Raasepori",
+            "Oulunsalo",
+            "Lapua",
+            "Salla",
+            "Raahe",
+            "Eura",
+            "Soini",
+            "Siikainen",
+            "Konnevesi",
+            "Kemijärvi",
+            "Kokkola",
+            "Sotkamo",
+            "Himanka",
+            "Kirkkonummi",
+            "Puolanka",
+            "Hanko",
+            "Pomarkku",
+            "Viitasaari",
+            "Mäntsälä",
+            "Honkajoki",
+            "Rovaniemi",
+            "Luvia",
+            "Loppi",
+            "Ruotsinpyhtää",
+            "Kemiönsaari",
+            "Laukaa",
+            "Harjavalta",
+            "Lapinlahti",
+            "Rauma",
+            "Uusikaarlepyy",
+            "Padasjoki",
+            "Nilsiä",
+            "Kannus",
+            "Hämeenkyrö",
+            "Heinävesi",
+            "Simo",
+            "Hartola"
+          ]
+        }
+      },
+      "descriptive_overview": "kunta (numeric), NIMI (categorical)",
+      "feature_count": 348,
+      "geometry_type": "['MultiPolygon' 'Polygon']",
+      "crs": "EPSG:3047",
+      "spatial": {
+        "xmin": 61686.15400000011,
+        "ymin": 6605839.562,
+        "xmax": 732907.7230000001,
+        "ymax": 7776450.217
+      },
+      "raw_dataset_text": "10 | Alavus\n102 | Huittinen\n103 | Humppila\n105 | Hyrynsalmi\n106 | Hyvinkää\n108 | Hämeenkyrö\n109 | Hämeenlinna\n111 | Heinola\n139 | Ii\n140 | Iisalmi\n142 | Iitti\n143 | Ikaalinen\n145 | Ilmajoki\n146 | Ilomantsi\n148 | Inari\n149 | Inkoo\n15 | Artjärvi\n151 | Isojoki\n152 | Isokyrö\n153 | Imatra\n16 | Asikkala\n164 | Jalasjärvi\n165 | Janakkala\n167 | Joensuu\n169 | Jokioinen\n170 | Jomala\n171 | Joroinen\n172 | Joutsa\n174 | Juankoski\n176 | Juuka\n177 | Juupajoki\n178 | Juva\n179 | Jyväskylä\n18 | Askola\n181 | Jämijärvi\n182 | Jämsä\n186 | Järvenpää\n19 | Aura\n20 | Akaa\n202 | Kaarina\n204 | Kaavi\n205 | Kajaani\n211 | Kangasala\n213 | Kangasniemi\n214 | Kankaanpää\n216 | Kannonkoski\n217 | Kannus\n218 | Karijoki\n223 | Karjalohja\n224 | Karkkila\n226 | Karstula\n227 | Karttula\n230 | Karvia\n231 | Kaskinen\n232 | Kauhajoki\n233 | Kauhava\n235 | Kauniainen\n236 | Kaustinen\n239 | Keitele\n240 | Kemi\n241 | Keminmaa\n244 | Kempele\n245 | Kerava\n246 | Kerimäki\n248 | Kesälahti\n249 | Keuruu\n250 | Kihniö\n254 | Kiikoinen\n255 | Kiiminki\n256 | Kinnula\n257 | Kirkkonummi\n260 | Kitee\n261 | Kittilä\n263 | Kiuruvesi\n265 | Kivijärvi\n271 | Kokemäki\n272 | Kokkola\n273 | Kolari\n275 | Konnevesi\n276 | Kontiolahti\n280 | Korsnäs\n283 | Hämeenkoski\n284 | Koski Tl\n285 | Kotka\n286 | Kouvola\n287 | Kristiinankaupunki\n288 | Kruunupyy\n289 | Kuhmalahti\n290 | Kuhmo\n291 | Kuhmoinen\n295 | Kumlinge\n297 | Kuopio\n300 | Kuortane\n301 | Kurikka\n304 | Kustavi\n305 | Kuusamo\n309 | Outokumpu\n310 | Kylmäkoski\n312 | Kyyjärvi\n316 | Kärkölä\n317 | Kärsämäki\n318 | Kökar\n319 | Köyliö\n320 | Kemijärvi\n322 | Kemiönsaari\n35 | Brändö\n398 | Lahti\n399 | Laihia\n400 | Laitila\n402 | Lapinlahti\n403 | Lappajärvi\n407 | Lapinjärvi\n408 | Lapua\n410 | Laukaa\n413 | Lavia\n416 | Lemi\n417 | Lemland\n418 | Lempäälä\n420 | Leppävirta\n421 | Lestijärvi\n422 | Lieksa\n423 | Lieto\n425 | Liminka\n426 | Liperi\n43 | Eckerö\n430 | Loimaa\n433 | Loppi\n435 | Luhanka\n436 | Lumijoki\n438 | Lumparland\n440 | Luoto\n441 | Luumäki\n442 | Luvia\n444 | Lohja\n445 | Länsi-Turunmaa\n46 | Enonkoski\n47 | Enontekiö\n475 | Maalahti\n476 | Maaninka\n478 | Maarianhamina - Mariehamn\n480 | Marttila\n481 | Masku\n483 | Merijärvi\n484 | Merikarvia\n489 | Miehikkälä\n49 | Espoo\n491 | Mikkeli\n494 | Muhos\n495 | Multia\n498 | Muonio\n499 | Mustasaari\n5 | Alajärvi\n50 | Eura\n500 | Muurame\n503 | Mynämäki\n504 | Myrskylä\n505 | Mäntsälä\n507 | Mäntyharju\n508 | Mänttä-Vilppula\n51 | Eurajoki\n52 | Evijärvi\n529 | Naantali\n531 | Nakkila\n532 | Nastola\n534 | Nilsiä\n535 | Nivala\n536 | Nokia\n538 | Nousiainen\n540 | Nummi-Pusula\n541 | Nurmes\n543 | Nurmijärvi\n545 | Närpiö\n559 | Oravainen\n560 | Orimattila\n561 | Oripää\n562 | Orivesi\n563 | Oulainen\n564 | Oulu\n567 | Oulunsalo\n576 | Padasjoki\n577 | Paimio\n578 | Paltamo\n580 | Parikkala\n581 | Parkano\n583 | Pelkosenniemi\n584 | Perho\n588 | Pertunmaa\n592 | Petäjävesi\n593 | Pieksämäki\n595 | Pielavesi\n598 | Pietarsaari\n599 | Pedersören kunta\n60 | Finström\n601 | Pihtipudas\n604 | Pirkkala\n607 | Polvijärvi\n608 | Pomarkku\n61 | Forssa\n611 | Pornainen\n614 | Posio\n615 | Pudasjärvi\n616 | Pukkila\n618 | Punkaharju\n619 | Punkalaidun\n62 | Föglö\n620 | Puolanka\n623 | Puumala\n624 | Pyhtää\n625 | Pyhäjoki\n626 | Pyhäjärvi\n630 | Pyhäntä\n631 | Pyhäranta\n635 | Pälkäne\n636 | Pöytyä\n638 | Porvoo\n65 | Geta\n678 | Raahe\n680 | Raisio\n681 | Rantasalmi\n683 | Ranua\n684 | Rauma\n686 | Rautalampi\n687 | Rautavaara\n689 | Rautjärvi\n69 | Haapajärvi\n691 | Reisjärvi\n694 | Riihimäki\n696 | Ristiina\n697 | Ristijärvi\n698 | Rovaniemi\n700 | Ruokolahti\n702 | Ruovesi\n704 | Rusko\n707 | Rääkkylä\n71 | Haapavesi\n710 | Raasepori\n72 | Hailuoto\n729 | Saarijärvi\n732 | Salla\n734 | Salo\n736 | Saltvik\n738 | Sauvo\n739 | Savitaipale\n74 | Halsua\n740 | Savonlinna\n742 | Savukoski\n743 | Seinäjoki\n746 | Sievi\n747 | Siikainen\n748 | Siikajoki\n749 | Siilinjärvi\n75 | Hamina\n751 | Simo\n753 | Sipoo\n755 | Siuntio\n758 | Sodankylä\n759 | Soini\n76 | Hammarland\n761 | Somero\n762 | Sonkajärvi\n765 | Sotkamo\n766 | Sottunga\n768 | Sulkava\n77 | Hankasalmi\n771 | Sund\n775 | Suomenniemi\n777 | Suomussalmi\n778 | Suonenjoki\n78 | Hanko\n781 | Sysmä\n783 | Säkylä\n785 | Vaala\n79 | Harjavalta\n790 | Sastamala\n791 | Siikalatva\n81 | Hartola\n82 | Hattula\n831 | Taipalsaari\n832 | Taivalkoski\n833 | Taivassalo\n834 | Tammela\n837 | Tampere\n838 | Tarvasjoki\n84 | Haukipudas\n844 | Tervo\n845 | Tervola\n846 | Teuva\n848 | Tohmajärvi\n849 | Toholampi\n850 | Toivakka\n851 | Tornio\n853 | Turku\n854 | Pello\n857 | Tuusniemi\n858 | Tuusula\n859 | Tyrnävä\n86 | Hausjärvi\n863 | Töysä\n886 | Ulvila\n887 | Urjala\n889 | Utajärvi\n890 | Utsjoki\n892 | Uurainen\n893 | Uusikaarlepyy\n895 | Uusikaupunki\n9 | Alavieska\n90 | Heinävesi\n905 | Vaasa\n908 | Valkeakoski\n91 | Helsinki\n911 | Valtimo\n915 | Varkaus\n916 | Varpaisjärvi\n918 | Vehmaa\n92 | Vantaa\n921 | Vesanto\n922 | Vesilahti\n924 | Veteli\n925 | Vieremä\n926 | Vihanti\n927 | Vihti\n931 | Viitasaari\n934 | Vimpeli\n935 | Virolahti\n936 | Virrat\n941 | Vårdö\n942 | Vähäkyrö\n945 | Vöyri-Maksamaa\n97 | Hirvensalmi\n972 | Yli-Ii\n976 | Ylitornio\n977 | Ylivieska\n98 | Hollola\n980 | Ylöjärvi\n981 | Ypäjä\n989 | Ähtäri\n99 | Honkajoki\n992 | Äänekoski\n208 | Kalajoki\n95 | Himanka\n405 | Lappeenranta\n978 | Ylämaa\n424 | Liljendal\n434 | Loviisa\n585 | Pernaja\n701 | Ruotsinpyhtää\n537 | Noormarkku\n609 | Pori"
+    },
+    {
+      "row_count": 4,
+      "fields_summary": {
+        "Hallintorajat / Administrative borders 2009": {
+          "type": "categorical",
+          "unique_values": 4,
+          "values": [
+            "Koordinaattijärjestelmä / coordinate system: ETRS-TM35FIN",
+            "Mittakaava / scale: 1:10 000",
+            "Aineiston kuvaus / Dataset description: http://urn.fi/urn:nbn:fi:csc-kata00001000000000000214",
+            "Maanmittauslaitos / National Land Survey of Finland"
+          ]
+        }
+      },
+      "descriptive_overview": "Hallintorajat / Administrative borders 2009 (categorical)",
+      "raw_dataset_text": "Maanmittauslaitos / National Land Survey of Finland\nMittakaava / scale: 1:10 000\nKoordinaattijärjestelmä / coordinate system: ETRS-TM35FIN\nAineiston kuvaus / Dataset description: http://urn.fi/urn:nbn:fi:csc-kata00001000000000000214"
+    }
+  ]
+}
