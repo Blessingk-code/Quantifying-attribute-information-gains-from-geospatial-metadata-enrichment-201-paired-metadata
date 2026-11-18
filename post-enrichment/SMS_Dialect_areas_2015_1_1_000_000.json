@@ -1,0 +1,161 @@
+{
+  "@context": "https://www.w3.org/ns/dcat.jsonld",
+  "@type": "dcat:Dataset",
+  "identifier": "urn:nbn:fi:csc-kata00001000000000000261",
+  "title": {
+    "en": "SMS Dialect areas 2015, 1:1 000 000"
+  },
+  "description": {
+    "en": "[The dictionary of Finnish dialects](https://kaino.kotus.fi/sms/?p=main)  divides Finland into dialect areas and subareas. This dataset includes also the boundary of east-west dialects, and for better visualization also coastline and national border.\r\n\r\nCoordinate Reference System: ETRS89 / ETRS-TM35FIN (EPSG:3067)"
+  },
+  "creator": "Institute for the Languages of Finland",
+  "publisher": "CSC – IT Center for Science",
+  "issued": "2020-11-19",
+  "modified": "2026-03-16T12:09:31Z",
+  "license": "http://uri.suomi.fi/codelist/fairdata/license/code/CC-BY-4.0",
+  "accessRights": {
+    "id": "d01ac02c-fc70-4c68-9434-8383cb693ff0",
+    "url": "http://uri.suomi.fi/codelist/fairdata/access_type/code/open",
+    "in_scheme": "http://uri.suomi.fi/codelist/fairdata/access_type",
+    "pref_label": {
+      "en": "Open",
+      "fi": "Avoin"
+    }
+  },
+  "keyword": [
+    "Paituli",
+    "dialect maps",
+    "dialects"
+  ],
+  "temporal": {
+    "start": "2015-01-01",
+    "end": "2015-12-31"
+  },
+  "spatial": {
+    "west": 19.472754040655207,
+    "south": 59.80737504681668,
+    "east": 32.854119465004345,
+    "north": 70.1338699341706
+  },
+  "access": [
+    {
+      "filename": "SMS murrealueet 2015, 1:1 000 000",
+      "downloadURL": "https://paituli.csc.fi/download.html?data_id=kotus_murrealueet_1milj_2015_shape_euref"
+    },
+    {
+      "filename": "Files in folder view",
+      "accessURL": "https://www.nic.funet.fi/index/geodata/kotus/sms_rajat/"
+    }
+  ],
+  "enrichment": [
+    {
+      "row_count": 4,
+      "fields_summary": {
+        "SMS murrealueet / SMS Dialect areas 2015": {
+          "type": "categorical",
+          "unique_values": 4,
+          "values": [
+            "Aineiston kuvaus / Dataset description: http://urn.fi/urn:nbn:fi:csc-kata00001000000000000261",
+            "Kotimaisten kielten keskus / Institute for the Languages of Finland",
+            "Koordinaattijärjestelmä / coordinate system: ETRS-TM35FIN",
+            "Mittakaava / scale: 1:1 000 000"
+          ]
+        }
+      },
+      "descriptive_overview": "SMS murrealueet / SMS Dialect areas 2015 (categorical)",
+      "raw_dataset_text": "Kotimaisten kielten keskus / Institute for the Languages of Finland\nMittakaava / scale: 1:1 000 000\nKoordinaattijärjestelmä / coordinate system: ETRS-TM35FIN\nAineiston kuvaus / Dataset description: http://urn.fi/urn:nbn:fi:csc-kata00001000000000000261"
+    },
+    {
+      "row_count": 11,
+      "fields_summary": {
+        "ID": {
+          "type": "numeric",
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "unique_values": 1
+        }
+      },
+      "descriptive_overview": "ID (numeric)",
+      "feature_count": 11,
+      "geometry_type": "['LineString']",
+      "crs": "PROJCS[\"ETRS89_TM35FIN_E_N\",GEOGCS[\"ETRS89\",DATUM[\"European_Terrestrial_Reference_System_1989\",SPHEROID[\"GRS 1980\",6378137,298.257222101,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"6258\"]],PRIMEM[\"Greenwich\",0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",27],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "spatial": {
+        "xmin": 298385.1470249023,
+        "ymin": 6703246.067336278,
+        "xmax": 642891.9713277178,
+        "ymax": 7377762.877343896
+      },
+      "raw_dataset_text": "0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0"
+    },
+    {
+      "row_count": 230,
+      "fields_summary": {
+        "ID": {
+          "type": "numeric",
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "unique_values": 1
+        }
+      },
+      "descriptive_overview": "ID (numeric)",
+      "feature_count": 230,
+      "geometry_type": "['LineString']",
+      "crs": "PROJCS[\"ETRS89_TM35FIN_E_N\",GEOGCS[\"ETRS89\",DATUM[\"European_Terrestrial_Reference_System_1989\",SPHEROID[\"GRS 1980\",6378137,298.257222101,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"6258\"]],PRIMEM[\"Greenwich\",0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",27],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "spatial": {
+        "xmin": 192423.03521471936,
+        "ymin": 6648139.258195345,
+        "xmax": 755007.4019069397,
+        "ymax": 7610656.690743628
+      },
+      "raw_dataset_text": "0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0"
+    },
+    {
+      "row_count": 39,
+      "fields_summary": {
+        "ID": {
+          "type": "numeric",
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "unique_values": 1
+        }
+      },
+      "descriptive_overview": "ID (numeric)",
+      "feature_count": 39,
+      "geometry_type": "['LineString']",
+      "crs": "PROJCS[\"ETRS89_TM35FIN_E_N\",GEOGCS[\"ETRS89\",DATUM[\"European_Terrestrial_Reference_System_1989\",SPHEROID[\"GRS 1980\",6378137,298.257222101,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"6258\"]],PRIMEM[\"Greenwich\",0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",27],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "spatial": {
+        "xmin": 192379.75263186835,
+        "ymin": 6687262.810569994,
+        "xmax": 714271.6965916783,
+        "ymax": 7524096.873078014
+      },
+      "raw_dataset_text": "0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0"
+    },
+    {
+      "row_count": 22,
+      "fields_summary": {
+        "ID": {
+          "type": "numeric",
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "unique_values": 1
+        }
+      },
+      "descriptive_overview": "ID (numeric)",
+      "feature_count": 22,
+      "geometry_type": "['LineString']",
+      "crs": "PROJCS[\"ETRS89_TM35FIN_E_N\",GEOGCS[\"ETRS89\",DATUM[\"European_Terrestrial_Reference_System_1989\",SPHEROID[\"GRS 1980\",6378137,298.257222101,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"6258\"]],PRIMEM[\"Greenwich\",0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",27],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "spatial": {
+        "xmin": 192423.03521471936,
+        "ymin": 6714801.909572439,
+        "xmax": 734064.3426504758,
+        "ymax": 7781213.748892658
+      },
+      "raw_dataset_text": "0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0"
+    }
+  ]
+}
