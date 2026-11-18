@@ -1,0 +1,589 @@
+{
+  "@context": "https://www.w3.org/ns/dcat.jsonld",
+  "@type": "dcat:Dataset",
+  "identifier": "urn:nbn:fi:att:c34ff6ff-3361-4646-975b-3826aca857ea",
+  "title": {
+    "en": "Administrative borders, 2023, 1:10 000"
+  },
+  "description": {
+    "en": "Municipality borders, attribute data includes the number and the name of the municipality in Finnish and Swedish. Additionally the dataset includes separate Shape-files about counties and Regional State Administrative Agency borders. \r\n\r\nCoordinate Reference System: ETRS89 / ETRS-TM35FIN (EPSG:3067)"
+  },
+  "creator": "National Land Survey of Finland",
+  "publisher": "CSC – IT Center for Science",
+  "issued": "2023-01-21",
+  "modified": "2026-03-16T12:00:21Z",
+  "license": "http://uri.suomi.fi/codelist/fairdata/license/code/CC-BY-4.0",
+  "accessRights": {
+    "id": "d01ac02c-fc70-4c68-9434-8383cb693ff0",
+    "url": "http://uri.suomi.fi/codelist/fairdata/access_type/code/open",
+    "in_scheme": "http://uri.suomi.fi/codelist/fairdata/access_type",
+    "pref_label": {
+      "en": "Open",
+      "fi": "Avoin"
+    }
+  },
+  "keyword": [
+    "Paituli",
+    "counties",
+    "centres for economic development, transport and the environment",
+    "municipalities"
+  ],
+  "temporal": {
+    "start": "2023-01-01",
+    "end": "2023-12-31"
+  },
+  "spatial": {
+    "west": 19.083254985245766,
+    "south": 59.45414898973184,
+    "east": 31.586637234595017,
+    "north": 70.09228505156123
+  },
+  "access": [
+    {
+      "filename": "Hallintorajat, 2023, 1:10 000",
+      "downloadURL": "https://paituli.csc.fi/download.html?data_id=mml_hallinto_10k_2023_shape_euref"
+    },
+    {
+      "filename": "Kuntajako 1:10 000 aineiston kuvaus (MML, 2023)"
+    },
+    {
+      "filename": "Files in folder view",
+      "accessURL": "https://www.nic.funet.fi/index/geodata/mml/hallintorajat_10k/2023/"
+    }
+  ],
+  "enrichment": [
+    {
+      "row_count": 7,
+      "fields_summary": {
+        "GML_ID": {
+          "type": "numeric",
+          "min": 27912527.0,
+          "max": 27912569.0,
+          "mean": 27912548.0,
+          "unique_values": 7
+        },
+        "NATCODE": {
+          "type": "categorical",
+          "unique_values": 7,
+          "values": [
+            "5",
+            "1",
+            "3",
+            "4",
+            "7",
+            "6",
+            "2"
+          ]
+        },
+        "NAMEFIN": {
+          "type": "categorical",
+          "unique_values": 7,
+          "values": [
+            "Lounais-Suomen aluehallintovirasto",
+            "Itä-Suomen aluehallintovirasto",
+            "Lapin aluehallintovirasto",
+            "Pohjois-Suomen aluehallintovirasto",
+            "Ahvenanmaan valtionvirasto",
+            "Etelä-Suomen aluehallintovirasto",
+            "Länsi- ja Sisä-Suomen aluehallintovirasto"
+          ]
+        },
+        "NAMESWE": {
+          "type": "categorical",
+          "unique_values": 7,
+          "values": [
+            "Regionförvaltningsverket i Södra Finland",
+            "Regionförvaltningsverket i Lappland",
+            "Regionförvaltningsverket i Sydvästra Finland",
+            "Regionförvaltningsverket i Östra Finland",
+            "Regionförvaltningsverket i Västra och Inre Finland",
+            "Regionförvaltningsverket i Norra Finland",
+            "Statens ämbetsverk på Åland"
+          ]
+        }
+      },
+      "descriptive_overview": "GML_ID (numeric), NATCODE (categorical), NAMEFIN (categorical), NAMESWE (categorical)",
+      "feature_count": 7,
+      "geometry_type": "['Polygon']",
+      "crs": "EPSG:3067",
+      "spatial": {
+        "xmin": 61685.541,
+        "ymin": 6605838.894,
+        "xmax": 732907.7,
+        "ymax": 7776450.217
+      },
+      "raw_dataset_text": "27912555 | 4 | Länsi- ja Sisä-Suomen aluehallintovirasto | Regionförvaltningsverket i Västra och Inre Finland\n27912548 | 2 | Lounais-Suomen aluehallintovirasto | Regionförvaltningsverket i Sydvästra Finland\n27912534 | 3 | Itä-Suomen aluehallintovirasto | Regionförvaltningsverket i Östra Finland\n27912541 | 6 | Lapin aluehallintovirasto | Regionförvaltningsverket i Lappland\n27912562 | 5 | Pohjois-Suomen aluehallintovirasto | Regionförvaltningsverket i Norra Finland\n27912569 | 7 | Ahvenanmaan valtionvirasto | Statens ämbetsverk på Åland\n27912527 | 1 | Etelä-Suomen aluehallintovirasto | Regionförvaltningsverket i Södra Finland"
+    },
+    {
+      "row_count": 23,
+      "fields_summary": {
+        "GML_ID": {
+          "type": "numeric",
+          "min": 27912576.0,
+          "max": 27912730.0,
+          "mean": 27912653.0,
+          "unique_values": 23
+        },
+        "NATCODE": {
+          "type": "categorical",
+          "unique_values": 23,
+          "values": [
+            "12",
+            "08",
+            "15",
+            "09",
+            "17",
+            "90",
+            "16",
+            "19",
+            "06",
+            "10",
+            "91",
+            "04",
+            "11",
+            "01",
+            "21",
+            "13",
+            "03",
+            "02",
+            "07",
+            "14",
+            "18",
+            "05",
+            "20"
+          ]
+        },
+        "NAMEFIN": {
+          "type": "categorical",
+          "unique_values": 23,
+          "values": [
+            "Pohjois-Pohjanmaan hyvinvointialue",
+            "Länsi-Uudenmaan hyvinvointialue",
+            "Pohjois-Karjalan hyvinvointialue",
+            "Varsinais-Suomen hyvinvointialue",
+            "Kymenlaakson hyvinvointialue",
+            "Helsingin kaupunki",
+            "Satakunnan hyvinvointialue",
+            "Vantaan ja Keravan hyvinvointialue",
+            "Keski-Pohjanmaan hyvinvointialue",
+            "Itä-Uudenmaan hyvinvointialue",
+            "Kainuun hyvinvointialue",
+            "Pirkanmaan hyvinvointialue",
+            "Keski-Uudenmaan hyvinvointialue",
+            "Keski-Suomen hyvinvointialue",
+            "Kanta-Hämeen hyvinvointialue",
+            "Pohjois-Savon hyvinvointialue",
+            "Ahvenanmaa",
+            "Päijät-Hämeen hyvinvointialue",
+            "Pohjanmaan hyvinvointialue",
+            "Etelä-Karjalan hyvinvointialue",
+            "Lapin hyvinvointialue",
+            "Etelä-Savon hyvinvointialue",
+            "Etelä-Pohjanmaan hyvinvointialue"
+          ]
+        },
+        "NAMESWE": {
+          "type": "categorical",
+          "unique_values": 23,
+          "values": [
+            "Norra Österbottens välfärdsområde",
+            "Åland",
+            "Birkalands välfärdsområde",
+            "Mellersta Finlands välfärdsområde",
+            "Mellersta Nylands välfärdsområde",
+            "Södra Karelens välfärdsområde",
+            "Satakunta välfärdsområde",
+            "Mellersta Österbottens välfärdsområde",
+            "Södra Savolax välfärdsområde",
+            "Helsingfors stad",
+            "Österbottens välfärdsområde",
+            "Södra Österbottens välfärdsområde",
+            "Kajanalands välfärdsområde",
+            "Päijänne-Tavastlands välfärdsområde",
+            "Vanda och Kervo välfärdsområde",
+            "Östra Nyland välfärdsområde",
+            "Lapplands välfärdsområde",
+            "Kymmenedalens välfärdsområde",
+            "Egentliga Finlands välfärdsområde",
+            "Egentliga Tavastlands välfärdsområde",
+            "Norra Savolax välfärdsområde",
+            "Norra Karelens välfärdsområde",
+            "Västra Nylands välfärdsområde"
+          ]
+        }
+      },
+      "descriptive_overview": "GML_ID (numeric), NATCODE (categorical), NAMEFIN (categorical), NAMESWE (categorical)",
+      "feature_count": 23,
+      "geometry_type": "['Polygon']",
+      "crs": "EPSG:3067",
+      "spatial": {
+        "xmin": 61685.541,
+        "ymin": 6605838.894,
+        "xmax": 732907.7,
+        "ymax": 7776450.217
+      },
+      "raw_dataset_text": "27912702 | 19 | Pohjois-Pohjanmaan hyvinvointialue | Norra Österbottens välfärdsområde\n27912723 | 90 | Helsingin kaupunki | Helsingfors stad\n27912597 | 04 | Vantaan ja Keravan hyvinvointialue | Vanda och Kervo välfärdsområde\n27912674 | 15 | Keski-Suomen hyvinvointialue | Mellersta Finlands välfärdsområde\n27912632 | 09 | Päijät-Hämeen hyvinvointialue | Päijänne-Tavastlands välfärdsområde\n27912653 | 12 | Etelä-Savon hyvinvointialue | Södra Savolax välfärdsområde\n27912688 | 17 | Pohjanmaan hyvinvointialue | Österbottens välfärdsområde\n27912660 | 13 | Pohjois-Savon hyvinvointialue | Norra Savolax välfärdsområde\n27912618 | 07 | Kanta-Hämeen hyvinvointialue | Egentliga Tavastlands välfärdsområde\n27912709 | 20 | Kainuun hyvinvointialue | Kajanalands välfärdsområde\n27912730 | 91 | Ahvenanmaa | Åland\n27912611 | 06 | Satakunnan hyvinvointialue | Satakunta välfärdsområde\n27912695 | 18 | Keski-Pohjanmaan hyvinvointialue | Mellersta Österbottens välfärdsområde\n27912583 | 02 | Keski-Uudenmaan hyvinvointialue | Mellersta Nylands välfärdsområde\n27912681 | 16 | Etelä-Pohjanmaan hyvinvointialue | Södra Österbottens välfärdsområde\n27912625 | 08 | Pirkanmaan hyvinvointialue | Birkalands välfärdsområde\n27912716 | 21 | Lapin hyvinvointialue | Lapplands välfärdsområde\n27912639 | 10 | Kymenlaakson hyvinvointialue | Kymmenedalens välfärdsområde\n27912590 | 03 | Länsi-Uudenmaan hyvinvointialue | Västra Nylands välfärdsområde\n27912604 | 05 | Varsinais-Suomen hyvinvointialue | Egentliga Finlands välfärdsområde\n27912646 | 11 | Etelä-Karjalan hyvinvointialue | Södra Karelens välfärdsområde\n27912576 | 01 | Itä-Uudenmaan hyvinvointialue | Östra Nyland välfärdsområde\n27912667 | 14 | Pohjois-Karjalan hyvinvointialue | Norra Karelens välfärdsområde"
+    },
+    {
+      "row_count": 309,
+      "fields_summary": {
+        "GML_ID": {
+          "type": "numeric",
+          "min": 27512737.0,
+          "max": 27911802.0,
+          "mean": 27639036.78317152,
+          "unique_values": 309
+        },
+        "NATCODE": {
+          "type": "categorical",
+          "unique_values": 309,
+          "values": [
+            "300",
+            "422",
+            "005",
+            "583",
+            "853",
+            "736",
+            "562",
+            "777",
+            "214",
+            "831",
+            "545",
+            "848",
+            "844",
+            "167",
+            "051",
+            "630",
+            "273",
+            "927",
+            "322",
+            "109",
+            "625",
+            "905",
+            "734",
+            "536",
+            "541",
+            "142",
+            "106",
+            "186",
+            "416",
+            "704",
+            "480",
+            "766",
+            "508",
+            "232",
+            "580",
+            "494",
+            "608",
+            "165",
+            "435",
+            "445",
+            "139",
+            "280",
+            "781",
+            "700",
+            "061",
+            "143",
+            "491",
+            "886",
+            "239",
+            "686"
+          ]
+        },
+        "NAMEFIN": {
+          "type": "categorical",
+          "unique_values": 309,
+          "values": [
+            "Kankaanpää",
+            "Kempele",
+            "Merikarvia",
+            "Nousiainen",
+            "Pirkkala",
+            "Sund",
+            "Ii",
+            "Närpiö",
+            "Joensuu",
+            "Marttila",
+            "Pälkäne",
+            "Raasepori",
+            "Lapua",
+            "Salla",
+            "Raahe",
+            "Eura",
+            "Soini",
+            "Siikainen",
+            "Sotkamo",
+            "Konnevesi",
+            "Kokkola",
+            "Kemijärvi",
+            "Kirkkonummi",
+            "Puolanka",
+            "Hanko",
+            "Parainen",
+            "Pomarkku",
+            "Viitasaari",
+            "Mäntsälä",
+            "Rovaniemi",
+            "Loppi",
+            "Kemiönsaari",
+            "Laukaa",
+            "Harjavalta",
+            "Lapinlahti",
+            "Rauma",
+            "Uusikaarlepyy",
+            "Padasjoki",
+            "Kannus",
+            "Hämeenkyrö",
+            "Heinävesi",
+            "Simo",
+            "Hartola",
+            "Saltvik",
+            "Pornainen",
+            "Ylöjärvi",
+            "Ruokolahti",
+            "Alavieska",
+            "Miehikkälä",
+            "Saarijärvi"
+          ]
+        },
+        "NAMESWE": {
+          "type": "categorical",
+          "unique_values": 309,
+          "values": [
+            "Kankaanpää",
+            "Kempele",
+            "Sastmola",
+            "Sund",
+            "Ii",
+            "Korsholm",
+            "Joensuu",
+            "Marttila",
+            "Lappo",
+            "Pälkäne",
+            "Åbo",
+            "Salla",
+            "Eura",
+            "Soini",
+            "Siikainen",
+            "Sotkamo",
+            "Konnevesi",
+            "Kemijärvi",
+            "Malax",
+            "Helsingfors",
+            "Puolanka",
+            "Viitasaari",
+            "Mäntsälä",
+            "Vanda",
+            "Rovaniemi",
+            "Kyrkslätt",
+            "Loppi",
+            "Laukaa",
+            "Lahtis",
+            "Harjavalta",
+            "Lapinlahti",
+            "Padasjoki",
+            "Hangö",
+            "Kannus",
+            "Heinävesi",
+            "Simo",
+            "Hartola",
+            "Saltvik",
+            "Ylöjärvi",
+            "Ruokolahti",
+            "Enontekis",
+            "Alavieska",
+            "Miehikkälä",
+            "Saarijärvi",
+            "Tusby",
+            "Punkalaidun",
+            "Reisjärvi",
+            "Hollola",
+            "Rantasalmi",
+            "Kyyjärvi"
+          ]
+        },
+        "LANDAREA": {
+          "type": "numeric",
+          "min": 5.89,
+          "max": 15060.09,
+          "mean": 983.6999352750815,
+          "unique_values": 308
+        },
+        "FRESHWAREA": {
+          "type": "numeric",
+          "min": 0.0,
+          "max": 2273.53,
+          "mean": 111.69922330097087,
+          "unique_values": 305
+        },
+        "SEAWAREA": {
+          "type": "numeric",
+          "min": 0.0,
+          "max": 4653.95,
+          "mean": 169.66692556634308,
+          "unique_values": 77
+        },
+        "TOTALAREA": {
+          "type": "numeric",
+          "min": 6.0,
+          "max": 17333.62,
+          "mean": 1265.066084142395,
+          "unique_values": 309
+        }
+      },
+      "descriptive_overview": "GML_ID (numeric), NATCODE (categorical), NAMEFIN (categorical), NAMESWE (categorical), LANDAREA (numeric), FRESHWAREA (numeric), SEAWAREA (numeric), TOTALAREA (numeric)",
+      "feature_count": 309,
+      "geometry_type": "['Polygon' 'MultiPolygon']",
+      "crs": "EPSG:3067",
+      "spatial": {
+        "xmin": 61685.541,
+        "ymin": 6605838.894,
+        "xmax": 732907.7,
+        "ymax": 7776450.217
+      },
+      "raw_dataset_text": "27514897 | 098 | Hollola | Hollola | 651.41 | 76.05 | 0.0 | 727.46\n27713073 | 791 | Siikalatva | Siikalatva | 2173.26 | 56.62 | 0.0 | 2229.88\n27515413 | 588 | Pertunmaa | Pertunmaa | 374.45 | 79.73 | 0.0 | 454.18\n27713082 | 494 | Muhos | Muhos | 784.59 | 13.54 | 0.0 | 798.13\n27820146 | 697 | Ristijärvi | Ristijärvi | 835.83 | 62.11 | 0.0 | 897.94\n27513726 | 430 | Loimaa | Loimaa | 848.09 | 3.76 | 0.0 | 851.85\n27685293 | 781 | Sysmä | Sysmä | 666.76 | 269.31 | 0.0 | 936.07\n27711263 | 934 | Vimpeli | Vimpeli | 287.32 | 41.47 | 0.0 | 328.79\n27514842 | 434 | Loviisa | Lovisa | 819.82 | 25.82 | 905.88 | 1751.52\n27686791 | 762 | Sonkajärvi | Sonkajärvi | 1465.93 | 110.86 | 0.0 | 1576.79\n27514228 | 738 | Sauvo | Sagu | 252.77 | 1.22 | 45.64 | 299.63\n27685834 | 608 | Pomarkku | Påmark | 301.2 | 30.85 | 0.0 | 332.05\n27687211 | 421 | Lestijärvi | Lestijärvi | 480.06 | 78.83 | 0.0 | 558.89\n27687584 | 152 | Isokyrö | Storkyro | 354.13 | 2.78 | 0.0 | 356.91\n27514303 | 684 | Rauma | Raumo | 496.43 | 13.73 | 599.96 | 1110.12\n27686756 | 857 | Tuusniemi | Tuusniemi | 543.18 | 156.24 | 0.0 | 699.42\n27687261 | 584 | Perho | Perho | 747.87 | 27.32 | 0.0 | 775.19\n27686896 | 263 | Kiuruvesi | Kiuruvesi | 1328.19 | 94.71 | 0.0 | 1422.9\n27711288 | 403 | Lappajärvi | Lappajärvi | 420.89 | 102.84 | 0.0 | 523.73\n27515933 | 576 | Padasjoki | Padasjoki | 523.09 | 206.72 | 0.0 | 729.81\n27713029 | 889 | Utajärvi | Utajärvi | 1669.46 | 65.48 | 0.0 | 1734.94\n27686861 | 630 | Pyhäntä | Pyhäntä | 810.16 | 36.59 | 0.0 | 846.75\n27711243 | 218 | Karijoki | Bötom | 185.58 | 0.77 | 0.0 | 186.35\n27685458 | 980 | Ylöjärvi | Ylöjärvi | 1115.75 | 208.21 | 0.0 | 1323.96\n27713428 | 317 | Kärsämäki | Kärsämäki | 696.5 | 4.92 | 0.0 | 701.42\n27513943 | 834 | Tammela | Tammela | 640.59 | 74.56 | 0.0 | 715.15\n27685258 | 291 | Kuhmoinen | Kuhmoinen | 660.93 | 275.76 | 0.0 | 936.69\n27685619 | 108 | Hämeenkyrö | Tavastkyro | 463.99 | 41.11 | 0.0 | 505.1\n27513913 | 061 | Forssa | Forssa | 248.84 | 4.52 | 0.0 | 253.36\n27515603 | 285 | Kotka | Kotka | 272.13 | 5.82 | 671.81 | 949.76\n27513398 | 478 | Maarianhamina | Mariehamn | 11.81 | 0.0 | 8.95 | 20.76\n27712557 | 615 | Pudasjärvi | Pudasjärvi | 5638.67 | 228.69 | 0.0 | 5867.36\n27686580 | 687 | Rautavaara | Rautavaara | 1150.63 | 84.62 | 0.0 | 1235.25\n27684981 | 181 | Jämijärvi | Jämijärvi | 215.09 | 9.52 | 0.0 | 224.61\n27515903 | 635 | Pälkäne | Pälkäne | 560.71 | 177.41 | 0.0 | 738.12\n27515593 | 075 | Hamina | Fredrikshamn | 609.89 | 23.82 | 521.44 | 1155.15\n27685228 | 182 | Jämsä | Jämsä | 1571.41 | 252.49 | 0.0 | 1823.9\n27711950 | 272 | Kokkola | Karleby | 1446.27 | 46.39 | 1238.47 | 2731.13\n27820161 | 890 | Utsjoki | Utsjoki | 5147.16 | 224.84 | 0.0 | 5372.0\n27711769 | 408 | Lapua | Lappo | 737.16 | 13.62 | 0.0 | 750.78\n27685082 | 886 | Ulvila | Ulvsby | 400.82 | 21.69 | 0.0 | 422.51\n27712343 | 746 | Sievi | Sievi | 786.4 | 13.48 | 0.0 | 799.88\n27514621 | 680 | Raisio | Reso | 48.76 | 0.58 | 0.72 | 50.06\n27515268 | 286 | Kouvola | Kouvola | 2557.63 | 325.66 | 0.0 | 2883.29\n27712912 | 564 | Oulu | Uleåborg | 2972.44 | 80.38 | 764.92 | 3817.74\n27514348 | 400 | Laitila | Laitila | 531.88 | 13.45 | 0.0 | 545.33\n27514514 | 538 | Nousiainen | Nousis | 198.93 | 0.56 | 0.0 | 199.49\n27514671 | 481 | Masku | Masku | 174.89 | 1.11 | 28.08 | 204.08\n27514867 | 316 | Kärkölä | Kärkölä | 256.5 | 2.8 | 0.0 | 259.3\n27687071 | 749 | Siilinjärvi | Siilinjärvi | 401.0 | 106.81 | 0.0 | 507.81\n27515358 | 616 | Pukkila | Pukkila | 145.09 | 0.85 | 0.0 | 145.94\n27515368 | 018 | Askola | Askola | 212.44 | 5.59 | 0.0 | 218.03\n27514078 | 224 | Karkkila | Högfors | 242.44 | 12.88 | 0.0 | 255.32\n27515122 | 245 | Kerava | Kervo | 30.63 | 0.16 | 0.0 | 30.79\n27515218 | 149 | Inkoo | Ingå | 350.85 | 8.06 | 595.11 | 954.02\n27515498 | 111 | Heinola | Heinola | 675.97 | 163.31 | 0.0 | 839.28\n27686495 | 541 | Nurmes | Nurmes | 2401.35 | 291.49 | 0.0 | 2692.84\n27685779 | 287 | Kristiinankaupunki | Kristinestad | 683.25 | 14.49 | 981.43 | 1679.17\n27514987 | 694 | Riihimäki | Riihimäki | 121.01 | 4.54 | 0.0 | 125.55\n27711194 | 145 | Ilmajoki | Ilmajoki | 576.74 | 2.89 | 0.0 | 579.63\n27712964 | 578 | Paltamo | Paltamo | 918.79 | 220.95 | 0.0 | 1139.74\n27712949 | 244 | Kempele | Kempele | 110.14 | 0.17 | 0.03 | 110.34\n27711747 | 300 | Kuortane | Kuortane | 462.37 | 22.48 | 0.0 | 484.85\n27820423 | 845 | Tervola | Tervola | 1559.72 | 32.31 | 0.0 | 1592.03\n27685393 | 301 | Kurikka | Kurikka | 1724.62 | 19.29 | 0.0 | 1743.91\n27687498 | 179 | Jyväskylä | Jyväskylä | 1171.03 | 295.32 | 0.0 | 1466.35\n27818661 | 625 | Pyhäjoki | Pyhäjoki | 543.21 | 5.95 | 815.95 | 1365.11\n27712496 | 732 | Salla | Salla | 5729.81 | 142.59 | 0.0 | 5872.4\n27820246 | 583 | Pelkosenniemi | Pelkosenniemi | 1836.38 | 45.44 | 0.0 | 1881.82\n27712662 | 436 | Lumijoki | Lumijoki | 214.12 | 0.24 | 75.93 | 290.29\n27685534 | 177 | Juupajoki | Juupajoki | 258.49 | 16.46 | 0.0 | 274.95\n27515528 | 739 | Savitaipale | Savitaipale | 539.11 | 151.44 | 0.0 | 690.55\n27712677 | 072 | Hailuoto | Karlö | 205.65 | 1.69 | 875.36 | 1082.7\n27515373 | 504 | Myrskylä | Mörskom | 200.44 | 5.91 | 0.0 | 206.35\n27712348 | 849 | Toholampi | Toholampi | 609.16 | 8.07 | 0.0 | 617.23\n27513796 | 887 | Urjala | Urjala | 475.53 | 29.88 | 0.0 | 505.41\n27685983 | 077 | Hankasalmi | Hankasalmi | 571.7 | 116.05 | 0.0 | 687.75\n27684851 | 165 | Janakkala | Janakkala | 547.41 | 38.66 | 0.0 | 586.07\n27685634 | 536 | Nokia | Nokia | 288.3 | 59.54 | 0.0 | 347.84\n27711478 | 440 | Luoto | Larsmo | 142.74 | 34.0 | 676.53 | 853.27\n27515643 | 405 | Lappeenranta | Villmanstrand | 1433.99 | 289.58 | 0.0 | 1723.57\n27512737 | 318 | Kökar | Kökar | 63.58 | 0.37 | 2101.05 | 2165.0\n27687466 | 691 | Reisjärvi | Reisjärvi | 474.39 | 28.7 | 0.0 | 503.09\n27514686 | 019 | Aura | Aura | 95.01 | 0.57 | 0.0 | 95.58\n27687639 | 545 | Närpiö | Närpes | 977.82 | 10.0 | 1346.32 | 2334.14\n27685353 | 743 | Seinäjoki | Seinäjoki | 1431.77 | 37.45 | 0.0 | 1469.22\n27687559 | 946 | Vöyri | Vörå | 782.13 | 9.22 | 708.56 | 1499.91\n27513418 | 438 | Lumparland | Lumparland | 36.35 | 0.04 | 50.56 | 86.95\n27711328 | 599 | Pedersören kunta | Pedersöre | 794.26 | 31.79 | 0.0 | 826.05\n27685408 | 250 | Kihniö | Kihniö | 357.22 | 33.28 | 0.0 | 390.5\n27711443 | 288 | Kruunupyy | Kronoby | 712.85 | 39.84 | 0.0 | 752.69\n27820408 | 976 | Ylitornio | Övertorneå | 2029.3 | 183.47 | 0.0 | 2212.77\n27685127 | 010 | Alavus | Alavus | 1087.23 | 64.27 | 0.0 | 1151.5\n27514603 | 529 | Naantali | Nådendal | 312.58 | 3.86 | 371.8 | 688.24\n27514028 | 284 | Koski Tl | Koski Tl | 191.5 | 0.92 | 0.0 | 192.42\n27514782 | 753 | Sipoo | Sibbo | 339.66 | 3.0 | 355.94 | 698.6\n27515293 | 142 | Iitti | Iitti | 589.81 | 97.28 | 0.0 | 687.09\n27685799 | 232 | Kauhajoki | Kauhajoki | 1298.98 | 16.55 | 0.0 | 1315.53\n27514567 | 704 | Rusko | Rusko | 127.16 | 0.74 | 0.0 | 127.9\n27685819 | 151 | Isojoki | Storå | 642.4 | 5.03 | 0.0 | 647.43\n27512947 | 417 | Lemland | Lemland | 113.21 | 0.88 | 851.21 | 965.3\n27713116 | 678 | Raahe | Brahestad | 1013.78 | 12.84 | 860.73 | 1887.35\n27514108 | 444 | Lohja | Lojo | 940.16 | 169.57 | 0.0 | 1109.73\n27515738 | 260 | Kitee | Kitee | 1253.82 | 470.56 | 0.0 | 1724.38\n27512817 | 062 | Föglö | Föglö | 134.77 | 0.22 | 1734.08 | 1869.07\n27515833 | 700 | Ruokolahti | Ruokolahti | 942.09 | 277.76 | 0.0 | 1219.85\n27687046 | 931 | Viitasaari | Viitasaari | 1248.53 | 340.65 | 0.0 | 1589.18\n27685097 | 271 | Kokemäki | Kumo | 480.42 | 50.84 | 0.0 | 531.26\n27711508 | 052 | Evijärvi | Evijärvi | 354.15 | 36.56 | 0.0 | 390.71\n27686242 | 046 | Enonkoski | Enonkoski | 305.58 | 113.63 | 0.0 | 419.21\n27685549 | 562 | Orivesi | Orivesi | 799.72 | 160.36 | 0.0 | 960.08\n27515308 | 407 | Lapinjärvi | Lappträsk | 329.89 | 9.42 | 0.0 | 339.31\n27684941 | 214 | Kankaanpää | Kankaanpää | 1021.25 | 16.62 | 0.0 | 1037.87\n27711584 | 233 | Kauhava | Kauhava | 1313.85 | 14.53 | 0.0 | 1328.38\n27514053 | 480 | Marttila | Marttila | 195.31 | 0.68 | 0.0 | 195.99\n27687508 | 500 | Muurame | Muurame | 144.06 | 50.0 | 0.0 | 194.06\n27686700 | 607 | Polvijärvi | Polvijärvi | 804.63 | 153.7 | 0.0 | 958.33\n27515673 | 623 | Puumala | Puumala | 794.11 | 443.64 | 0.0 | 1237.75\n27515077 | 543 | Nurmijärvi | Nurmijärvi | 361.9 | 5.36 | 0.0 | 367.26\n27687226 | 256 | Kinnula | Kinnula | 460.2 | 35.53 | 0.0 | 495.73\n27515573 | 489 | Miehikkälä | Miehikkälä | 422.63 | 17.74 | 0.0 | 440.37\n27515167 | 091 | Helsinki | Helsingfors | 214.42 | 0.84 | 500.22 | 715.48\n27686213 | 681 | Rantasalmi | Rantasalmi | 559.53 | 365.65 | 0.0 | 925.18\n27514278 | 631 | Pyhäranta | Pyhäranta | 143.51 | 4.87 | 143.36 | 291.74\n27515863 | 831 | Taipalsaari | Taipalsaari | 344.69 | 417.26 | 0.0 | 761.95\n27685943 | 398 | Lahti | Lahtis | 459.5 | 58.13 | 0.0 | 517.63\n27713240 | 071 | Haapavesi | Haapavesi | 1050.47 | 35.94 | 0.0 | 1086.41\n27686415 | 426 | Liperi | Liperi | 727.19 | 434.04 | 0.0 | 1161.23\n27820388 | 698 | Rovaniemi | Rovaniemi | 7581.63 | 434.99 | 0.0 | 8016.62\n27687076 | 844 | Tervo | Tervo | 347.75 | 146.55 | 0.0 | 494.3\n27514484 | 853 | Turku | Åbo | 245.63 | 3.47 | 57.26 | 306.36\n27515147 | 049 | Espoo | Esbo | 312.35 | 17.9 | 197.78 | 528.03\n27515176 | 235 | Kauniainen | Grankulla | 5.89 | 0.11 | 0.0 | 6.0\n27820191 | 148 | Inari | Enare | 15060.09 | 2273.53 | 0.0 | 17333.62\n27711403 | 236 | Kaustinen | Kaustby | 353.91 | 7.18 | 0.0 | 361.09\n27712828 | 683 | Ranua | Ranua | 3454.17 | 240.62 | 0.0 | 3694.79\n27687405 | 989 | Ähtäri | Etseri | 805.81 | 105.06 | 0.0 | 910.87\n27820303 | 854 | Pello | Pello | 1738.15 | 125.56 | 0.0 | 1863.71\n27685644 | 604 | Pirkkala | Birkala | 81.42 | 22.55 | 0.0 | 103.97\n27686680 | 167 | Joensuu | Joensuu | 2381.79 | 369.17 | 0.0 | 2750.96\n27686525 | 422 | Lieksa | Lieksa | 3417.86 | 649.84 | 0.0 | 4067.7\n27515032 | 106 | Hyvinkää | Hyvinge | 322.69 | 14.08 | 0.0 | 336.77\n27685483 | 702 | Ruovesi | Ruovesi | 776.99 | 173.18 | 0.0 | 950.17\n27685283 | 435 | Luhanka | Luhanka | 214.5 | 98.78 | 0.0 | 313.28\n27686736 | 309 | Outokumpu | Outokumpu | 445.87 | 138.19 | 0.0 | 584.06\n27685492 | 143 | Ikaalinen | Ikalis | 750.48 | 92.92 | 0.0 | 843.4\n27515102 | 186 | Järvenpää | Träskända | 37.54 | 2.39 | 0.0 | 39.93\n27684866 | 016 | Asikkala | Asikkala | 563.39 | 192.16 | 0.0 | 755.55\n27712813 | 240 | Kemi | Kemi | 95.38 | 6.98 | 644.8 | 747.16\n27515328 | 560 | Orimattila | Orimattila | 785.26 | 28.75 | 0.0 | 814.01\n27513083 | 065 | Geta | Geta | 84.55 | 2.92 | 518.18 | 605.65\n27686158 | 420 | Leppävirta | Leppävirta | 1136.26 | 383.38 | 0.0 | 1519.64\n27686013 | 410 | Laukaa | Laukaa | 648.51 | 177.09 | 0.0 | 825.6\n27686876 | 925 | Vieremä | Vieremä | 925.28 | 48.1 | 0.0 | 973.38\n27685524 | 508 | Mänttä-Vilppula | Mänttä-Vilppula | 534.81 | 122.28 | 0.0 | 657.09\n27685589 | 211 | Kangasala | Kangasala | 658.02 | 212.86 | 0.0 | 870.88\n27687483 | 892 | Uurainen | Uurainen | 347.98 | 24.27 | 0.0 | 372.25\n27712328 | 217 | Kannus | Kannus | 468.04 | 2.3 | 0.0 | 470.34\n27515783 | 740 | Savonlinna | Nyslott | 2237.87 | 1359.82 | 0.0 | 3597.69\n27685433 | 936 | Virrat | Virdois | 1162.63 | 136.43 | 0.0 | 1299.06\n27819447 | 483 | Merijärvi | Merijärvi | 229.97 | 1.66 | 0.0 | 231.63\n27685844 | 079 | Harjavalta | Harjavalta | 123.48 | 4.26 | 0.0 | 127.74\n27684810 | 020 | Akaa | Akaa | 293.26 | 21.12 | 0.0 | 314.38\n27686951 | 239 | Keitele | Keitele | 482.91 | 95.39 | 0.0 | 578.3\n27513301 | 736 | Saltvik | Saltvik | 152.25 | 7.37 | 1007.25 | 1166.87\n27685609 | 418 | Lempäälä | Lempäälä | 269.58 | 37.48 | 0.0 | 307.06\n27513963 | 761 | Somero | Somero | 668.05 | 29.63 | 0.0 | 697.68\n27686053 | 213 | Kangasniemi | Kangasniemi | 1068.89 | 257.86 | 0.0 | 1326.75\n27687066 | 402 | Lapinlahti | Lapinlahti | 1096.71 | 148.45 | 0.0 | 1245.16\n27711987 | 598 | Pietarsaari | Jakobstad | 88.52 | 3.43 | 304.4 | 396.35\n27514693 | 202 | Kaarina | St Karins | 150.57 | 1.05 | 27.97 | 179.59\n27515698 | 491 | Mikkeli | S:t Michel | 2548.35 | 681.23 | 0.0 | 3229.58\n27514363 | 918 | Vehmaa | Vehmaa | 188.88 | 3.18 | 10.02 | 202.08\n27515843 | 689 | Rautjärvi | Rautjärvi | 351.47 | 50.43 | 0.0 | 401.9\n27820130 | 105 | Hyrynsalmi | Hyrynsalmi | 1421.27 | 100.1 | 0.0 | 1521.37\n27820363 | 047 | Enontekiö | Enontekis | 7953.42 | 437.89 | 0.0 | 8391.31\n27820276 | 614 | Posio | Posio | 3039.68 | 504.97 | 0.0 | 3544.65\n27686605 | 176 | Juuka | Juuka | 1501.7 | 344.88 | 0.0 | 1846.58\n27820118 | 620 | Puolanka | Puolanka | 2461.17 | 137.54 | 0.0 | 2598.71\n27712793 | 751 | Simo | Simo | 1446.3 | 20.15 | 619.04 | 2085.49\n27513656 | 619 | Punkalaidun | Punkalaidun | 361.1 | 2.95 | 0.0 | 364.05\n27687684 | 475 | Maalahti | Malax | 522.11 | 3.8 | 1429.04 | 1954.95\n27515858 | 768 | Sulkava | Sulkava | 584.42 | 184.78 | 0.0 | 769.2\n27820211 | 742 | Savukoski | Savukoski | 6440.08 | 56.49 | 0.0 | 6496.57\n27712204 | 231 | Kaskinen | Kaskö | 10.64 | 0.15 | 164.57 | 175.36\n27713433 | 535 | Nivala | Nivala | 527.31 | 9.06 | 0.0 | 536.37\n27687503 | 592 | Petäjävesi | Petäjävesi | 456.42 | 38.99 | 0.0 | 495.41\n27686976 | 921 | Vesanto | Vesanto | 422.63 | 147.18 | 0.0 | 569.81\n27513756 | 102 | Huittinen | Huittinen | 532.65 | 6.9 | 0.0 | 539.55\n27686650 | 297 | Kuopio | Kuopio | 3241.74 | 1084.61 | 0.0 | 4326.35\n27712099 | 280 | Korsnäs | Korsnäs | 236.27 | 3.77 | 1184.67 | 1424.71\n27513893 | 169 | Jokioinen | Jockis | 180.42 | 1.52 | 0.0 | 181.94\n27515613 | 935 | Virolahti | Virolahti | 372.47 | 4.21 | 182.3 | 558.98\n27514253 | 078 | Hanko | Hangö | 117.44 | 1.53 | 681.06 | 800.03\n27911802 | 748 | Siikajoki | Siikajoki | 1055.46 | 8.72 | 591.14 | 1655.32\n27513868 | 783 | Säkylä | Säkylä | 406.85 | 120.96 | 0.0 | 527.81\n27685829 | 747 | Siikainen | Siikainen | 463.32 | 27.99 | 0.0 | 491.31\n27512787 | 445 | Parainen | Pargas | 883.98 | 9.86 | 4653.95 | 5547.79\n27712511 | 305 | Kuusamo | Kuusamo | 4978.85 | 830.13 | 0.0 | 5808.98\n27513565 | 766 | Sottunga | Sottunga | 28.03 | 0.02 | 314.39 | 342.44\n27513816 | 103 | Humppila | Humppila | 147.96 | 0.65 | 0.0 | 148.61\n27687151 | 992 | Äänekoski | Äänekoski | 884.61 | 253.7 | 0.0 | 1138.31\n27684830 | 109 | Hämeenlinna | Tavastehus | 1785.35 | 246.22 | 0.0 | 2031.57\n27685849 | 531 | Nakkila | Nakkila | 182.93 | 1.95 | 0.0 | 184.88\n27685714 | 051 | Eurajoki | Euraåminne | 514.99 | 5.91 | 984.06 | 1504.96\n27712763 | 139 | Ii | Ii | 1615.71 | 52.35 | 1204.9 | 2872.96\n27513002 | 043 | Eckerö | Eckerö | 107.72 | 1.46 | 643.49 | 752.67\n27711204 | 846 | Teuva | Östermark | 554.73 | 1.32 | 0.0 | 556.05\n27687301 | 312 | Kyyjärvi | Kyyjärvi | 448.22 | 21.4 | 0.0 | 469.62\n27686821 | 205 | Kajaani | Kajana | 1834.83 | 428.99 | 0.0 | 2263.82\n27686430 | 707 | Rääkkylä | Rääkkylä | 427.93 | 271.75 | 0.0 | 699.68\n27686996 | 595 | Pielavesi | Pielavesi | 1153.23 | 253.28 | 0.0 | 1406.51\n27711348 | 893 | Uusikaarlepyy | Nykarleby | 732.83 | 4.53 | 937.85 | 1675.21\n27687281 | 265 | Kivijärvi | Kivijärvi | 483.96 | 115.92 | 0.0 | 599.88\n27513903 | 981 | Ypäjä | Ypäjä | 182.76 | 0.49 | 0.0 | 183.25\n27712258 | 977 | Ylivieska | Ylivieska | 569.83 | 4.37 | 0.0 | 574.2\n27686108 | 686 | Rautalampi | Rautalampi | 538.95 | 223.03 | 0.0 | 761.98\n27687396 | 729 | Saarijärvi | Saarijärvi | 1251.76 | 170.97 | 0.0 | 1422.73\n27515198 | 257 | Kirkkonummi | Kyrkslätt | 366.6 | 27.15 | 623.26 | 1017.01\n27512857 | 295 | Kumlinge | Kumlinge | 99.06 | 0.37 | 766.37 | 865.8\n27686470 | 290 | Kuhmo | Kuhmo | 4807.07 | 649.81 | 0.0 | 5456.88\n27515803 | 580 | Parikkala | Parikkala | 591.91 | 168.8 | 0.0 | 760.71\n27513533 | 304 | Kustavi | Gustavs | 165.84 | 1.83 | 602.24 | 769.91\n27820348 | 261 | Kittilä | Kittilä | 8095.28 | 167.87 | 0.0 | 8263.15\n27686083 | 593 | Pieksämäki | Pieksämäki | 1569.03 | 267.21 | 0.0 | 1836.24\n27686188 | 178 | Juva | Juva | 1163.37 | 182.32 | 0.0 | 1345.69\n27515057 | 927 | Vihti | Vichtis | 522.02 | 45.04 | 0.0 | 567.06\n27686233 | 090 | Heinävesi | Heinävesi | 1029.96 | 289.62 | 0.0 | 1319.58\n27711383 | 924 | Veteli | Vetil | 502.12 | 18.79 | 0.0 | 520.91\n27684891 | 230 | Karvia | Karvia | 502.22 | 17.68 | 0.0 | 519.9\n27687056 | 140 | Iisalmi | Idensalmi | 762.99 | 109.18 | 0.0 | 872.17\n27686555 | 765 | Sotkamo | Sotkamo | 2648.88 | 302.96 | 0.0 | 2951.84\n27514243 | 322 | Kemiönsaari | Kimitoön | 686.91 | 10.9 | 2103.16 | 2800.97\n27685060 | 790 | Sastamala | Sastamala | 1429.12 | 102.62 | 0.0 | 1531.74\n27713394 | 563 | Oulainen | Oulainen | 587.84 | 9.75 | 0.0 | 597.59\n27686766 | 848 | Tohmajärvi | Tohmajärvi | 837.82 | 57.54 | 0.0 | 895.36\n27515443 | 507 | Mäntyharju | Mäntyharju | 981.26 | 229.72 | 0.0 | 1210.98\n27685574 | 837 | Tampere | Tammerfors | 524.89 | 164.7 | 0.0 | 689.59\n27687371 | 226 | Karstula | Karstula | 887.06 | 76.13 | 0.0 | 963.19\n27514013 | 636 | Pöytyä | Pöytyä | 749.97 | 23.58 | 0.0 | 773.55\n27685872 | 081 | Hartola | Hartola | 542.96 | 132.52 | 0.0 | 675.48\n27514213 | 710 | Raasepori | Raseborg | 1149.36 | 66.88 | 1137.96 | 2354.2\n27712303 | 208 | Kalajoki | Kalajoki | 924.1 | 6.93 | 1460.26 | 2391.29\n27514378 | 833 | Taivassalo | Tövsala | 140.33 | 1.67 | 75.71 | 217.71\n27687021 | 601 | Pihtipudas | Pihtipudas | 1074.93 | 172.57 | 0.0 | 1247.5\n27686715 | 204 | Kaavi | Kaavi | 674.08 | 115.51 | 0.0 | 789.59\n27687109 | 275 | Konnevesi | Konnevesi | 512.94 | 167.91 | 0.0 | 680.85\n27711189 | 399 | Laihia | Laihela | 505.16 | 3.28 | 0.0 | 508.44\n27686038 | 850 | Toivakka | Toivakka | 361.46 | 52.48 | 0.0 | 413.94\n27820256 | 320 | Kemijärvi | Kemijärvi | 3504.39 | 426.77 | 0.0 | 3931.16\n27512977 | 170 | Jomala | Jomala | 142.73 | 1.0 | 543.26 | 686.99\n27712577 | 777 | Suomussalmi | Suomussalmi | 5270.33 | 587.26 | 0.0 | 5857.59\n27686921 | 626 | Pyhäjärvi | Pyhäjärvi | 1310.25 | 148.72 | 0.0 | 1458.97\n27686724 | 276 | Kontiolahti | Kontiolahti | 799.82 | 230.0 | 0.0 | 1029.82\n27686193 | 097 | Hirvensalmi | Hirvensalmi | 465.09 | 281.5 | 0.0 | 746.59\n27514328 | 895 | Uusikaupunki | Nystad | 503.22 | 48.32 | 1381.08 | 1932.62\n27711662 | 074 | Halsua | Halsua | 413.01 | 15.33 | 0.0 | 428.34\n27513155 | 076 | Hammarland | Hammarland | 138.55 | 1.74 | 1083.97 | 1224.26\n27687356 | 759 | Soini | Soini | 551.95 | 22.27 | 0.0 | 574.22\n27685514 | 249 | Keuruu | Keuruu | 1257.97 | 172.59 | 0.0 | 1430.56\n27686746 | 146 | Ilomantsi | Ilomants | 2763.4 | 409.28 | 0.0 | 3172.68\n27712989 | 425 | Liminka | Limingo | 637.31 | 5.32 | 9.03 | 651.66\n27684971 | 581 | Parkano | Parkano | 853.19 | 56.38 | 0.0 | 909.57\n27819782 | 009 | Alavieska | Alavieska | 251.5 | 1.52 | 0.0 | 253.02\n27687381 | 216 | Kannonkoski | Kannonkoski | 445.0 | 104.88 | 0.0 | 549.88\n27513352 | 771 | Sund | Sund | 108.21 | 4.3 | 71.91 | 184.42\n27820447 | 241 | Keminmaa | Keminmaa | 627.27 | 20.97 | 0.01 | 648.25\n27687341 | 005 | Alajärvi | Alajärvi | 1008.77 | 47.98 | 0.0 | 1056.75\n27512877 | 035 | Brändö | Brändö | 108.18 | 0.26 | 1534.85 | 1643.29\n27513290 | 941 | Vårdö | Vårdö | 101.75 | 0.39 | 470.41 | 572.55\n27514927 | 086 | Hausjärvi | Hausjärvi | 389.42 | 9.35 | 0.0 | 398.77\n27515097 | 858 | Tuusula | Tusby | 219.53 | 5.92 | 0.0 | 225.45\n27684835 | 082 | Hattula | Hattula | 357.8 | 69.6 | 0.0 | 427.4\n27515112 | 611 | Pornainen | Borgnäs | 146.53 | 3.56 | 0.0 | 150.09\n27686178 | 171 | Joroinen | Jorois | 574.89 | 136.86 | 0.0 | 711.75\n27820328 | 273 | Kolari | Kolari | 2559.29 | 58.45 | 0.0 | 2617.74\n27515012 | 433 | Loppi | Loppi | 597.69 | 58.28 | 0.0 | 655.97\n27514967 | 505 | Mäntsälä | Mäntsälä | 580.85 | 15.26 | 0.0 | 596.11\n27514812 | 638 | Porvoo | Borgå | 654.56 | 10.16 | 1475.1 | 2139.82\n27515157 | 092 | Vantaa | Vanda | 238.38 | 1.97 | 0.0 | 240.35\n27687422 | 495 | Multia | Multia | 733.25 | 32.39 | 0.0 | 765.64\n27820373 | 498 | Muonio | Muonio | 1904.05 | 133.73 | 0.0 | 2037.78\n27686128 | 778 | Suonenjoki | Suonenjoki | 713.56 | 148.78 | 0.0 | 862.34\n27685021 | 609 | Pori | Björneborg | 1156.16 | 61.81 | 844.03 | 2062.0\n27515208 | 755 | Siuntio | Sjundeå | 241.27 | 8.69 | 16.16 | 266.12\n27684790 | 908 | Valkeakoski | Valkeakoski | 272.05 | 99.98 | 0.0 | 372.03\n27515548 | 441 | Luumäki | Luumäki | 750.16 | 109.67 | 0.0 | 859.83\n27685906 | 172 | Joutsa | Joutsa | 867.07 | 199.35 | 0.0 | 1066.42\n27513973 | 561 | Oripää | Oripää | 117.78 | 0.05 | 0.0 | 117.83\n27514444 | 503 | Mynämäki | Mynämäki | 519.84 | 2.48 | 13.77 | 536.09\n27687708 | 499 | Mustasaari | Korsholm | 849.49 | 17.16 | 2311.95 | 3178.6\n27514419 | 050 | Eura | Eura | 578.88 | 51.32 | 0.0 | 630.2\n27515873 | 153 | Imatra | Imatra | 154.99 | 36.29 | 0.0 | 191.28\n27513119 | 060 | Finström | Finström | 123.43 | 9.54 | 39.53 | 172.5\n27712466 | 832 | Taivalkoski | Taivalkoski | 2438.21 | 212.4 | 0.0 | 2650.61\n27820236 | 758 | Sodankylä | Sodankylä | 11692.98 | 722.34 | 0.0 | 12415.32\n27820438 | 851 | Tornio | Torneå | 1188.71 | 39.16 | 120.66 | 1348.53\n27514143 | 423 | Lieto | Lundo | 300.54 | 2.02 | 0.0 | 302.56\n27713383 | 785 | Vaala | Vaala | 1302.37 | 461.2 | 0.0 | 1763.57\n27515343 | 624 | Pyhtää | Pyttis | 324.63 | 11.77 | 444.56 | 780.96\n27685739 | 484 | Merikarvia | Sastmola | 446.28 | 4.57 | 795.39 | 1246.24\n27514168 | 734 | Salo | Salo | 1987.44 | 74.36 | 106.48 | 2168.28\n27685649 | 922 | Vesilahti | Vesilahti | 301.04 | 52.89 | 0.0 | 353.93\n27712994 | 859 | Tyrnävä | Tyrnävä | 491.82 | 3.05 | 0.0 | 494.87\n27514188 | 577 | Paimio | Pemar | 238.52 | 1.52 | 2.23 | 242.27\n27687604 | 905 | Vaasa | Vasa | 364.84 | 4.72 | 205.58 | 575.14\n27686208 | 915 | Varkaus | Varkaus | 385.62 | 138.86 | 0.0 | 524.48\n27687457 | 069 | Haapajärvi | Haapajärvi | 766.45 | 22.89 | 0.0 | 789.34\n27515708 | 416 | Lemi | Lemi | 217.96 | 44.52 | 0.0 | 262.48"
+    },
+    {
+      "row_count": 19,
+      "fields_summary": {
+        "GML_ID": {
+          "type": "numeric",
+          "min": 27912394.0,
+          "max": 27912520.0,
+          "mean": 27912457.0,
+          "unique_values": 19
+        },
+        "NATCODE": {
+          "type": "categorical",
+          "unique_values": 19,
+          "values": [
+            "12",
+            "08",
+            "15",
+            "09",
+            "17",
+            "16",
+            "19",
+            "06",
+            "10",
+            "04",
+            "11",
+            "01",
+            "21",
+            "13",
+            "02",
+            "14",
+            "07",
+            "18",
+            "05"
+          ]
+        },
+        "NAMEFIN": {
+          "type": "categorical",
+          "unique_values": 19,
+          "values": [
+            "Etelä-Pohjanmaa",
+            "Keski-Suomi",
+            "Pohjois-Karjala",
+            "Uusimaa",
+            "Satakunta",
+            "Varsinais-Suomi",
+            "Kainuu",
+            "Keski-Pohjanmaa",
+            "Lappi",
+            "Kanta-Häme",
+            "Pohjois-Savo",
+            "Päijät-Häme",
+            "Pirkanmaa",
+            "Ahvenanmaa",
+            "Pohjanmaa",
+            "Kymenlaakso",
+            "Etelä-Savo",
+            "Etelä-Karjala",
+            "Pohjois-Pohjanmaa"
+          ]
+        },
+        "NAMESWE": {
+          "type": "categorical",
+          "unique_values": 19,
+          "values": [
+            "Egentliga Finland",
+            "Norra Savolax",
+            "Åland",
+            "Satakunta",
+            "Norra Österbotten",
+            "Lappland",
+            "Södra Karelen",
+            "Egentliga Tavastland",
+            "Österbotten",
+            "Mellersta Finland",
+            "Mellersta Österbotten",
+            "Päijät-Häme",
+            "Birkaland",
+            "Södra Savolax",
+            "Kajanaland",
+            "Norra Karelen",
+            "Nyland",
+            "Kymmenedalen",
+            "Södra Österbotten"
+          ]
+        }
+      },
+      "descriptive_overview": "GML_ID (numeric), NATCODE (categorical), NAMEFIN (categorical), NAMESWE (categorical)",
+      "feature_count": 19,
+      "geometry_type": "['Polygon']",
+      "crs": "EPSG:3067",
+      "spatial": {
+        "xmin": 61685.541,
+        "ymin": 6605838.894,
+        "xmax": 732907.7,
+        "ymax": 7776450.217
+      },
+      "raw_dataset_text": "27912492 | 16 | Keski-Pohjanmaa | Mellersta Österbotten\n27912520 | 21 | Ahvenanmaa | Åland\n27912401 | 02 | Varsinais-Suomi | Egentliga Finland\n27912478 | 14 | Etelä-Pohjanmaa | Södra Österbotten\n27912443 | 09 | Etelä-Karjala | Södra Karelen\n27912394 | 01 | Uusimaa | Nyland\n27912471 | 13 | Keski-Suomi | Mellersta Finland\n27912457 | 11 | Pohjois-Savo | Norra Savolax\n27912436 | 08 | Kymenlaakso | Kymmenedalen\n27912499 | 17 | Pohjois-Pohjanmaa | Norra Österbotten\n27912485 | 15 | Pohjanmaa | Österbotten\n27912506 | 18 | Kainuu | Kajanaland\n27912513 | 19 | Lappi | Lappland\n27912429 | 07 | Päijät-Häme | Päijät-Häme\n27912464 | 12 | Pohjois-Karjala | Norra Karelen\n27912415 | 05 | Kanta-Häme | Egentliga Tavastland\n27912422 | 06 | Pirkanmaa | Birkaland\n27912450 | 10 | Etelä-Savo | Södra Savolax\n27912408 | 04 | Satakunta | Satakunta"
+    },
+    {
+      "row_count": 1,
+      "fields_summary": {
+        "GML_ID": {
+          "type": "numeric",
+          "min": 27912737.0,
+          "max": 27912737.0,
+          "mean": 27912737.0,
+          "unique_values": 1
+        },
+        "NATCODE": {
+          "type": "categorical",
+          "unique_values": 1,
+          "values": [
+            "FI"
+          ]
+        },
+        "NAMEFIN": {
+          "type": "categorical",
+          "unique_values": 1,
+          "values": [
+            "Suomi"
+          ]
+        },
+        "NAMESWE": {
+          "type": "categorical",
+          "unique_values": 1,
+          "values": [
+            "Finland"
+          ]
+        }
+      },
+      "descriptive_overview": "GML_ID (numeric), NATCODE (categorical), NAMEFIN (categorical), NAMESWE (categorical)",
+      "feature_count": 1,
+      "geometry_type": "['Polygon']",
+      "crs": "EPSG:3067",
+      "spatial": {
+        "xmin": 61685.541,
+        "ymin": 6605838.894,
+        "xmax": 732907.7,
+        "ymax": 7776450.217
+      },
+      "raw_dataset_text": "27912737 | FI | Suomi | Finland"
+    }
+  ]
+}
